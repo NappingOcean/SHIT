@@ -13,5 +13,10 @@
     "type": "item_action",
     "id": "use_composter",
     "name": { "str": "퇴비통 사용하기" }
+  },
+  {
+    "type": "item_action",
+    "id": "SHIT_use_toiletry",
+    "name": { "str": "세면도구 사용.." }
   }
 ]
