@@ -1,0 +1,254 @@
+[
+  {
+    "id": "donut_holes",
+    "copy-from": "donut_holes",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "donut holes"
+    }
+  },
+  {
+    "id": "sourdough_young_uncovered",
+    "copy-from": "sourdough_young_uncovered",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fiber_elements",
+          30
+        ]
+      ]
+    },
+    "name": {
+      "str": "juvenile sourdough starter"
+    }
+  },
+  {
+    "id": "sourdough_split_uncovered",
+    "copy-from": "sourdough_split_uncovered",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fiber_elements",
+          30
+        ]
+      ]
+    },
+    "name": {
+      "str": "freshly fed sourdough starter"
+    }
+  },
+  {
+    "id": "sourdough_starter_uncovered",
+    "copy-from": "sourdough_starter_uncovered",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fiber_elements",
+          30
+        ]
+      ]
+    },
+    "name": {
+      "str": "sourdough starter"
+    }
+  },
+  {
+    "id": "sourdough_bread",
+    "copy-from": "sourdough_bread",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fiber_elements",
+          30
+        ]
+      ]
+    },
+    "name": "sourdough bread"
+  },
+  {
+    "id": "flatbread",
+    "copy-from": "flatbread",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fiber_elements",
+          30
+        ]
+      ]
+    },
+    "name": "flatbread"
+  },
+  {
+    "id": "bread",
+    "copy-from": "bread",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fiber_elements",
+          30
+        ]
+      ]
+    },
+    "name": "bread"
+  },
+  {
+    "id": "bread_garlic",
+    "copy-from": "bread_garlic",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fiber_elements",
+          30
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "garlic bread"
+    }
+  },
+  {
+    "id": "cornbread",
+    "copy-from": "cornbread",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "cornbread"
+  },
+  {
+    "id": "johnnycake",
+    "copy-from": "johnnycake",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fiber_elements",
+          30
+        ]
+      ]
+    },
+    "name": "johnnycake"
+  },
+  {
+    "id": "tortilla_corn",
+    "copy-from": "tortilla_corn",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "corn tortilla"
+  },
+  {
+    "id": "hardtack",
+    "copy-from": "hardtack",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fiber_elements",
+          30
+        ]
+      ]
+    },
+    "name": "hardtack"
+  },
+  {
+    "id": "biscuit",
+    "copy-from": "biscuit",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fiber_elements",
+          30
+        ]
+      ]
+    },
+    "name": {
+      "str": "biscuit"
+    }
+  },
+  {
+    "id": "wastebread",
+    "copy-from": "wastebread",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fiber_elements",
+          30
+        ]
+      ]
+    },
+    "name": "wastebread"
+  }
+]

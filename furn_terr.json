@@ -1,0 +1,88 @@
+[
+  {
+    "type": "furniture",
+    "id": "f_toilet",
+    "name": "toilet",
+    "copy-from": "f_toilet",
+    "symbol": "&",
+    "color": "white",
+    "crafting_pseudo_item": "SHIT_toilet_use",
+    "examine_action": "use_furn_fake_item",
+    "//": "Sorry, iexamine::toilet. But you have a merely role."
+  },
+  {
+    "type": "furniture",
+    "id": "SHIT_f_toilet_improvised",
+    "name": "임시 변소",
+    "symbol": "U",
+    "color": "brown",
+    "description": "쭈그려 앉아서 써야 하는 변소입니다. 문명사회에서는 자취를 감추어 가지만, 그 간소한 형태라도 필요로 하는 이가 있습니다.",
+    "//": "만드는 법은 구덩이를 파고 판자를 올리거나 판자와 못을 사용하기로. 야생에서 똥도 못싸는건 너무하다고.",
+    "crafting_pseudo_item": "SHIT_toilet_use",
+    "examine_action": "use_furn_fake_item",
+    "move_cost_mod": 2,
+    "coverage": 30,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "LIQUIDCONT", "CONTAINER" ],
+    "bash": {
+      "str_min": 8,
+      "str_max": 30,
+      "sound": "우두두둑!",
+      "sound_fail": "퍼석!",
+      "items": [
+        { "item": "2x4", "count": [ 1, 2 ] },
+        { "item": "nail", "charges": [ 4, 8 ] },
+        { "item": "splinter", "count": [ 5, 10 ] }
+      ],
+      "ranged": { "reduction": [ 8, 8 ], "destroy_threshold": 8, "block_unaimed_chance": "25%" }
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "SHIT_f_toilet_wellmade",
+    "name": "수제 좌변기",
+    "symbol": "&",
+    "color": "light_gray",
+    "looks_like": "f_toilet",
+    "description": "대재앙 전에 사용했던 것과 비슷한 모양으로 직접 만들었습니다. 물질을 처리하는 방식만큼은 현대적이지 못하지만, 적어도 허벅지는 안 아프군요.",
+    "crafting_pseudo_item": "SHIT_toilet_use",
+    "examine_action": "use_furn_fake_item",
+    "move_cost_mod": 2,
+    "coverage": 60,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "LIQUIDCONT", "CONTAINER" ],
+    "bash": {
+      "str_min": 8,
+      "str_max": 30,
+      "sound": "쨍그랑!",
+      "sound_fail": "틱!",
+      "items": [ { "item": "ceramic_shard", "count": [ 2, 8 ] } ],
+      "ranged": { "reduction": [ 8, 8 ], "destroy_threshold": 8, "block_unaimed_chance": "25%" }
+    },
+    "deconstruct": { "items": [ { "item": "SHIT_item_toilet", "count": 1 } ] }
+  },
+  {
+    "type": "furniture",
+    "id": "SHIT_composter",
+    "name": "퇴비통 (비어있음)",
+    "symbol": "X",
+    "color": "brown",
+    "description": "드럼통을 눕혀서 X자 나무 프레임에 올린 것입니다. 퇴비가 든 드럼통을 돌리기 쉽게 손잡이도 달려 있습니다. 전통적인 방식에 비해 여러 가지로 발전했습니다.",
+    "move_cost_mod": -1,
+    "coverage": 60,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "CONTAINER" ],
+    "max_volume": "50 L"
+  },
+  {
+    "type": "furniture",
+    "id": "SHIT_composter_running",
+    "name": "퇴비통 (가득참)",
+    "symbol": "X",
+    "color": "brown",
+    "copy-from": "SHIT_composter",
+    "crafting_pseudo_item": "SHIT_composter_use",
+    "examine_action": "use_furn_fake_item",
+    "extend": { "flags": [ "NOITEM" ] }
+  }
+]

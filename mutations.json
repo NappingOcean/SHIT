@@ -1,0 +1,37 @@
+[
+  {
+    "type": "mutation",
+    "id": "SOPHISTICATE",
+    "name": { "str": "교양인" },
+    "description": "당신은 재앙 속에서도 교양을 잃지 않았습니다.",
+    "cancels": [ "DEEP_THOUGHT", "QUICK_THOUGHT" ],
+    "points": 0,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false
+  },
+  {
+    "type": "mutation",
+    "id": "DEEP_THOUGHT",
+    "name": { "str": "깊은 사색" },
+    "description": "이게 보이면 버그입니다.",
+    "cancels": [ "SOPHISTICATE" ],
+    "points": 0,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "vitamin_rates": [ [ "remnants", -60 ], [ "fat_elements", -60 ], [ "fiber_elements", -60 ] ]
+  },
+  {
+    "type": "mutation",
+    "id": "QUICK_THOUGHT",
+    "name": { "str": "빠른 사색" },
+    "description": "이게 보이면 버그입니다.",
+    "cancels": [ "SOPHISTICATE" ],
+    "points": 0,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "vitamin_rates": [ [ "bladder", -500 ] ]
+  }
+]

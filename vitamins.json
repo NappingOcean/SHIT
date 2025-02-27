@@ -1,0 +1,54 @@
+[
+  {
+    "type": "vitamin",
+    "id": "remnants",
+    "vit_type": "counter",
+    "name": "사색 성분",
+    "min": 0,
+    "max": 500,
+    "rate": "0 t",
+    "excess": "over_thought",
+    "disease_excess": [ [ 126, 250 ], [ 251, 375 ], [ 376, 500 ] ],
+    "flags": [ "NO_DISPLAY" ]
+  },
+  {
+    "type": "vitamin",
+    "id": "fat_elements",
+    "vit_type": "counter",
+    "name": "통찰 성분",
+    "min": -500,
+    "max": 500,
+    "rate": "0 t",
+    "excess": "fat_alert",
+    "disease_excess": [ [ 126, 250 ], [ 251, 375 ], [ 376, 500 ] ],
+    "deficiency": "fat_alert_lack",
+    "disease": [ [ -126, -250 ], [ -251, -375 ], [ -376, -500 ] ],
+    "flags": [ "NO_DISPLAY" ]
+  },
+  {
+    "type": "vitamin",
+    "id": "fiber_elements",
+    "vit_type": "counter",
+    "name": "논리 성분",
+    "min": -500,
+    "max": 500,
+    "rate": "0 t",
+    "excess": "fiber_alert",
+    "disease_excess": [ [ 126, 250 ], [ 251, 375 ], [ 376, 500 ] ],
+    "deficiency": "fiber_alert_lack",
+    "disease": [ [ -126, -250 ], [ -251, -375 ], [ -376, -500 ] ],
+    "flags": [ "NO_DISPLAY" ]
+  },
+  {
+    "type": "vitamin",
+    "id": "bladder",
+    "vit_type": "counter",
+    "name": "방광",
+    "min": 0,
+    "max": 500,
+    "rate": "0 t",
+    "excess": "bladder_boom",
+    "disease_excess": [ [ 126, 250 ], [ 251, 375 ], [ 376, 500 ] ],
+    "flags": [ "NO_DISPLAY" ]
+  }
+]

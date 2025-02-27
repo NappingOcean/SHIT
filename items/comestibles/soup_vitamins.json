@@ -1,0 +1,334 @@
+[
+  {
+    "id": "broth",
+    "copy-from": "broth",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ],
+        [
+          "bladder",
+          40
+        ]
+      ]
+    },
+    "name": "broth"
+  },
+  {
+    "id": "broth_bone",
+    "copy-from": "broth_bone",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "bladder",
+          40
+        ]
+      ]
+    },
+    "name": "bone broth"
+  },
+  {
+    "id": "soup_veggy",
+    "copy-from": "soup_veggy",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          20
+        ],
+        [
+          "bladder",
+          40
+        ]
+      ]
+    },
+    "name": "vegetable soup"
+  },
+  {
+    "id": "soup_meat",
+    "copy-from": "soup_meat",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ],
+        [
+          "bladder",
+          40
+        ]
+      ]
+    },
+    "name": "meat soup"
+  },
+  {
+    "id": "soup_blood",
+    "copy-from": "soup_blood",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "bladder",
+          40
+        ]
+      ]
+    },
+    "name": "blood soup"
+  },
+  {
+    "id": "soup_fish",
+    "copy-from": "soup_fish",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ],
+        [
+          "bladder",
+          40
+        ]
+      ]
+    },
+    "name": "fish soup"
+  },
+  {
+    "id": "curry_veggy",
+    "copy-from": "curry_veggy",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ],
+        [
+          "bladder",
+          40
+        ]
+      ]
+    },
+    "name": {
+      "str": "curry",
+      "str_pl": "curries"
+    }
+  },
+  {
+    "id": "curry_meat",
+    "copy-from": "curry_meat",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          25
+        ],
+        [
+          "bladder",
+          40
+        ]
+      ]
+    },
+    "name": {
+      "str": "curry with meat",
+      "str_pl": "curries with meat"
+    }
+  },
+  {
+    "id": "soup_woods",
+    "copy-from": "soup_woods",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          20
+        ],
+        [
+          "bladder",
+          40
+        ]
+      ]
+    },
+    "name": "woods soup"
+  },
+  {
+    "id": "soup_chicken",
+    "copy-from": "soup_chicken",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ],
+        [
+          "bladder",
+          40
+        ]
+      ]
+    },
+    "name": "chicken noodle soup"
+  },
+  {
+    "id": "soup_mushroom",
+    "copy-from": "soup_mushroom",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "fiber_elements",
+          15
+        ],
+        [
+          "bladder",
+          40
+        ]
+      ]
+    },
+    "name": "mushroom soup"
+  },
+  {
+    "id": "soup_tomato",
+    "copy-from": "soup_tomato",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "bladder",
+          40
+        ]
+      ]
+    },
+    "name": "tomato soup"
+  },
+  {
+    "id": "soup_dumplings",
+    "copy-from": "soup_dumplings",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ],
+        [
+          "bladder",
+          40
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "chicken and dumplings"
+    }
+  },
+  {
+    "id": "soup_cullenskink",
+    "copy-from": "soup_cullenskink",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ],
+        [
+          "bladder",
+          40
+        ]
+      ]
+    },
+    "name": "cullen skink"
+  }
+]

@@ -1,0 +1,407 @@
+[
+  {
+    "id": "foie_gras",
+    "copy-from": "foie_gras",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "foie gras"
+    }
+  },
+  {
+    "id": "liver_onion",
+    "copy-from": "liver_onion",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          20
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "liver & onions"
+    }
+  },
+  {
+    "id": "fried_livers",
+    "copy-from": "fried_livers",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          30
+        ]
+      ]
+    },
+    "name": "fried liver"
+  },
+  {
+    "id": "humble_pie",
+    "copy-from": "humble_pie",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          10
+        ]
+      ]
+    },
+    "name": "humble pie"
+  },
+  {
+    "id": "stewed_tripe",
+    "copy-from": "stewed_tripe",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          50
+        ]
+      ]
+    },
+    "name": "stewed tripe"
+  },
+  {
+    "id": "fried_tripe",
+    "copy-from": "fried_tripe",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          50
+        ]
+      ]
+    },
+    "name": "deep-fried tripe"
+  },
+  {
+    "id": "leverpostej",
+    "copy-from": "leverpostej",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "leverpostej"
+    }
+  },
+  {
+    "id": "brain_cooked",
+    "copy-from": "brain_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "cooked brains"
+    }
+  },
+  {
+    "id": "fried_brain",
+    "copy-from": "fried_brain",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          50
+        ]
+      ]
+    },
+    "name": "fried brain"
+  },
+  {
+    "id": "kidney_cooked",
+    "copy-from": "kidney_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": "cooked kidney"
+  },
+  {
+    "id": "deviled_kidney",
+    "copy-from": "deviled_kidney",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          20
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "deviled kidney"
+  },
+  {
+    "id": "sweetbread_cooked",
+    "copy-from": "sweetbread_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": "cooked sweetbread"
+  },
+  {
+    "id": "grilled_sweetbread",
+    "copy-from": "grilled_sweetbread",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": "grilled sweetbread"
+  },
+  {
+    "id": "liver_cooked",
+    "copy-from": "liver_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": "cooked liver"
+  },
+  {
+    "id": "canned_liver",
+    "copy-from": "canned_liver",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": "canned liver"
+  },
+  {
+    "id": "lung_cooked",
+    "copy-from": "lung_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "cooked piece of lung",
+      "str_pl": "cooked pieces of lung"
+    }
+  },
+  {
+    "id": "lung_provence",
+    "copy-from": "lung_provence",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          25
+        ]
+      ]
+    },
+    "name": "lung provence"
+  },
+  {
+    "id": "toettchen",
+    "copy-from": "toettchen",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          10
+        ]
+      ]
+    },
+    "name": "toettchen"
+  },
+  {
+    "id": "scrambledeggsandbrain",
+    "copy-from": "scrambledeggsandbrain",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          10
+        ]
+      ]
+    },
+    "name": "scrambled eggs and brain"
+  },
+  {
+    "id": "sausage_casings",
+    "copy-from": "sausage_casings",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "sausage casing"
+    }
+  },
+  {
+    "id": "sausage_casings_plastic",
+    "copy-from": "sausage_casings_plastic",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "artificial sausage casing"
+    }
+  },
+  {
+    "id": "homemade_hotdogs",
+    "copy-from": "homemade_hotdogs",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "homemade hot dog"
+    }
+  },
+  {
+    "id": "offal_cooked",
+    "copy-from": "offal_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          15
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "fried offal"
+    }
+  }
+]

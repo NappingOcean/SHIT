@@ -1,0 +1,884 @@
+[
+  {
+    "id": "barley",
+    "copy-from": "barley",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str": "barley"
+    }
+  },
+  {
+    "id": "bee_balm",
+    "copy-from": "bee_balm",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str": "bee balm"
+    }
+  },
+  {
+    "id": "broccoli",
+    "copy-from": "broccoli",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "broccoli"
+    }
+  },
+  {
+    "id": "buckwheat",
+    "copy-from": "buckwheat",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "buckwheat"
+    }
+  },
+  {
+    "id": "cabbage",
+    "copy-from": "cabbage",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "cabbage"
+  },
+  {
+    "id": "grape_leaves",
+    "copy-from": "grape_leaves",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "grape leaves"
+    }
+  },
+  {
+    "id": "spinach",
+    "copy-from": "spinach",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "spinach"
+    }
+  },
+  {
+    "id": "carrot",
+    "copy-from": "carrot",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str": "carrot"
+    }
+  },
+  {
+    "id": "cattail_rhizome",
+    "copy-from": "cattail_rhizome",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str": "cattail rhizome"
+    }
+  },
+  {
+    "id": "cattail_stalk",
+    "copy-from": "cattail_stalk",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str": "cattail stalk"
+    }
+  },
+  {
+    "id": "celery",
+    "copy-from": "celery",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "celery"
+  },
+  {
+    "id": "corn",
+    "copy-from": "corn",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "corn"
+    }
+  },
+  {
+    "id": "cotton_boll",
+    "copy-from": "cotton_boll",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str": "cotton boll"
+    }
+  },
+  {
+    "id": "chili_pepper",
+    "copy-from": "chili_pepper",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "chili pepper"
+  },
+  {
+    "id": "cucumber",
+    "copy-from": "cucumber",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "cucumber"
+  },
+  {
+    "id": "dahlia_root",
+    "copy-from": "dahlia_root",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "dahlia root"
+  },
+  {
+    "id": "salsify_raw",
+    "copy-from": "salsify_raw",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "salsify"
+    }
+  },
+  {
+    "id": "chicory_raw",
+    "copy-from": "chicory_raw",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "chicory"
+    }
+  },
+  {
+    "id": "carrot_wild",
+    "copy-from": "carrot_wild",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str": "wild root"
+    }
+  },
+  {
+    "id": "dogbane",
+    "copy-from": "dogbane",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "dogbane"
+  },
+  {
+    "id": "garlic",
+    "copy-from": "garlic",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "garlic bulb"
+  },
+  {
+    "id": "hops",
+    "copy-from": "hops",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str": "hops flower"
+    }
+  },
+  {
+    "id": "horseradish_root",
+    "copy-from": "horseradish_root",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str": "horseradish root"
+    }
+  },
+  {
+    "id": "lettuce",
+    "copy-from": "lettuce",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "lettuce"
+  },
+  {
+    "id": "mugwort",
+    "copy-from": "mugwort",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "mugwort"
+  },
+  {
+    "id": "onion",
+    "copy-from": "onion",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "onion"
+  },
+  {
+    "id": "plant_sac",
+    "copy-from": "plant_sac",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "fungal fluid sac"
+  },
+  {
+    "id": "popcorn_raw",
+    "copy-from": "popcorn_raw",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "raw popcorn"
+    }
+  },
+  {
+    "id": "potato",
+    "copy-from": "potato",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "raw potato",
+      "str_pl": "raw potatoes"
+    }
+  },
+  {
+    "id": "pumpkin",
+    "copy-from": "pumpkin",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "pumpkin"
+  },
+  {
+    "id": "horseradish_greens",
+    "copy-from": "horseradish_greens",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "horseradish greens"
+    }
+  },
+  {
+    "id": "raw_dandelion",
+    "copy-from": "raw_dandelion",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "dandelions"
+    }
+  },
+  {
+    "id": "raw_burdock",
+    "copy-from": "raw_burdock",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "burdocks"
+    }
+  },
+  {
+    "id": "rhubarb",
+    "copy-from": "rhubarb",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "rhubarb"
+  },
+  {
+    "id": "sugar_beet",
+    "copy-from": "sugar_beet",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "sugar beet"
+  },
+  {
+    "id": "tea_raw",
+    "copy-from": "tea_raw",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str": "tea leaf",
+      "str_pl": "tea leaves"
+    }
+  },
+  {
+    "id": "coca_leaf",
+    "copy-from": "coca_leaf",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ]
+      ]
+    },
+    "name": {
+      "str": "coca leaf",
+      "str_pl": "coca leaves"
+    }
+  },
+  {
+    "id": "tomato",
+    "copy-from": "tomato",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "tomato",
+      "str_pl": "tomatoes"
+    }
+  },
+  {
+    "id": "veggy",
+    "copy-from": "veggy",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "plant marrow"
+  },
+  {
+    "id": "veggy_tainted",
+    "copy-from": "veggy_tainted",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "alien fungus chunk"
+    }
+  },
+  {
+    "id": "veggy_wild",
+    "copy-from": "veggy_wild",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "wild vegetables"
+    }
+  },
+  {
+    "id": "zucchini",
+    "copy-from": "zucchini",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "zucchini"
+  },
+  {
+    "id": "canola",
+    "copy-from": "canola",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "canola"
+  },
+  {
+    "id": "raw_beans",
+    "copy-from": "raw_beans",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "raw beans"
+    }
+  },
+  {
+    "id": "raw_lentils",
+    "copy-from": "raw_lentils",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "raw lentils"
+    }
+  },
+  {
+    "id": "fiddlehead_raw",
+    "copy-from": "fiddlehead_raw",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "fiddleheads"
+    }
+  },
+  {
+    "id": "rice_bran",
+    "copy-from": "rice_bran",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str": "rice bran"
+    }
+  }
+]

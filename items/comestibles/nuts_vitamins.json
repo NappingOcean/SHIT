@@ -1,0 +1,580 @@
+[
+  {
+    "id": "pine_nuts",
+    "copy-from": "pine_nuts",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "pine nuts"
+    }
+  },
+  {
+    "id": "juniper",
+    "copy-from": "juniper",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "junipers"
+    }
+  },
+  {
+    "id": "pistachio",
+    "copy-from": "pistachio",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "pistachios"
+    }
+  },
+  {
+    "id": "pistachio_roasted",
+    "copy-from": "pistachio_roasted",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "roasted pistachios"
+    }
+  },
+  {
+    "id": "almond",
+    "copy-from": "almond",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "almonds"
+    }
+  },
+  {
+    "id": "almond_pulp",
+    "copy-from": "almond_pulp",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "almond pulp"
+    }
+  },
+  {
+    "id": "almond_roasted",
+    "copy-from": "almond_roasted",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "roasted almonds"
+    }
+  },
+  {
+    "id": "cashews",
+    "copy-from": "cashews",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "cashews"
+    }
+  },
+  {
+    "id": "pecan",
+    "copy-from": "pecan",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "pecans"
+    }
+  },
+  {
+    "id": "pecan_roasted",
+    "copy-from": "pecan_roasted",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "roasted pecans"
+    }
+  },
+  {
+    "id": "peanut",
+    "copy-from": "peanut",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "peanuts"
+    }
+  },
+  {
+    "id": "beech_nuts",
+    "copy-from": "beech_nuts",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "beech nuts"
+    }
+  },
+  {
+    "id": "walnut",
+    "copy-from": "walnut",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "walnuts"
+    }
+  },
+  {
+    "id": "walnut_roasted",
+    "copy-from": "walnut_roasted",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "roasted walnuts"
+    }
+  },
+  {
+    "id": "chestnut",
+    "copy-from": "chestnut",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "chestnuts"
+    }
+  },
+  {
+    "id": "chestnut_roasted",
+    "copy-from": "chestnut_roasted",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "roasted chestnuts"
+    }
+  },
+  {
+    "id": "hazelnut",
+    "copy-from": "hazelnut",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "hazelnuts"
+    }
+  },
+  {
+    "id": "hazelnut_roasted",
+    "copy-from": "hazelnut_roasted",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "roasted hazelnuts"
+    }
+  },
+  {
+    "id": "hickory_nut",
+    "copy-from": "hickory_nut",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "hickory nuts"
+    }
+  },
+  {
+    "id": "hickory_nut_roasted",
+    "copy-from": "hickory_nut_roasted",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "roasted hickory nuts"
+    }
+  },
+  {
+    "id": "hickory_nut_ambrosia",
+    "copy-from": "hickory_nut_ambrosia",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ],
+        [
+          "bladder",
+          40
+        ]
+      ]
+    },
+    "name": "hickory nut ambrosia"
+  },
+  {
+    "id": "acorns",
+    "copy-from": "acorns",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "acorns"
+    }
+  },
+  {
+    "id": "acorn_roasted",
+    "copy-from": "acorn_roasted",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "roasted acorns"
+    }
+  },
+  {
+    "id": "acorns_cooked",
+    "copy-from": "acorns_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "cooked acorn meal"
+    }
+  }
+]

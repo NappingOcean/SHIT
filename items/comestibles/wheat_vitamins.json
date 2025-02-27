@@ -1,0 +1,590 @@
+[
+  {
+    "id": "cereal2",
+    "copy-from": "cereal2",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "wheat cereal"
+  },
+  {
+    "id": "wheat",
+    "copy-from": "wheat",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "wheat"
+    }
+  },
+  {
+    "id": "porridge_cooked",
+    "copy-from": "porridge_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "boiled grain"
+    }
+  },
+  {
+    "id": "spaghetti_raw",
+    "copy-from": "spaghetti_raw",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "raw spaghetti pasta"
+    }
+  },
+  {
+    "id": "lasagne_raw",
+    "copy-from": "lasagne_raw",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "raw lasagne pasta"
+    }
+  },
+  {
+    "id": "spaghetti_cooked",
+    "copy-from": "spaghetti_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "boiled noodles"
+    }
+  },
+  {
+    "id": "macaroni_raw",
+    "copy-from": "macaroni_raw",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "raw macaroni"
+    }
+  },
+  {
+    "id": "macaroni_cooked",
+    "copy-from": "macaroni_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "mac & cheese"
+    }
+  },
+  {
+    "id": "flour",
+    "copy-from": "flour",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          2
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "flour"
+    }
+  },
+  {
+    "id": "oatmeal",
+    "copy-from": "oatmeal",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "oatmeal"
+    }
+  },
+  {
+    "id": "oats",
+    "copy-from": "oats",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "oats"
+    }
+  },
+  {
+    "id": "oatmeal_cooked",
+    "copy-from": "oatmeal_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "cooked oatmeal"
+    }
+  },
+  {
+    "id": "oatmeal_deluxe",
+    "copy-from": "oatmeal_deluxe",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "deluxe cooked oatmeal"
+    }
+  },
+  {
+    "id": "pancakes",
+    "copy-from": "pancakes",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          2
+        ]
+      ]
+    },
+    "name": {
+      "str": "pancake"
+    }
+  },
+  {
+    "id": "fruit_pancakes",
+    "copy-from": "fruit_pancakes",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "fruit pancake"
+    }
+  },
+  {
+    "id": "frenchtoast",
+    "copy-from": "frenchtoast",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "French toast"
+    }
+  },
+  {
+    "id": "waffles",
+    "copy-from": "waffles",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          2
+        ]
+      ]
+    },
+    "name": "waffle"
+  },
+  {
+    "id": "fruit_waffles",
+    "copy-from": "fruit_waffles",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "fruit waffle"
+  },
+  {
+    "id": "crackers",
+    "copy-from": "crackers",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          2
+        ]
+      ]
+    },
+    "name": "cracker"
+  },
+  {
+    "id": "pizza_cheese",
+    "copy-from": "pizza_cheese",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "cheese pizza"
+  },
+  {
+    "id": "pie",
+    "copy-from": "pie",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "fruit pie"
+  },
+  {
+    "id": "granola",
+    "copy-from": "granola",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "granola"
+    }
+  },
+  {
+    "id": "pie_maple",
+    "copy-from": "pie_maple",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "maple pie"
+  },
+  {
+    "id": "noodles_fast",
+    "copy-from": "noodles_fast",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          2
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "fast noodles"
+    }
+  },
+  {
+    "id": "cloutie_dumpling",
+    "copy-from": "cloutie_dumpling",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "cloutie dumpling"
+  },
+  {
+    "id": "brioche",
+    "copy-from": "brioche",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          2
+        ]
+      ]
+    },
+    "name": "brioche"
+  },
+  {
+    "id": "sponge_cake",
+    "copy-from": "sponge_cake",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "sponge cake"
+  },
+  {
+    "id": "space_cake",
+    "copy-from": "space_cake",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "space cake"
+  },
+  {
+    "id": "brownie",
+    "copy-from": "brownie",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": "brownie"
+  },
+  {
+    "id": "brownie_weed",
+    "copy-from": "brownie_weed",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "'special' brownie"
+    }
+  },
+  {
+    "id": "noodles_kimchi",
+    "copy-from": "noodles_kimchi",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "kimchimari guksu"
+    }
+  }
+]

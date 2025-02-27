@@ -1,0 +1,238 @@
+[
+  {
+    "id": "sauce_red",
+    "copy-from": "sauce_red",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": "red sauce"
+  },
+  {
+    "id": "maple_sap",
+    "copy-from": "maple_sap",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "bladder",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "maple sap"
+    }
+  },
+  {
+    "id": "mayonnaise",
+    "copy-from": "mayonnaise",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "mayonnaise"
+    }
+  },
+  {
+    "id": "ketchup",
+    "copy-from": "ketchup",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ]
+      ]
+    },
+    "name": "ketchup"
+  },
+  {
+    "id": "mustard",
+    "copy-from": "mustard",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "mustard"
+    }
+  },
+  {
+    "id": "honey_bottled",
+    "copy-from": "honey_bottled",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "forest honey"
+    }
+  },
+  {
+    "id": "peanutbutter",
+    "copy-from": "peanutbutter",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ]
+      ]
+    },
+    "name": "peanut butter"
+  },
+  {
+    "id": "peanutbutter_imitation",
+    "copy-from": "peanutbutter_imitation",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": "imitation peanutbutter"
+  },
+  {
+    "id": "vinegar",
+    "copy-from": "vinegar",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "bladder",
+          30
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "vinegar"
+    }
+  },
+  {
+    "id": "cooking_oil",
+    "copy-from": "cooking_oil",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "fat_elements",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "vegetable cooking oil"
+    }
+  },
+  {
+    "id": "cooking_oil2",
+    "copy-from": "cooking_oil2",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "fat_elements",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "animal cooking oil"
+    }
+  },
+  {
+    "id": "molasses",
+    "copy-from": "molasses",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "molasses"
+    }
+  },
+  {
+    "id": "horseradish",
+    "copy-from": "horseradish",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "horseradish"
+    }
+  },
+  {
+    "id": "coffee_syrup",
+    "copy-from": "coffee_syrup",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "bladder",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "coffee syrup"
+    }
+  }
+]

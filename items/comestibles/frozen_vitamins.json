@@ -1,0 +1,229 @@
+[
+  {
+    "id": "milkshake",
+    "copy-from": "milkshake",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "bladder",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str": "milkshake"
+    }
+  },
+  {
+    "id": "milkshake_fastfood",
+    "copy-from": "milkshake_fastfood",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "bladder",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str": "fast food milkshake"
+    }
+  },
+  {
+    "id": "milkshake_deluxe",
+    "copy-from": "milkshake_deluxe",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "bladder",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str": "deluxe milkshake"
+    }
+  },
+  {
+    "id": "icecream",
+    "copy-from": "icecream",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "bladder",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str": "ice cream",
+      "str_pl": "ice cream scoops"
+    }
+  },
+  {
+    "id": "icecream_artificial",
+    "copy-from": "icecream_artificial",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "bladder",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str": "dairy dessert",
+      "str_pl": "dairy dessert scoops"
+    }
+  },
+  {
+    "id": "icecream_candy",
+    "copy-from": "icecream_candy",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "bladder",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str": "candy ice cream",
+      "str_pl": "candy ice cream scoops"
+    }
+  },
+  {
+    "id": "icecream_fruit",
+    "copy-from": "icecream_fruit",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "bladder",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str": "fruity ice cream",
+      "str_pl": "fruity ice cream scoops"
+    }
+  },
+  {
+    "id": "icecream_custard",
+    "copy-from": "icecream_custard",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "bladder",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str": "frozen custard",
+      "str_pl": "frozen custard scoops"
+    }
+  },
+  {
+    "id": "icecream_yogurt",
+    "copy-from": "icecream_yogurt",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "bladder",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "frozen yogurt"
+    }
+  },
+  {
+    "id": "icecream_sorbet",
+    "copy-from": "icecream_sorbet",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "bladder",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str": "sorbet",
+      "str_pl": "sorbet scoops"
+    }
+  },
+  {
+    "id": "icecream_gelato",
+    "copy-from": "icecream_gelato",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "bladder",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str": "gelato",
+      "str_pl": "gelato scoops"
+    }
+  }
+]

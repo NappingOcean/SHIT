@@ -1,0 +1,522 @@
+[
+  {
+    "id": "irradiated_rose_hips",
+    "copy-from": "irradiated_rose_hips",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "irradiated rose hips"
+    }
+  },
+  {
+    "id": "irradiated_elderberries",
+    "copy-from": "irradiated_elderberries",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "irradiated elderberry",
+      "str_pl": "irradiated elderberries"
+    }
+  },
+  {
+    "id": "irradiated_mulberries",
+    "copy-from": "irradiated_mulberries",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "irradiated mulberry",
+      "str_pl": "irradiated mulberries"
+    }
+  },
+  {
+    "id": "irradiated_huckleberries",
+    "copy-from": "irradiated_huckleberries",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "irradiated huckleberry",
+      "str_pl": "irradiated huckleberries"
+    }
+  },
+  {
+    "id": "irradiated_raspberries",
+    "copy-from": "irradiated_raspberries",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str": "irradiated raspberry",
+      "str_pl": "irradiated raspberries"
+    }
+  },
+  {
+    "id": "irradiated_cranberries",
+    "copy-from": "irradiated_cranberries",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "irradiated cranberry",
+      "str_pl": "irradiated cranberries"
+    }
+  },
+  {
+    "id": "irradiated_strawberries",
+    "copy-from": "irradiated_strawberries",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "irradiated strawberry",
+      "str_pl": "irradiated strawberries"
+    }
+  },
+  {
+    "id": "irradiated_blueberries",
+    "copy-from": "irradiated_blueberries",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "irradiated blueberry",
+      "str_pl": "irradiated blueberries"
+    }
+  },
+  {
+    "id": "irradiated_apple",
+    "copy-from": "irradiated_apple",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": "irradiated apple"
+  },
+  {
+    "id": "irradiated_banana",
+    "copy-from": "irradiated_banana",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "irradiated banana"
+  },
+  {
+    "id": "irradiated_orange",
+    "copy-from": "irradiated_orange",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "irradiated orange"
+  },
+  {
+    "id": "irradiated_lemon",
+    "copy-from": "irradiated_lemon",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "irradiated lemon"
+  },
+  {
+    "id": "irradiated_grapefruit",
+    "copy-from": "irradiated_grapefruit",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "irradiated grapefruit"
+  },
+  {
+    "id": "irradiated_pear",
+    "copy-from": "irradiated_pear",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": "irradiated pear"
+  },
+  {
+    "id": "irradiated_cherries",
+    "copy-from": "irradiated_cherries",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "irradiated cherry",
+      "str_pl": "irradiated cherries"
+    }
+  },
+  {
+    "id": "irradiated_plums",
+    "copy-from": "irradiated_plums",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "irradiated plum"
+  },
+  {
+    "id": "irradiated_grapes",
+    "copy-from": "irradiated_grapes",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "irradiated grape"
+    }
+  },
+  {
+    "id": "irradiated_pineapple",
+    "copy-from": "irradiated_pineapple",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "irradiated pineapple"
+  },
+  {
+    "id": "irradiated_peach",
+    "copy-from": "irradiated_peach",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "irradiated peach",
+      "str_pl": "irradiated peaches"
+    }
+  },
+  {
+    "id": "irradiated_watermelon",
+    "copy-from": "irradiated_watermelon",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "irradiated watermelon"
+  },
+  {
+    "id": "irradiated_melon",
+    "copy-from": "irradiated_melon",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "irradiated melon"
+  },
+  {
+    "id": "irradiated_blackberries",
+    "copy-from": "irradiated_blackberries",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str": "irradiated blackberry",
+      "str_pl": "irradiated blackberries"
+    }
+  },
+  {
+    "id": "irradiated_mango",
+    "copy-from": "irradiated_mango",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": "irradiated mango"
+  },
+  {
+    "id": "irradiated_pomegranate",
+    "copy-from": "irradiated_pomegranate",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": "irradiated pomegranate"
+  },
+  {
+    "id": "irradiated_papaya",
+    "copy-from": "irradiated_papaya",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "irradiated papaya"
+  },
+  {
+    "id": "irradiated_kiwi",
+    "copy-from": "irradiated_kiwi",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": "irradiated kiwi"
+  },
+  {
+    "id": "irradiated_apricot",
+    "copy-from": "irradiated_apricot",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "irradiated apricot"
+  }
+]

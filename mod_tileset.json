@@ -1,0 +1,25 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE", "MSX++DEAD_PEOPLE" ],
+    "tiles-new": [
+      {
+        "file": "SHIT tileset.png",
+        "tiles": [
+          { "id": "SHIT_t_paper_rough", "fg": 1, "rotates": false },
+          { "id": "SHIT_t_paper_soft", "fg": 2, "rotates": false },
+          { "id": "SHIT_manure_yet", "fg": 3, "rotates": false },
+          { "id": "SHIT_manure_natural", "fg": 4, "rotates": false },
+          { "id": "SHIT_f_toilet_improvised", "fg": 5, "rotates": false },
+          { "id": "SHIT_composter", "fg": 6, "rotates": false },
+          { "id": "SHIT_composter_running", "fg": 7, "rotates": false },
+          { "id": "SHIT_toiletry", "fg": 8, "rotates": false }
+        ],
+        "sprite_width": 32,
+        "sprite_height": 32,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": 0
+      }
+    ]
+  }
+]

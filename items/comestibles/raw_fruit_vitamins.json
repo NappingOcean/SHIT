@@ -1,0 +1,739 @@
+[
+  {
+    "id": "apple",
+    "copy-from": "apple",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str": "apple"
+    }
+  },
+  {
+    "id": "banana",
+    "copy-from": "banana",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str": "banana"
+    }
+  },
+  {
+    "id": "cacao_pod",
+    "copy-from": "cacao_pod",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "cacao pod"
+    }
+  },
+  {
+    "id": "orange",
+    "copy-from": "orange",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": "orange"
+  },
+  {
+    "id": "lemon",
+    "copy-from": "lemon",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": "lemon"
+  },
+  {
+    "id": "blueberries",
+    "copy-from": "blueberries",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "blueberries"
+    }
+  },
+  {
+    "id": "strawberries",
+    "copy-from": "strawberries",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "strawberries"
+    }
+  },
+  {
+    "id": "cranberries",
+    "copy-from": "cranberries",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "cranberries"
+    }
+  },
+  {
+    "id": "raspberries",
+    "copy-from": "raspberries",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "raspberries"
+    }
+  },
+  {
+    "id": "huckleberries",
+    "copy-from": "huckleberries",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "huckleberries"
+    }
+  },
+  {
+    "id": "mulberries",
+    "copy-from": "mulberries",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "mulberries"
+    }
+  },
+  {
+    "id": "elderberries",
+    "copy-from": "elderberries",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "elderberries"
+    }
+  },
+  {
+    "id": "rose_hips",
+    "copy-from": "rose_hips",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "rose hips"
+    }
+  },
+  {
+    "id": "juice_pulp",
+    "copy-from": "juice_pulp",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          10
+        ]
+      ]
+    },
+    "name": "juice pulp"
+  },
+  {
+    "id": "pear",
+    "copy-from": "pear",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": "pear"
+  },
+  {
+    "id": "grapefruit",
+    "copy-from": "grapefruit",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": "grapefruit"
+  },
+  {
+    "id": "cherries",
+    "copy-from": "cherries",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "cherries"
+    }
+  },
+  {
+    "id": "plums",
+    "copy-from": "plums",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": "plum"
+  },
+  {
+    "id": "grapes",
+    "copy-from": "grapes",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "grapes"
+    }
+  },
+  {
+    "id": "pineapple",
+    "copy-from": "pineapple",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": "pineapple"
+  },
+  {
+    "id": "coconut",
+    "copy-from": "coconut",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": "coconut"
+  },
+  {
+    "id": "peach",
+    "copy-from": "peach",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str": "peach",
+      "str_pl": "peaches"
+    }
+  },
+  {
+    "id": "watermelon",
+    "copy-from": "watermelon",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": "watermelon"
+  },
+  {
+    "id": "melon",
+    "copy-from": "melon",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": "melon"
+  },
+  {
+    "id": "blackberries",
+    "copy-from": "blackberries",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "blackberries"
+    }
+  },
+  {
+    "id": "mango",
+    "copy-from": "mango",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": "mango"
+  },
+  {
+    "id": "pomegranate",
+    "copy-from": "pomegranate",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": "pomegranate"
+  },
+  {
+    "id": "papaya",
+    "copy-from": "papaya",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": "papaya"
+  },
+  {
+    "id": "kiwi",
+    "copy-from": "kiwi",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": "kiwi"
+  },
+  {
+    "id": "apricot",
+    "copy-from": "apricot",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "apricots"
+    }
+  },
+  {
+    "id": "cholla_bud",
+    "copy-from": "cholla_bud",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": "cholla bud"
+  },
+  {
+    "id": "cactus_pad",
+    "copy-from": "cactus_pad",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": "cactus pad"
+  }
+]

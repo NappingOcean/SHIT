@@ -1,0 +1,54 @@
+[
+  {
+    "type": "recipe",
+    "result": "SHIT_manure_yet",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_OTHER",
+    "difficulty": 4,
+    "skill_used": "survival",
+    "autolearn": true,
+    "time": "10 m",
+    "qualities": [ { "id": "DIG", "level": 1 } ],
+    "components": [ [ [ "result_of_human", 1 ] ], [ [ "resonance_of_human", 3 ] ], [ [ "material_soil", 1 ] ], [ [ "ash", 100 ] ] ],
+    "result_mult": 5
+  },
+  {
+    "type": "recipe",
+    "result": "SHIT_t_paper_rough",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "difficulty": 0,
+    "skill_used": "fabrication",
+    "time": "5 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "paper", 6 ] ] ],
+    "flags": [ "BLIND_HARD" ],
+    "//": "실생활에서는 휴지가 더 복잡한 공정을 통해서 만들어진다."
+  },
+  {
+    "type": "recipe",
+    "result": "SHIT_t_paper_soft",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "difficulty": 4,
+    "skill_used": "fabrication",
+    "skills_required": [ [ "cooking", 3 ] ],
+    "time": "30 m",
+    "book_learn": [  ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
+    "components": [ [ [ "paper", 6 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "starch", 1 ], [ "flour", 1 ] ] ],
+    "flags": [ "ALLOW_ROTTEN" ]
+  },
+  {
+    "type": "recipe",
+    "result": "SHIT_item_toilet",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "difficulty": 4,
+    "skill_used": "fabrication",
+    "time": "2 h",
+    "using": [ [ "glazing", 4 ], [ "earthenware_firing", 220 ] ],
+    "components": [ [ [ "water", 4 ], [ "water_clean", 4 ] ], [ [ "clay_lump", 10 ] ] ]
+  }
+]

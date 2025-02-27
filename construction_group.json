@@ -1,0 +1,17 @@
+[
+  {
+    "type": "construction_group",
+    "id": "build_composter",
+    "name": "퇴비통 건설"
+  },
+  {
+    "type": "construction_group",
+    "id": "build_toilet_i",
+    "name": "간이 화장실 건설"
+  },
+  {
+    "type": "construction_group",
+    "id": "build_toilet_w",
+    "name": "제대로 된 화장실 건설"
+  }
+]

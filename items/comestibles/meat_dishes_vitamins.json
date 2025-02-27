@@ -1,0 +1,1580 @@
+[
+  {
+    "id": "sausage_raw",
+    "copy-from": "sausage_raw",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "raw sausage"
+  },
+  {
+    "id": "sausage",
+    "copy-from": "sausage",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "smoked sausage"
+  },
+  {
+    "id": "sausage_cooked",
+    "copy-from": "sausage_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "cooked sausage"
+  },
+  {
+    "id": "sausage_condiment",
+    "copy-from": "sausage_condiment",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "sausage with condiment"
+  },
+  {
+    "id": "potted_meat",
+    "copy-from": "potted_meat",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "potted meat"
+    }
+  },
+  {
+    "id": "sweet_sausage",
+    "copy-from": "sweet_sausage",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "sweet sausage"
+    }
+  },
+  {
+    "id": "bratwurst_sausage",
+    "copy-from": "bratwurst_sausage",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "bratwurst"
+    }
+  },
+  {
+    "id": "royal_beef",
+    "copy-from": "royal_beef",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "royal beef"
+    }
+  },
+  {
+    "id": "bacon",
+    "copy-from": "bacon",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "bacon",
+      "str_pl": "pieces of bacon"
+    }
+  },
+  {
+    "id": "sausage_wasteland",
+    "copy-from": "sausage_wasteland",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "smoked wasteland sausage"
+  },
+  {
+    "id": "sausage_wasteland_raw",
+    "copy-from": "sausage_wasteland_raw",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "raw wasteland sausage"
+  },
+  {
+    "id": "sausage_wasteland_cooked",
+    "copy-from": "sausage_wasteland_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "cooked wasteland sausage"
+  },
+  {
+    "id": "sausage_blood",
+    "copy-from": "sausage_blood",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "smoked blutwurst"
+  },
+  {
+    "id": "sausage_blood_raw",
+    "copy-from": "sausage_blood_raw",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "raw blutwurst"
+  },
+  {
+    "id": "sausage_blood_cooked",
+    "copy-from": "sausage_blood_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "cooked blutwurst"
+  },
+  {
+    "id": "cracklins",
+    "copy-from": "cracklins",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "cracklins"
+    }
+  },
+  {
+    "id": "glazed_tenderloin",
+    "copy-from": "glazed_tenderloin",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "glazed tenderloins"
+    }
+  },
+  {
+    "id": "currywurst",
+    "copy-from": "currywurst",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "currywurst"
+  },
+  {
+    "id": "meat_aspic",
+    "copy-from": "meat_aspic",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "aspic"
+    }
+  },
+  {
+    "id": "dry_fish",
+    "copy-from": "dry_fish",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "dehydrated fish"
+    }
+  },
+  {
+    "id": "rehydrated_fish",
+    "copy-from": "rehydrated_fish",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "rehydrated fish"
+    }
+  },
+  {
+    "id": "fish_pickled",
+    "copy-from": "fish_pickled",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "pickled fish"
+    }
+  },
+  {
+    "id": "fish_canned",
+    "copy-from": "fish_canned",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "canned fish"
+    }
+  },
+  {
+    "id": "fish_fried",
+    "copy-from": "fish_fried",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "batter fried fish"
+    }
+  },
+  {
+    "id": "lunchmeat",
+    "copy-from": "lunchmeat",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "lunch meat"
+  },
+  {
+    "id": "bologna",
+    "copy-from": "bologna",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "bologna"
+    }
+  },
+  {
+    "id": "lutefisk",
+    "copy-from": "lutefisk",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "lutefisk"
+  },
+  {
+    "id": "can_spam",
+    "copy-from": "can_spam",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "SPAM"
+    }
+  },
+  {
+    "id": "debug_nutrition",
+    "copy-from": "debug_nutrition",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "holy SPAM of debugging",
+      "str_pl": "holy SPAMs of debugging"
+    }
+  },
+  {
+    "id": "can_sardine",
+    "copy-from": "can_sardine",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "canned sardine"
+  },
+  {
+    "id": "sausagegravy",
+    "copy-from": "sausagegravy",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          15
+        ]
+      ]
+    },
+    "name": {
+      "str": "sausage gravy",
+      "str_pl": "sausage gravies"
+    }
+  },
+  {
+    "id": "pemmican",
+    "copy-from": "pemmican",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "pemmican"
+    }
+  },
+  {
+    "id": "macaroni_helper",
+    "copy-from": "macaroni_helper",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "hamburger helper"
+  },
+  {
+    "id": "ravioli",
+    "copy-from": "ravioli",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "ravioli"
+  },
+  {
+    "id": "chili",
+    "copy-from": "chili",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "chili con carne",
+      "str_pl": "chilis con carne"
+    }
+  },
+  {
+    "id": "pork_beans",
+    "copy-from": "pork_beans",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "pork and beans"
+    }
+  },
+  {
+    "id": "can_tuna",
+    "copy-from": "can_tuna",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "canned tuna fish"
+    }
+  },
+  {
+    "id": "can_salmon",
+    "copy-from": "can_salmon",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "canned salmon"
+    }
+  },
+  {
+    "id": "can_chicken",
+    "copy-from": "can_chicken",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "canned chicken"
+  },
+  {
+    "id": "can_herring",
+    "copy-from": "can_herring",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "pickled herring"
+    }
+  },
+  {
+    "id": "can_clams",
+    "copy-from": "can_clams",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "canned clam"
+    }
+  },
+  {
+    "id": "can_chowder",
+    "copy-from": "can_chowder",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "clam chowder"
+  },
+  {
+    "id": "deluxe_beans",
+    "copy-from": "deluxe_beans",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "baked beans"
+    }
+  },
+  {
+    "id": "deluxe_rice",
+    "copy-from": "deluxe_rice",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "meat fried rice"
+    }
+  },
+  {
+    "id": "deluxe_beansnrice",
+    "copy-from": "deluxe_beansnrice",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "deluxe beans and rice"
+    }
+  },
+  {
+    "id": "pie_meat",
+    "copy-from": "pie_meat",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "meat pie"
+  },
+  {
+    "id": "pizza_meat",
+    "copy-from": "pizza_meat",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "meat pizza"
+  },
+  {
+    "id": "pizza_supreme",
+    "copy-from": "pizza_supreme",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "supreme pizza"
+  },
+  {
+    "id": "deluxe_eggs",
+    "copy-from": "deluxe_eggs",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "deluxe scrambled eggs"
+    }
+  },
+  {
+    "id": "meat_canned",
+    "copy-from": "meat_canned",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "canned meat"
+  },
+  {
+    "id": "meat_salted",
+    "copy-from": "meat_salted",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "salted meat slice"
+  },
+  {
+    "id": "spaghetti_bolognese",
+    "copy-from": "spaghetti_bolognese",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "spaghetti bolognese"
+    }
+  },
+  {
+    "id": "lasagne",
+    "copy-from": "lasagne",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "lasagne"
+  },
+  {
+    "id": "fried_spam",
+    "copy-from": "fried_spam",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "fried SPAM"
+    }
+  },
+  {
+    "id": "cheeseburger",
+    "copy-from": "cheeseburger",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "cheeseburger"
+  },
+  {
+    "id": "hamburger",
+    "copy-from": "hamburger",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "hamburger"
+  },
+  {
+    "id": "sloppyjoe",
+    "copy-from": "sloppyjoe",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "sloppy joe"
+  },
+  {
+    "id": "taco",
+    "copy-from": "taco",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "taco"
+  },
+  {
+    "id": "meat_pickled",
+    "copy-from": "meat_pickled",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "pickled meat"
+  },
+  {
+    "id": "dry_meat",
+    "copy-from": "dry_meat",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "dehydrated meat"
+  },
+  {
+    "id": "rehydrated_meat",
+    "copy-from": "rehydrated_meat",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "rehydrated meat"
+  },
+  {
+    "id": "haggis",
+    "copy-from": "haggis",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "haggis",
+      "str_pl": "haggises"
+    }
+  },
+  {
+    "id": "sushi_fishroll",
+    "copy-from": "sushi_fishroll",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "fish makizushi"
+    }
+  },
+  {
+    "id": "sushi_meatroll",
+    "copy-from": "sushi_meatroll",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "meat temaki"
+    }
+  },
+  {
+    "id": "sashimi",
+    "copy-from": "sashimi",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "sashimi"
+    }
+  },
+  {
+    "id": "dry_meat_tainted",
+    "copy-from": "dry_meat_tainted",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "dehydrated tainted meat"
+  },
+  {
+    "id": "pelmeni",
+    "copy-from": "pelmeni",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "pelmeni"
+  },
+  {
+    "id": "homemade_burrito",
+    "copy-from": "homemade_burrito",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "homemade burrito"
+  },
+  {
+    "id": "curdled_blood",
+    "copy-from": "curdled_blood",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "chunk of curdled blood",
+      "str_pl": "chunks of curdled blood"
+    }
+  },
+  {
+    "id": "bibimbap",
+    "copy-from": "bibimbap",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "bibimbap"
+    }
+  },
+  {
+    "id": "bibimbap_simple",
+    "copy-from": "bibimbap_simple",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "simple bibimbap"
+    }
+  },
+  {
+    "id": "deluxe_rice_kimchi",
+    "copy-from": "deluxe_rice_kimchi",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "kimchi fried rice"
+    }
+  },
+  {
+    "id": "samhap",
+    "copy-from": "samhap",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "samhap"
+    }
+  },
+  {
+    "id": "bossam",
+    "copy-from": "bossam",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "bossam"
+    }
+  }
+]

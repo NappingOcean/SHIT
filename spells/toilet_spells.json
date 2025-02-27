@@ -1,0 +1,59 @@
+[
+  {
+    "type": "SPELL",
+    "id": "toilet_spell_no2",
+    "name": { "str": "깊은 사색의 마법" },
+    "description": "",
+    "effect": "spawn_item",
+    "effect_str": "result_of_human",
+    "valid_targets": [ "ground" ],
+    "extra_effects": [ { "id": "delight_of_thought" } ],
+    "max_level": 20,
+    "casting_time_increment": 6000,
+    "base_casting_time": 150000,
+    "min_damage": 1,
+    "max_damage": 3,
+    "flags": [ "SILENT", "NO_EXPLOSION_VFX", "NO_FAIL", "NO_HANDS", "NO_LEGS", "RANDOM_DAMAGE" ]
+  },
+  {
+    "type": "SPELL",
+    "id": "toilet_spell_no1",
+    "name": { "str": "가벼운 사색의 마법" },
+    "description": "",
+    "effect": "spawn_item",
+    "effect_str": "resonance_of_human",
+    "valid_targets": [ "ground" ],
+    "extra_effects": [ { "id": "delight_of_thought" } ],
+    "max_level": 1,
+    "min_damage": 1,
+    "max_damage": 3,
+    "base_casting_time": 6000,
+    "flags": [ "SILENT", "NO_EXPLOSION_VFX", "NO_FAIL", "NO_HANDS", "NO_LEGS", "RANDOM_DAMAGE" ]
+  },
+  {
+    "type": "SPELL",
+    "id": "delight_of_thought",
+    "name": { "str": "사색의 환희" },
+    "description": "",
+    "effect": "mutate",
+    "effect_str": "SOPHISTICATE",
+    "valid_targets": [ "hostile", "ally", "self" ],
+    "min_damage": 10000,
+    "max_damage": 10000,
+    "flags": [ "MUTATE_TRAIT", "SILENT", "NO_EXPLOSION_VFX", "NO_FAIL", "NO_HANDS", "NO_LEGS" ]
+  },
+  {
+    "type": "SPELL",
+    "id": "composter_magic",
+    "name": { "str": "퇴비 발효 마법" },
+    "description": "",
+    "effect": "spawn_item",
+    "effect_str": "SHIT_manure_natural",
+    "valid_targets": [ "ground" ],
+    "max_level": 100,
+    "min_damage": 0,
+    "damage_increment": 1,
+    "max_damage": 100,
+    "flags": [ "PERMANENT", "SILENT", "NO_EXPLOSION_VFX", "NO_FAIL", "NO_HANDS", "NO_LEGS" ]
+  }
+]

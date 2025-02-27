@@ -1,0 +1,254 @@
+[
+  {
+    "id": "strawberries_cooked",
+    "copy-from": "strawberries_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str": "cooked strawberry",
+      "str_pl": "cooked strawberries"
+    }
+  },
+  {
+    "id": "fruit_leather",
+    "copy-from": "fruit_leather",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "fruit leather"
+  },
+  {
+    "id": "blueberries_cooked",
+    "copy-from": "blueberries_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str": "cooked blueberry",
+      "str_pl": "cooked blueberries"
+    }
+  },
+  {
+    "id": "can_peach",
+    "copy-from": "can_peach",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "peaches in syrup"
+    }
+  },
+  {
+    "id": "can_pineapple",
+    "copy-from": "can_pineapple",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "canned pineapple"
+  },
+  {
+    "id": "fruit_cooked",
+    "copy-from": "fruit_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": "cooked fruit"
+  },
+  {
+    "id": "jam_fruit",
+    "copy-from": "jam_fruit",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "jam"
+    }
+  },
+  {
+    "id": "dry_fruit",
+    "copy-from": "dry_fruit",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "dehydrated fruit"
+    }
+  },
+  {
+    "id": "rehydrated_fruit",
+    "copy-from": "rehydrated_fruit",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "rehydrated fruit"
+    }
+  },
+  {
+    "id": "apple_sugar",
+    "copy-from": "apple_sugar",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "fruit slice"
+    }
+  },
+  {
+    "id": "apple_canned",
+    "copy-from": "apple_canned",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "canned fruit"
+    }
+  },
+  {
+    "id": "cacao_nibs",
+    "copy-from": "cacao_nibs",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "cacao nib"
+    }
+  }
+]

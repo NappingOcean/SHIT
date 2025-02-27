@@ -1,0 +1,1155 @@
+[
+  {
+    "id": "cooked_cattail_stalk",
+    "copy-from": "cooked_cattail_stalk",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "cooked cattail stalk"
+    }
+  },
+  {
+    "id": "starch",
+    "copy-from": "starch",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "starch"
+    }
+  },
+  {
+    "id": "garlic_roasted",
+    "copy-from": "garlic_roasted",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "roasted garlic"
+    }
+  },
+  {
+    "id": "chili_pepper_roasted",
+    "copy-from": "chili_pepper_roasted",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ]
+      ]
+    },
+    "name": {
+      "str": "roasted chili pepper"
+    }
+  },
+  {
+    "id": "dandelion_cooked",
+    "copy-from": "dandelion_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "cooked dandelion greens"
+    }
+  },
+  {
+    "id": "dandelion_fried",
+    "copy-from": "dandelion_fried",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "fried dandelions"
+    }
+  },
+  {
+    "id": "burdock_cooked",
+    "copy-from": "burdock_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "cooked burdock greens"
+    }
+  },
+  {
+    "id": "burdock_fried",
+    "copy-from": "burdock_fried",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "fat_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "fried burdocks"
+    }
+  },
+  {
+    "id": "dandelionburdock_fried",
+    "copy-from": "dandelionburdock_fried",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ],
+        [
+          "fat_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "fried dandelions and burdocks",
+      "str_pl": "fried dandelions burdocks"
+    }
+  },
+  {
+    "id": "veggy_cooked",
+    "copy-from": "veggy_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ]
+      ]
+    },
+    "name": "cooked plant marrow"
+  },
+  {
+    "id": "veggy_wild_cooked",
+    "copy-from": "veggy_wild_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "cooked wild vegetables"
+    }
+  },
+  {
+    "id": "veggy_aspic",
+    "copy-from": "veggy_aspic",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ]
+      ]
+    },
+    "name": "vegetable aspic"
+  },
+  {
+    "id": "buckwheat_cooked",
+    "copy-from": "buckwheat_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "cooked buckwheat"
+    }
+  },
+  {
+    "id": "can_corn",
+    "copy-from": "can_corn",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "corn"
+    }
+  },
+  {
+    "id": "hominy",
+    "copy-from": "hominy",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "hominy"
+    }
+  },
+  {
+    "id": "cornmeal",
+    "copy-from": "cornmeal",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          2
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "cornmeal"
+    }
+  },
+  {
+    "id": "deluxe_veggy_beans",
+    "copy-from": "deluxe_veggy_beans",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "vegetarian baked beans"
+    }
+  },
+  {
+    "id": "dry_rice",
+    "copy-from": "dry_rice",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          2
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "dried rice"
+    }
+  },
+  {
+    "id": "rice_cooked",
+    "copy-from": "rice_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          2
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "cooked rice"
+    }
+  },
+  {
+    "id": "deluxe_veggy_rice",
+    "copy-from": "deluxe_veggy_rice",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "fat_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "fried rice"
+    }
+  },
+  {
+    "id": "beansnrice",
+    "copy-from": "beansnrice",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "beans and rice"
+    }
+  },
+  {
+    "id": "tofu_rice",
+    "copy-from": "tofu_rice",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ],
+        [
+          "fat_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "tofu fried rice"
+    }
+  },
+  {
+    "id": "tofu_stirfry",
+    "copy-from": "tofu_stirfry",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "fat_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "tofu stirfry"
+    }
+  },
+  {
+    "id": "deluxe_veggy_beansnrice",
+    "copy-from": "deluxe_veggy_beansnrice",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ],
+        [
+          "fat_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "deluxe vegetarian beans and rice"
+    }
+  },
+  {
+    "id": "potato_baked",
+    "copy-from": "potato_baked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "baked potato",
+      "str_pl": "baked potatoes"
+    }
+  },
+  {
+    "id": "cooked_pumpkin",
+    "copy-from": "cooked_pumpkin",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "mashed pumpkin"
+  },
+  {
+    "id": "pie_veggy",
+    "copy-from": "pie_veggy",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ],
+        [
+          "fat_elements",
+          15
+        ]
+      ]
+    },
+    "name": "vegetable pie"
+  },
+  {
+    "id": "pizza_veggy",
+    "copy-from": "pizza_veggy",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ],
+        [
+          "fat_elements",
+          15
+        ]
+      ]
+    },
+    "name": "vegetable pizza"
+  },
+  {
+    "id": "sauce_pesto",
+    "copy-from": "sauce_pesto",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ],
+        [
+          "fat_elements",
+          15
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "pesto"
+    }
+  },
+  {
+    "id": "veggy_canned",
+    "copy-from": "veggy_canned",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ]
+      ]
+    },
+    "name": {
+      "str": "canned veggy",
+      "str_pl": "canned veggies"
+    }
+  },
+  {
+    "id": "veggy_salted",
+    "copy-from": "veggy_salted",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ]
+      ]
+    },
+    "name": "salted veggy chunk"
+  },
+  {
+    "id": "spaghetti_pesto",
+    "copy-from": "spaghetti_pesto",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          5
+        ],
+        [
+          "fat_elements",
+          15
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "spaghetti al pesto"
+    }
+  },
+  {
+    "id": "pickle",
+    "copy-from": "pickle",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ]
+      ]
+    },
+    "name": "pickle"
+  },
+  {
+    "id": "sauerkraut_onions",
+    "copy-from": "sauerkraut_onions",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "sauerkraut w/ sautee'd onions"
+    }
+  },
+  {
+    "id": "veggy_pickled",
+    "copy-from": "veggy_pickled",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "pickled veggy",
+      "str_pl": "pickled veggies"
+    }
+  },
+  {
+    "id": "dry_veggy",
+    "copy-from": "dry_veggy",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ]
+      ]
+    },
+    "name": "dehydrated vegetable"
+  },
+  {
+    "id": "rehydrated_veggy",
+    "copy-from": "rehydrated_veggy",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ]
+      ]
+    },
+    "name": "rehydrated vegetable"
+  },
+  {
+    "id": "veggy_salad",
+    "copy-from": "veggy_salad",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "vegetable salad"
+  },
+  {
+    "id": "dried_salad",
+    "copy-from": "dried_salad",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "dried salad"
+  },
+  {
+    "id": "insta_salad",
+    "copy-from": "insta_salad",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "insta-salad"
+  },
+  {
+    "id": "dahlia_baked",
+    "copy-from": "dahlia_baked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "baked dahlia root"
+    }
+  },
+  {
+    "id": "salsify_baked",
+    "copy-from": "salsify_baked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "roasted salsify",
+      "str_pl": "roasted salsifies"
+    }
+  },
+  {
+    "id": "sushi_rice",
+    "copy-from": "sushi_rice",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "sushi rice"
+    }
+  },
+  {
+    "id": "onigiri",
+    "copy-from": "onigiri",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "onigiri"
+    }
+  },
+  {
+    "id": "sushi_veggyroll",
+    "copy-from": "sushi_veggyroll",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "vegetable hosomaki"
+    }
+  },
+  {
+    "id": "dry_veggy_tainted",
+    "copy-from": "dry_veggy_tainted",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "dehydrated alien fungus chunk"
+  },
+  {
+    "id": "sauerkraut",
+    "copy-from": "sauerkraut",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "sauerkraut"
+    }
+  },
+  {
+    "id": "nopalitos",
+    "copy-from": "nopalitos",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ]
+      ]
+    },
+    "name": "nopalito"
+  },
+  {
+    "id": "fiddlehead_boiled",
+    "copy-from": "fiddlehead_boiled",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "boiled fiddleheads"
+    }
+  },
+  {
+    "id": "fiddlehead_sauteed",
+    "copy-from": "fiddlehead_sauteed",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ],
+        [
+          "fat_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "sauteed fiddleheads"
+    }
+  },
+  {
+    "id": "veggy_sausage",
+    "copy-from": "veggy_sausage",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "smoked veggy sausage"
+  },
+  {
+    "id": "veggy_sausage_cooked",
+    "copy-from": "veggy_sausage_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "cooked veggy sausage"
+  },
+  {
+    "id": "edamame_roasted",
+    "copy-from": "edamame_roasted",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "roasted edamame"
+    }
+  },
+  {
+    "id": "soy_nuts",
+    "copy-from": "soy_nuts",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "roasted soy nuts"
+    }
+  },
+  {
+    "id": "kimchi",
+    "copy-from": "kimchi",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "kimchi"
+    }
+  },
+  {
+    "id": "kimchi_raw",
+    "copy-from": "kimchi_raw",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "unfermented kimchi"
+    }
+  },
+  {
+    "id": "buchimgae_veggy",
+    "copy-from": "buchimgae_veggy",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "buchimgae"
+    }
+  },
+  {
+    "id": "tofu_kimchi",
+    "copy-from": "tofu_kimchi",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          20
+        ],
+        [
+          "fat_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "tofu kimchi"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "type": "TOOL",
+    "id": "SHIT_toilet_use",
+    "name": { "str": "화장실 사용자" },
+    "copy-from": "fake_item",
+    "use_action": "using_toilet",
+    "flags": [ "TRADER_AVOID" ]
+  },
+  {
+    "type": "TOOL",
+    "id": "SHIT_composter_use",
+    "name": { "str": "퇴비통 사용자" },
+    "copy-from": "fake_item",
+    "use_action": "use_composter",
+    "flags": [ "TRADER_AVOID" ]
+  }
+]

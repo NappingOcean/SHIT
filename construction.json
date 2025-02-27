@@ -1,0 +1,61 @@
+[
+  {
+    "type": "construction",
+    "id": "constr_niter_bed",
+    "copy-from": "constr_niter_bed",
+    "components": [
+      [ [ "material_soil", 20 ] ],
+      [ [ "straw_pile", 20 ], [ "withered", 20 ], [ "pine_bough", 20 ] ],
+      [ [ "material_sand", 200 ], [ "pebble", 40 ] ],
+      [ [ "water", 20 ], [ "water_clean", 20 ] ],
+      [ [ "fertilizer_liquid", 20 ], [ "fertilizer_commercial", 4 ], [ "SHIT_manure_yet", 20 ] ]
+    ]
+  },
+  {
+    "type": "construction",
+    "id": "constr_composter",
+    "group": "build_composter",
+    "category": "FARM_WOOD",
+    "required_skills": [ [ "survival", 4 ], [ "fabrication", 3 ] ],
+    "time": "60 m",
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 1 } ] ],
+    "components": [ [ [ "30gal_drum", 1 ] ], [ [ "2x4", 8 ] ], [ [ "nail", 24 ] ], [ [ "steel_chunk", 1 ], [ "scrap", 5 ] ] ],
+    "pre_note": "LUA를 활용한 가구이므로 에러 발생 시 문의 바랍니다.",
+    "pre_special": "check_empty",
+    "post_furniture": "SHIT_composter"
+  },
+  {
+    "type": "construction",
+    "id": "constr_composter_running",
+    "group": "build_composter",
+    "category": "FARM_WOOD",
+    "required_skills": [ [ "survival", 0 ] ],
+    "time": "10 m",
+    "components": [ [ [ "SHIT_manure_yet", 25 ] ] ],
+    "pre_furniture": "SHIT_composter",
+    "post_furniture": "SHIT_composter_running"
+  },
+  {
+    "type": "construction",
+    "id": "constr_toilet_improvised",
+    "group": "build_toilet_i",
+    "category": "FURN",
+    "required_skills": [ [ "survival", 0 ] ],
+    "time": "30 m",
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "AXE", "level": 2 }, { "id": "SAW_W", "level": 1 } ] ],
+    "components": [ [ [ "2x4", 6 ] ], [ [ "nail_glue", 12, "LIST" ] ], [ [ "ash", 100 ] ] ],
+    "pre_special": "check_empty",
+    "post_furniture": "SHIT_f_toilet_improvised"
+  },
+  {
+    "type": "construction",
+    "id": "constr_toilet_wellmade",
+    "group": "build_toilet_w",
+    "category": "FURN",
+    "required_skills": [ [ "survival", 0 ] ],
+    "time": "1 m",
+    "components": [ [ [ "SHIT_item_toilet", 1 ] ] ],
+    "pre_special": "check_empty",
+    "post_furniture": "SHIT_f_toilet_wellmade"
+  }
+]

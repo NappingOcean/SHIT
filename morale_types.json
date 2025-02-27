@@ -1,0 +1,37 @@
+[
+  {
+    "id": "SHIT_no1",
+    "type": "morale_type",
+    "text": "마려워"
+  },
+  {
+    "id": "SHIT_no2",
+    "type": "morale_type",
+    "text": "더부룩함"
+  },
+  {
+    "id": "SHIT_delight",
+    "type": "morale_type",
+    "text": "홀가분한 사색"
+  },
+  {
+    "id": "SHIT_unsati",
+    "type": "morale_type",
+    "text": "모자란 사색"
+  },
+  {
+    "id": "SHIT_wet",
+    "type": "morale_type",
+    "text": "미끄러진 사색"
+  },
+  {
+    "id": "SHIT_I_am_clean",
+    "type": "morale_type",
+    "text": "청결함"
+  },
+  {
+    "id": "SHIT_too_dirty",
+    "type": "morale_type",
+    "text": "참을 수 없이 불결함!"
+  }
+]

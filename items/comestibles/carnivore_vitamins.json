@@ -1,0 +1,1585 @@
+[
+  {
+    "id": "fish",
+    "copy-from": "fish",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "fillet of fish",
+      "str_pl": "fillets of fish"
+    }
+  },
+  {
+    "id": "fish_cooked",
+    "copy-from": "fish_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "cooked fish"
+    }
+  },
+  {
+    "id": "fish_cooked_seasoned",
+    "copy-from": "fish_cooked_seasoned",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "cooked seasoned fish"
+    }
+  },
+  {
+    "id": "hstomach",
+    "copy-from": "hstomach",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "human stomach"
+  },
+  {
+    "id": "hstomach_large",
+    "copy-from": "hstomach_large",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "large human stomach"
+  },
+  {
+    "id": "human_fat",
+    "copy-from": "human_fat",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          90
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "chunk of human fat",
+      "str_pl": "chunks of human fat"
+    }
+  },
+  {
+    "id": "human_tallow",
+    "copy-from": "human_tallow",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          90
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "human tallow"
+  },
+  {
+    "id": "human_lard",
+    "copy-from": "human_lard",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          90
+        ]
+      ]
+    },
+    "name": "human lard"
+  },
+  {
+    "id": "human_flesh",
+    "copy-from": "human_flesh",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "human flesh",
+      "str_pl": "human fleshes"
+    }
+  },
+  {
+    "id": "human_cooked",
+    "copy-from": "human_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "cooked creep"
+  },
+  {
+    "id": "human_cooked_seasoned",
+    "copy-from": "human_cooked_seasoned",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "cooked seasoned creep"
+  },
+  {
+    "id": "meat",
+    "copy-from": "meat",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "chunk of meat",
+      "str_pl": "chunks of meat"
+    }
+  },
+  {
+    "id": "meat_scrap",
+    "copy-from": "meat_scrap",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "scrap of meat",
+      "str_pl": "scraps of meat"
+    }
+  },
+  {
+    "id": "mutant_meat",
+    "copy-from": "mutant_meat",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "chunk of mutant meat",
+      "str_pl": "chunks of mutant meat"
+    }
+  },
+  {
+    "id": "mutant_meat_scrap",
+    "copy-from": "mutant_meat_scrap",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "scrap of mutant meat",
+      "str_pl": "scraps of mutant meat"
+    }
+  },
+  {
+    "id": "mutant_human_flesh",
+    "copy-from": "mutant_human_flesh",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "mutant humanoid meat"
+  },
+  {
+    "id": "mutant_human_cooked",
+    "copy-from": "mutant_human_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "cooked cretin"
+  },
+  {
+    "id": "mutant_human_cooked_seasoned",
+    "copy-from": "mutant_human_cooked_seasoned",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "cooked seasoned cretin"
+  },
+  {
+    "id": "meat_cooked",
+    "copy-from": "meat_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "cooked meat"
+  },
+  {
+    "id": "meat_cooked_seasoned",
+    "copy-from": "meat_cooked_seasoned",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "cooked seasoned meat"
+  },
+  {
+    "id": "meat_scrap_cooked",
+    "copy-from": "meat_scrap_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "cooked scrap of meat",
+      "str_pl": "cooked scraps of meat"
+    }
+  },
+  {
+    "id": "meat_scrap_cooked_seasoned",
+    "copy-from": "meat_scrap_cooked_seasoned",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "cooked scrap of seasoned meat",
+      "str_pl": "cooked scraps of seasoned meat"
+    }
+  },
+  {
+    "id": "mutant_meat_cooked",
+    "copy-from": "mutant_meat_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "cooked mutant meat"
+  },
+  {
+    "id": "mutant_meat_scrap_cooked",
+    "copy-from": "mutant_meat_scrap_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "cooked scrap of mutant meat",
+      "str_pl": "cooked scraps of mutant meat"
+    }
+  },
+  {
+    "id": "mutant_meat_cooked_seasoned",
+    "copy-from": "mutant_meat_cooked_seasoned",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "cooked seasoned mutant meat"
+  },
+  {
+    "id": "mutant_meat_scrap_cooked_seasoned",
+    "copy-from": "mutant_meat_scrap_cooked_seasoned",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "cooked scrap of seasoned mutant meat",
+      "str_pl": "cooked scraps of seasoned mutant meat"
+    }
+  },
+  {
+    "id": "offal",
+    "copy-from": "offal",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "raw offal"
+  },
+  {
+    "id": "offal_pickled",
+    "copy-from": "offal_pickled",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "pickled offal"
+    }
+  },
+  {
+    "id": "offal_canned",
+    "copy-from": "offal_canned",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "canned offal"
+    }
+  },
+  {
+    "id": "mutant_offal",
+    "copy-from": "mutant_offal",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "raw mutant offal"
+  },
+  {
+    "id": "mutant_bug_organs",
+    "copy-from": "mutant_bug_organs",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "mutant organs"
+    }
+  },
+  {
+    "id": "stomach",
+    "copy-from": "stomach",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "stomach"
+  },
+  {
+    "id": "stomach_large",
+    "copy-from": "stomach_large",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "large stomach"
+  },
+  {
+    "id": "jerky",
+    "copy-from": "jerky",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          50
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "meat jerky"
+    }
+  },
+  {
+    "id": "salted_fish",
+    "copy-from": "salted_fish",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "salted fish"
+    }
+  },
+  {
+    "id": "meat_smoked",
+    "copy-from": "meat_smoked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          50
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": "smoked meat"
+  },
+  {
+    "id": "fish_smoked",
+    "copy-from": "fish_smoked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          50
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "smoked fish"
+    }
+  },
+  {
+    "id": "lung",
+    "copy-from": "lung",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "piece of raw lung",
+      "str_pl": "pieces of raw lung"
+    }
+  },
+  {
+    "id": "mutant_bug_lungs",
+    "copy-from": "mutant_bug_lungs",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "mutant lungs"
+    }
+  },
+  {
+    "id": "liver",
+    "copy-from": "liver",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "raw liver"
+  },
+  {
+    "id": "brain",
+    "copy-from": "brain",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "raw brains"
+    }
+  },
+  {
+    "id": "kidney",
+    "copy-from": "kidney",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "raw kidney"
+  },
+  {
+    "id": "sweetbread",
+    "copy-from": "sweetbread",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "raw sweetbread"
+  },
+  {
+    "id": "blood",
+    "copy-from": "blood",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ],
+        [
+          "bladder",
+          60
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "blood"
+    }
+  },
+  {
+    "id": "animal_blood",
+    "copy-from": "animal_blood",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ],
+        [
+          "bladder",
+          60
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "animal blood"
+    }
+  },
+  {
+    "id": "blood_concentrate",
+    "copy-from": "blood_concentrate",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "bladder",
+          60
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "concentrated blood"
+    }
+  },
+  {
+    "id": "animal_blood_concentrate",
+    "copy-from": "animal_blood_concentrate",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ],
+        [
+          "bladder",
+          60
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "concentrated animal blood"
+    }
+  },
+  {
+    "id": "mutant_blood",
+    "copy-from": "mutant_blood",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "bladder",
+          60
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "mutant blood"
+    }
+  },
+  {
+    "id": "mutant_blood_concentrate",
+    "copy-from": "mutant_blood_concentrate",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "bladder",
+          60
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "concentrated mutant blood"
+    }
+  },
+  {
+    "id": "bone",
+    "copy-from": "bone",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "bone"
+    }
+  },
+  {
+    "id": "fat",
+    "copy-from": "fat",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          90
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "chunk of fat",
+      "str_pl": "chunks of fat"
+    }
+  },
+  {
+    "id": "tallow",
+    "copy-from": "tallow",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          90
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "tallow"
+  },
+  {
+    "id": "lard",
+    "copy-from": "lard",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          90
+        ]
+      ]
+    },
+    "name": "lard"
+  },
+  {
+    "id": "mutant_fat",
+    "copy-from": "mutant_fat",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          90
+        ]
+      ]
+    },
+    "name": {
+      "str": "chunk of mutant fat",
+      "str_pl": "chunks of mutant fat"
+    }
+  },
+  {
+    "id": "mutant_tallow",
+    "copy-from": "mutant_tallow",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          90
+        ]
+      ]
+    },
+    "name": "mutant tallow"
+  },
+  {
+    "id": "mutant_lard",
+    "copy-from": "mutant_lard",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          90
+        ]
+      ]
+    },
+    "name": "mutant lard"
+  },
+  {
+    "id": "mutant_human_fat",
+    "copy-from": "mutant_human_fat",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          90
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "chunk of mutant humanoid fat",
+      "str_pl": "chunks of mutant humanoid fat"
+    }
+  },
+  {
+    "id": "mutant_human_tallow",
+    "copy-from": "mutant_human_tallow",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          90
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "mutant humanoid tallow"
+  },
+  {
+    "id": "mutant_human_lard",
+    "copy-from": "mutant_human_lard",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          90
+        ]
+      ]
+    },
+    "name": "mutant humanoid lard"
+  },
+  {
+    "id": "blood_tainted",
+    "copy-from": "blood_tainted",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ],
+        [
+          "bladder",
+          60
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "tainted blood"
+    }
+  },
+  {
+    "id": "blood_tainted_concentrate",
+    "copy-from": "blood_tainted_concentrate",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "bladder",
+          60
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "concentrated tainted blood"
+    }
+  },
+  {
+    "id": "meat_tainted",
+    "copy-from": "meat_tainted",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "chunk of tainted meat",
+      "str_pl": "chunks of tainted meat"
+    }
+  },
+  {
+    "id": "bone_tainted",
+    "copy-from": "bone_tainted",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "tainted bone"
+  },
+  {
+    "id": "bone_human",
+    "copy-from": "bone_human",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "human bone"
+    }
+  },
+  {
+    "id": "fat_tainted",
+    "copy-from": "fat_tainted",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          90
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "tainted fat"
+  },
+  {
+    "id": "tallow_tainted",
+    "copy-from": "tallow_tainted",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          90
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "tainted tallow"
+  },
+  {
+    "id": "stomach_boiled",
+    "copy-from": "stomach_boiled",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "large boiled stomach"
+  },
+  {
+    "id": "hstomach_boiled",
+    "copy-from": "hstomach_boiled",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "boiled large human stomach"
+    }
+  },
+  {
+    "id": "small_stomach_boiled",
+    "copy-from": "small_stomach_boiled",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "boiled stomach"
+    }
+  },
+  {
+    "id": "small_hstomach_boiled",
+    "copy-from": "small_hstomach_boiled",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "boiled human stomach"
+    }
+  },
+  {
+    "id": "raw_leather",
+    "copy-from": "raw_leather",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "raw hide"
+  },
+  {
+    "id": "raw_tainted_leather",
+    "copy-from": "raw_tainted_leather",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "tainted hide"
+  },
+  {
+    "id": "raw_hleather",
+    "copy-from": "raw_hleather",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "raw human skin"
+  },
+  {
+    "id": "raw_fur",
+    "copy-from": "raw_fur",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "raw pelt"
+  },
+  {
+    "id": "raw_tainted_fur",
+    "copy-from": "raw_tainted_fur",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "tainted pelt"
+  },
+  {
+    "id": "raw_hfur",
+    "copy-from": "raw_hfur",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "raw human pelt"
+  },
+  {
+    "id": "flesh_golem_heart",
+    "copy-from": "flesh_golem_heart",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "seeping heart"
+  },
+  {
+    "id": "jabberwock_heart",
+    "copy-from": "jabberwock_heart",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "putrid heart"
+  },
+  {
+    "id": "jabberwock_heart_desiccated",
+    "copy-from": "jabberwock_heart_desiccated",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "desiccated putrid heart"
+  },
+  {
+    "id": "meat_frond",
+    "copy-from": "meat_frond",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "alien fronds"
+    }
+  },
+  {
+    "id": "leech_flower",
+    "copy-from": "leech_flower",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "leech flower"
+  },
+  {
+    "id": "meat_bark",
+    "copy-from": "meat_bark",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "leech bark",
+      "str_pl": "scraps of leech bark"
+    }
+  }
+]

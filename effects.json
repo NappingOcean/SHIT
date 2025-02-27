@@ -1,0 +1,115 @@
+[
+  {
+    "type": "effect_type",
+    "id": "over_thought",
+    "name": [ "딴 생각", "더부룩한 생각", "참을 수 없는 생각의 무게" ],
+    "desc": [
+      "뱃속, 아니 생각이 좀 무겁습니다.",
+      "속이 더부룩... 아니 생각이 참 복잡합니다.",
+      "화장실 어딨어! 어딨냐고!"
+    ],
+    "max_intensity": 3,
+    "permanent": true,
+    "morale": "SHIT_no2",
+    "rating": "bad",
+    "remove_message": "휴우! 답답한 마음이 풀리는 기분입니다. 교양인이라면 볼일을 본 뒤에 e를 눌러야 합니다.",
+    "scaling_mods": { "str_mod": [ -0.5 ], "dex_mod": [ -0.67 ], "int_mod": [ -0.67 ], "per_mod": [ -0.5 ], "morale": [ -5 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "fat_alert",
+    "max_intensity": 3,
+    "permanent": true,
+    "removes_effects": [ "fat_alert_lack" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "fat_alert_lack",
+    "max_intensity": 3,
+    "permanent": true,
+    "removes_effects": [ "fat_alert" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "fiber_alert",
+    "max_intensity": 3,
+    "permanent": true,
+    "removes_effects": [ "fiber_alert_lack" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "fiber_alert_lack",
+    "max_intensity": 3,
+    "permanent": true,
+    "removes_effects": [ "fiber_alert" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "bladder_boom",
+    "name": [ "약간 참는 중", "정말 마려움", "좀 있으면 터짐" ],
+    "desc": [
+      "잡념이 찰랑거리고 있습니다.",
+      "움직일 때마다 생각이 불편하게 출렁거리는 듯 합니다.",
+      "당장 흘려보내지 않으면 나의 교양이 무너지고 말 것입니다!"
+    ],
+    "max_intensity": 3,
+    "permanent": true,
+    "morale": "SHIT_no1",
+    "rating": "bad",
+    "remove_message": "휴우! 답답한 마음이 풀리는 기분입니다. 교양인이라면 볼일을 본 뒤에 e를 눌러야 합니다.",
+    "base_mods": { "pain_amount": [ -5 ] },
+    "scaling_mods": { "morale": [ -5 ], "pain_amount": [ 10 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "skin_infected",
+    "name": [ "피부 감염" ],
+    "desc": [ "피부가 가끔 따갑습니다." ],
+    "rating": "bad",
+    "max_intensity": 1,
+    "apply_message": "몸이 가려워지는 것 같습니다...",
+    "base_mods": {
+      "int_mod": [ -1 ],
+      "per_mod": [ -1 ],
+      "pain_min": [ -2 ],
+      "pain_max": [ 2 ],
+      "pain_max_val": [ 10 ],
+      "pain_chance": [ 5 ],
+      "pain_tick": [ 30000 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "typhoid_fever",
+    "name": [ "장티푸스" ],
+    "desc": [ "염병. 존나 아픕니다." ],
+    "rating": "bad",
+    "max_intensity": 1,
+    "base_mods": {
+      "thirst_min": [ -6 ],
+      "thirst_max": [ -2 ],
+      "thirst_chance": [ 3 ],
+      "thirst_tick": [ 30000 ],
+      "fatigue_min": [ -3 ],
+      "fatigue_max": [ -2 ],
+      "fatigue_chance": [ 3 ],
+      "fatigue_tick": [ 30000 ],
+      "stim_min": [ -6 ],
+      "stim_max": [ -2 ],
+      "stim_max_val": [ -15 ],
+      "stim_chance": [ 3 ],
+      "stim_tick": [ 30000 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "SHIT_clean",
+    "name": [ "청결함" ],
+    "desc": [ "대재앙 이전과 같은 품위를 회복했습니다." ],
+    "rating": "good",
+    "max_intensity": 2,
+    "morale": "SHIT_I_am_clean",
+    "base_mods": { "health_amount": [ 2 ], "morale": [ 6 ] },
+    "scaling_mods": { "morale": [ 4 ] }
+  }
+]

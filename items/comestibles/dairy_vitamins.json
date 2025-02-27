@@ -1,0 +1,248 @@
+[
+  {
+    "id": "milk_raw",
+    "copy-from": "milk_raw",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "bladder",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "raw milk"
+    }
+  },
+  {
+    "id": "milk_UHT",
+    "copy-from": "milk_UHT",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "bladder",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "shelf stable milk"
+    }
+  },
+  {
+    "id": "milk_evap",
+    "copy-from": "milk_evap",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "bladder",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "evaporated milk"
+    }
+  },
+  {
+    "id": "yoghurt",
+    "copy-from": "yoghurt",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "yogurt"
+  },
+  {
+    "id": "butter",
+    "copy-from": "butter",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "butter"
+    }
+  },
+  {
+    "id": "ghee",
+    "copy-from": "ghee",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "ghee"
+    }
+  },
+  {
+    "id": "pudding",
+    "copy-from": "pudding",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "pudding"
+  },
+  {
+    "id": "cheese_fresh",
+    "copy-from": "cheese_fresh",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "fresh cheese"
+    }
+  },
+  {
+    "id": "cheese_hard",
+    "copy-from": "cheese_hard",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "hard cheese"
+    }
+  },
+  {
+    "id": "cheese",
+    "copy-from": "cheese",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "cheese"
+    }
+  },
+  {
+    "id": "quesadilla_cheese",
+    "copy-from": "quesadilla_cheese",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": "quesadilla"
+  },
+  {
+    "id": "milk_powder",
+    "copy-from": "milk_powder",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "powdered milk"
+    }
+  },
+  {
+    "id": "con_milk",
+    "copy-from": "con_milk",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "bladder",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "condensed milk"
+    }
+  },
+  {
+    "id": "buttermilk",
+    "copy-from": "buttermilk",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "bladder",
+          50
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "buttermilk"
+    }
+  }
+]

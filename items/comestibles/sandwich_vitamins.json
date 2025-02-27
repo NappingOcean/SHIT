@@ -1,0 +1,378 @@
+[
+  {
+    "id": "sandwich_generic",
+    "copy-from": "sandwich_generic",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "GENERIC SANDWICH",
+      "str_pl": "GENERIC SANDWICHES"
+    }
+  },
+  {
+    "id": "sandwich_deluxe",
+    "copy-from": "sandwich_deluxe",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          20
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "deluxe sandwich",
+      "str_pl": "deluxe sandwiches"
+    }
+  },
+  {
+    "id": "sandwich_cheese_grilled",
+    "copy-from": "sandwich_cheese_grilled",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "grilled cheese sandwich",
+      "str_pl": "grilled cheese sandwiches"
+    }
+  },
+  {
+    "id": "sandwich_cheese",
+    "copy-from": "sandwich_cheese",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "cheese sandwich",
+      "str_pl": "cheese sandwiches"
+    }
+  },
+  {
+    "id": "sandwich_jam",
+    "copy-from": "sandwich_jam",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "jam sandwich",
+      "str_pl": "jam sandwiches"
+    }
+  },
+  {
+    "id": "sandwich_fairy",
+    "copy-from": "sandwich_fairy",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "fairy bread"
+    }
+  },
+  {
+    "id": "sandwich_honey",
+    "copy-from": "sandwich_honey",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "honey sandwich",
+      "str_pl": "honey sandwiches"
+    }
+  },
+  {
+    "id": "sandwich_sauce",
+    "copy-from": "sandwich_sauce",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "sauce sandwich",
+      "str_pl": "sauce sandwiches"
+    }
+  },
+  {
+    "id": "sandwich_veggy",
+    "copy-from": "sandwich_veggy",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "vegetable sandwich",
+      "str_pl": "vegetable sandwiches"
+    }
+  },
+  {
+    "id": "sandwich_t",
+    "copy-from": "sandwich_t",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "meat sandwich",
+      "str_pl": "meat sandwiches"
+    }
+  },
+  {
+    "id": "sandwich_pb",
+    "copy-from": "sandwich_pb",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "peanut butter sandwich",
+      "str_pl": "peanut butter sandwiches"
+    }
+  },
+  {
+    "id": "sandwich_pbj",
+    "copy-from": "sandwich_pbj",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "PB&J sandwich",
+      "str_pl": "PB&J sandwiches"
+    }
+  },
+  {
+    "id": "sandwich_pbh",
+    "copy-from": "sandwich_pbh",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "PB&H sandwich",
+      "str_pl": "PB&H sandwiches"
+    }
+  },
+  {
+    "id": "sandwich_pbm",
+    "copy-from": "sandwich_pbm",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "PB&M sandwich",
+      "str_pl": "PB&M sandwiches"
+    }
+  },
+  {
+    "id": "fish_sandwich",
+    "copy-from": "fish_sandwich",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "fish sandwich",
+      "str_pl": "fish sandwiches"
+    }
+  },
+  {
+    "id": "sandwich_okay",
+    "copy-from": "sandwich_okay",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "okay sandwich",
+      "str_pl": "okay sandwiches"
+    }
+  },
+  {
+    "id": "sandwich_deluxe_nocheese",
+    "copy-from": "sandwich_deluxe_nocheese",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "dairy-free deluxe sandwich",
+      "str_pl": "dairy-free deluxe sandwiches"
+    }
+  }
+]

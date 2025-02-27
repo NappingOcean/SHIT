@@ -1,0 +1,1026 @@
+[
+  {
+    "id": "toastem",
+    "copy-from": "toastem",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fiber_elements",
+          2
+        ]
+      ]
+    },
+    "name": "toast-em"
+  },
+  {
+    "id": "toastem2",
+    "copy-from": "toastem2",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": "toast-em"
+  },
+  {
+    "id": "toastem3",
+    "copy-from": "toastem3",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": "toast-em"
+  },
+  {
+    "id": "toasterpastryfrozen",
+    "copy-from": "toasterpastryfrozen",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "toaster pastry (uncooked)",
+      "str_pl": "toaster pastries (uncooked)"
+    }
+  },
+  {
+    "id": "toasterpastry",
+    "copy-from": "toasterpastry",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "toaster pastry",
+      "str_pl": "toaster pastries"
+    }
+  },
+  {
+    "id": "chips2",
+    "copy-from": "chips2",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "potato chips"
+    }
+  },
+  {
+    "id": "chips3",
+    "copy-from": "chips3",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "potato chips"
+    }
+  },
+  {
+    "id": "kernels",
+    "copy-from": "kernels",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "popcorn kernels"
+    }
+  },
+  {
+    "id": "popcorn",
+    "copy-from": "popcorn",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "popcorn"
+    }
+  },
+  {
+    "id": "popcorn2",
+    "copy-from": "popcorn2",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "salted popcorn"
+    }
+  },
+  {
+    "id": "popcorn3",
+    "copy-from": "popcorn3",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "buttered popcorn"
+    }
+  },
+  {
+    "id": "pretzels",
+    "copy-from": "pretzels",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "pretzels"
+    }
+  },
+  {
+    "id": "chocpretzels",
+    "copy-from": "chocpretzels",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "chocolate-covered pretzel"
+  },
+  {
+    "id": "chocolate",
+    "copy-from": "chocolate",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": "chocolate bar"
+  },
+  {
+    "id": "marshmallow",
+    "copy-from": "marshmallow",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "marshmallows"
+    }
+  },
+  {
+    "id": "smores",
+    "copy-from": "smores",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "s'mores"
+    }
+  },
+  {
+    "id": "candy",
+    "copy-from": "candy",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "peanut butter candy",
+      "str_pl": "peanut butter candies"
+    }
+  },
+  {
+    "id": "candy2",
+    "copy-from": "candy2",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "chocolate candy",
+      "str_pl": "chocolate candies"
+    }
+  },
+  {
+    "id": "candy3",
+    "copy-from": "candy3",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "chewy candy"
+    }
+  },
+  {
+    "id": "powder_candy",
+    "copy-from": "powder_candy",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "powder candy sticks"
+    }
+  },
+  {
+    "id": "maple_candy",
+    "copy-from": "maple_candy",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "maple syrup candy",
+      "str_pl": "maple syrup candies"
+    }
+  },
+  {
+    "id": "grahmcrackers",
+    "copy-from": "grahmcrackers",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ]
+      ]
+    },
+    "name": "graham cracker"
+  },
+  {
+    "id": "cookies",
+    "copy-from": "cookies",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ]
+      ]
+    },
+    "name": "cookie"
+  },
+  {
+    "id": "syrup",
+    "copy-from": "syrup",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "maple syrup"
+    }
+  },
+  {
+    "id": "beet_syrup",
+    "copy-from": "beet_syrup",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "sugar beet syrup"
+    }
+  },
+  {
+    "id": "jihelucake",
+    "copy-from": "jihelucake",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ]
+      ]
+    },
+    "name": "cake"
+  },
+  {
+    "id": "cake2",
+    "copy-from": "cake2",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": "cake"
+  },
+  {
+    "id": "cake3",
+    "copy-from": "cake3",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": "cake"
+  },
+  {
+    "id": "choco_coffee_beans",
+    "copy-from": "choco_coffee_beans",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": "chocolate-covered coffee bean"
+  },
+  {
+    "id": "fries",
+    "copy-from": "fries",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "fast-food French fries"
+    }
+  },
+  {
+    "id": "fresh_fries",
+    "copy-from": "fresh_fries",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "French fries"
+    }
+  },
+  {
+    "id": "mintpatties",
+    "copy-from": "mintpatties",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "peppermint patty",
+      "str_pl": "peppermint patties"
+    }
+  },
+  {
+    "id": "neccowafers",
+    "copy-from": "neccowafers",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "Necco wafers"
+    }
+  },
+  {
+    "id": "candycigarette",
+    "copy-from": "candycigarette",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": "candy cigarette"
+  },
+  {
+    "id": "sugar_fried",
+    "copy-from": "sugar_fried",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "caramel"
+    }
+  },
+  {
+    "id": "chips",
+    "copy-from": "chips",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "potato chips"
+    }
+  },
+  {
+    "id": "cereal",
+    "copy-from": "cereal",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": "sugary cereal"
+  },
+  {
+    "id": "cereal3",
+    "copy-from": "cereal3",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": "corn cereal"
+  },
+  {
+    "id": "nachos",
+    "copy-from": "nachos",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "tortilla chips"
+    }
+  },
+  {
+    "id": "nachosc",
+    "copy-from": "nachosc",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "cheese nachos"
+    }
+  },
+  {
+    "id": "nachosm",
+    "copy-from": "nachosm",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "meat nachos"
+    }
+  },
+  {
+    "id": "nachosmc",
+    "copy-from": "nachosmc",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "fat_elements",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ],
+        [
+          "bladder",
+          80
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "meat nachos with cheese"
+    }
+  },
+  {
+    "id": "porkstick",
+    "copy-from": "porkstick",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          10
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "pork stick"
+  },
+  {
+    "id": "junk_burrito",
+    "copy-from": "junk_burrito",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ],
+        [
+          "fat_elements",
+          30
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "microwave burrito"
+  },
+  {
+    "id": "frozen_dinner",
+    "copy-from": "frozen_dinner",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          20
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "uncooked TV dinner"
+  },
+  {
+    "id": "cooked_dinner",
+    "copy-from": "cooked_dinner",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "cooked TV dinner"
+  },
+  {
+    "id": "fchicken",
+    "copy-from": "fchicken",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "deep-fried chicken"
+  },
+  {
+    "id": "chilidogs",
+    "copy-from": "chilidogs",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "chili dogs"
+    }
+  },
+  {
+    "id": "corndogs_frozen",
+    "copy-from": "corndogs_frozen",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "uncooked corn dogs"
+    }
+  },
+  {
+    "id": "corndogs_cooked",
+    "copy-from": "corndogs_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": "cooked corn dog"
+  },
+  {
+    "id": "corndogs_homemade",
+    "copy-from": "corndogs_homemade",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": "homemade corn dog"
+  },
+  {
+    "id": "choc_pancakes",
+    "copy-from": "choc_pancakes",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ]
+      ]
+    },
+    "name": {
+      "str": "chocolate pancake"
+    }
+  },
+  {
+    "id": "choc_waffles",
+    "copy-from": "choc_waffles",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ]
+      ]
+    },
+    "name": "chocolate waffle"
+  },
+  {
+    "id": "can_cheese",
+    "copy-from": "can_cheese",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ]
+      ]
+    },
+    "name": "cheese spread"
+  },
+  {
+    "id": "cheese_fries",
+    "copy-from": "cheese_fries",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ]
+      ]
+    },
+    "name": {
+      "str_sp": "cheese fries"
+    }
+  },
+  {
+    "id": "onion_rings",
+    "copy-from": "onion_rings",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": "onion ring"
+  },
+  {
+    "id": "hotdogs_frozen",
+    "copy-from": "hotdogs_frozen",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "uncooked hot dog"
+    }
+  },
+  {
+    "id": "hotdogs_campfire",
+    "copy-from": "hotdogs_campfire",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "campfire hot dog"
+    }
+  },
+  {
+    "id": "hotdogs_cooked",
+    "copy-from": "hotdogs_cooked",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          20
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": {
+      "str": "cooked hot dog"
+    }
+  },
+  {
+    "id": "maltballs",
+    "copy-from": "maltballs",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          2
+        ]
+      ]
+    },
+    "name": "malted milk ball"
+  }
+]

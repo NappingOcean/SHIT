@@ -1,0 +1,540 @@
+[
+  {
+    "id": "mre_chilibeans",
+    "copy-from": "mre_chilibeans",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "chili & beans entree"
+  },
+  {
+    "id": "mre_bbqbeef",
+    "copy-from": "mre_bbqbeef",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "BBQ beef entree"
+    }
+  },
+  {
+    "id": "mre_chickennoodle",
+    "copy-from": "mre_chickennoodle",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "chicken noodle entree"
+  },
+  {
+    "id": "mre_spaghetti",
+    "copy-from": "mre_spaghetti",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "spaghetti entree"
+  },
+  {
+    "id": "mre_chicken",
+    "copy-from": "mre_chicken",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "chicken chunks entree"
+  },
+  {
+    "id": "mre_beeftaco",
+    "copy-from": "mre_beeftaco",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str": "beef taco entree"
+    }
+  },
+  {
+    "id": "mre_beef",
+    "copy-from": "mre_beef",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": {
+      "str": "beef brisket entree"
+    }
+  },
+  {
+    "id": "mre_meatball",
+    "copy-from": "mre_meatball",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "meatballs & marinara entree"
+  },
+  {
+    "id": "mre_beefstew",
+    "copy-from": "mre_beefstew",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str": "beef stew entree"
+    }
+  },
+  {
+    "id": "mre_chilimac",
+    "copy-from": "mre_chilimac",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fiber_elements",
+          30
+        ]
+      ]
+    },
+    "name": "chili & macaroni entree"
+  },
+  {
+    "id": "mre_veggy",
+    "copy-from": "mre_veggy",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "vegetarian taco entree"
+  },
+  {
+    "id": "mre_macaronimarinara",
+    "copy-from": "mre_macaronimarinara",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "macaroni & marinara entree"
+  },
+  {
+    "id": "mre_cheesetort",
+    "copy-from": "mre_cheesetort",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "cheese tortellini entree"
+  },
+  {
+    "id": "mre_mushroomfettuccine",
+    "copy-from": "mre_mushroomfettuccine",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fiber_elements",
+          15
+        ]
+      ]
+    },
+    "name": "mushroom fettuccine entree"
+  },
+  {
+    "id": "mre_mexicanchickenstew",
+    "copy-from": "mre_mexicanchickenstew",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str": "Mexican chicken stew entree"
+    }
+  },
+  {
+    "id": "mre_chickenburritobowl",
+    "copy-from": "mre_chickenburritobowl",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "chicken burrito bowl entree"
+  },
+  {
+    "id": "mre_maplesausage",
+    "copy-from": "mre_maplesausage",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "maple sausage entree"
+  },
+  {
+    "id": "mre_ravioli",
+    "copy-from": "mre_ravioli",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "ravioli entree"
+  },
+  {
+    "id": "mre_pepperjackbeef",
+    "copy-from": "mre_pepperjackbeef",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "pepper jack beef entree"
+  },
+  {
+    "id": "mre_hashbrownbacon",
+    "copy-from": "mre_hashbrownbacon",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": "hash browns & bacon entree"
+  },
+  {
+    "id": "mre_lemontuna",
+    "copy-from": "mre_lemontuna",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "lemon pepper tuna entree"
+  },
+  {
+    "id": "mre_asianbeef",
+    "copy-from": "mre_asianbeef",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          10
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          25
+        ]
+      ]
+    },
+    "name": {
+      "str": "asian beef & vegetables entree"
+    }
+  },
+  {
+    "id": "mre_chickenpesto",
+    "copy-from": "mre_chickenpesto",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          10
+        ]
+      ]
+    },
+    "name": "chicken pesto & pasta entree"
+  },
+  {
+    "id": "mre_southwestbeef",
+    "copy-from": "mre_southwestbeef",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "southwest beef & beans entree"
+  },
+  {
+    "id": "mre_hotdog",
+    "copy-from": "mre_hotdog",
+    "type": "COMESTIBLE",
+    "extend": {
+      "vitamins": [
+        [
+          "remnants",
+          15
+        ],
+        [
+          "fat_elements",
+          50
+        ],
+        [
+          "fiber_elements",
+          5
+        ]
+      ]
+    },
+    "name": "frankfurters & beans entree"
+  }
+]

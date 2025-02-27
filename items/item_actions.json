@@ -1,0 +1,17 @@
+[
+  {
+    "type": "item_action",
+    "id": "using_toilet",
+    "name": { "str": "사색을 시작하기" }
+  },
+  {
+    "type": "item_action",
+    "id": "finish_pondering",
+    "name": { "str": "사색 마무리하기" }
+  },
+  {
+    "type": "item_action",
+    "id": "use_composter",
+    "name": { "str": "퇴비통 사용하기" }
+  }
+]
