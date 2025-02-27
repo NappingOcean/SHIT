@@ -27,4 +27,4 @@
 
 ## 버그 제보
 
-깃허브 페이지의 issue 에서 자유롭게 작성해주시기 바랍니다.
+깃허브 페이지의 [Issues](https://github.com/NappingOcean/SHIT_mod/issues) 에서 자유롭게 작성해주시기 바랍니다.
