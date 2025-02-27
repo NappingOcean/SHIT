@@ -3,1105 +3,483 @@
     "id": "seed_hops",
     "copy-from": "seed_hops",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "hop rhizomes"
-    }
+    "name": { "str_sp": "hop rhizomes" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_blackberries",
     "copy-from": "seed_blackberries",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "blackberry seeds"
-    }
+    "name": { "str_sp": "blackberry seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_blueberries",
     "copy-from": "seed_blueberries",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "blueberry seeds"
-    }
+    "name": { "str_sp": "blueberry seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_cranberries",
     "copy-from": "seed_cranberries",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "cranberry seeds"
-    }
+    "name": { "str_sp": "cranberry seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_huckleberries",
     "copy-from": "seed_huckleberries",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "huckleberry seeds"
-    }
+    "name": { "str_sp": "huckleberry seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_mulberries",
     "copy-from": "seed_mulberries",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "mulberry seeds"
-    }
+    "name": { "str_sp": "mulberry seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_elderberries",
     "copy-from": "seed_elderberries",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "elderberry seeds"
-    }
+    "name": { "str_sp": "elderberry seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_raspberries",
     "copy-from": "seed_raspberries",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "raspberry seeds"
-    }
+    "name": { "str_sp": "raspberry seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_strawberries",
     "copy-from": "seed_strawberries",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "strawberry seeds"
-    }
+    "name": { "str_sp": "strawberry seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_grapes",
     "copy-from": "seed_grapes",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "grape seeds"
-    }
+    "name": { "str_sp": "grape seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_rose",
     "copy-from": "seed_rose",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "rose seeds"
-    }
+    "name": { "str_sp": "rose seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_tobacco",
     "copy-from": "seed_tobacco",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "tobacco seeds"
-    }
+    "name": { "str_sp": "tobacco seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_barley",
     "copy-from": "seed_barley",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "barley seeds"
-    }
+    "name": { "str_sp": "barley seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_sugar_beet",
     "copy-from": "seed_sugar_beet",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "sugar beet seeds"
-    }
+    "name": { "str_sp": "sugar beet seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_lettuce",
     "copy-from": "seed_lettuce",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "lettuce seeds"
-    }
+    "name": { "str_sp": "lettuce seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_cabbage",
     "copy-from": "seed_cabbage",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "cabbage seeds"
-    }
+    "name": { "str_sp": "cabbage seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_tomato",
     "copy-from": "seed_tomato",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "tomato seeds"
-    }
+    "name": { "str_sp": "tomato seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_cotton_boll",
     "copy-from": "seed_cotton_boll",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "cotton seeds"
-    }
+    "name": { "str_sp": "cotton seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_broccoli",
     "copy-from": "seed_broccoli",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "broccoli seeds"
-    }
+    "name": { "str_sp": "broccoli seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_zucchini",
     "copy-from": "seed_zucchini",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "zucchini seeds"
-    }
+    "name": { "str_sp": "zucchini seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_onion",
     "copy-from": "seed_onion",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "onion seeds"
-    }
+    "name": { "str_sp": "onion seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_garlic",
     "copy-from": "seed_garlic",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "garlic seeds"
-    }
+    "name": { "str_sp": "garlic seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_cattail",
     "copy-from": "seed_cattail",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "cattail seeds"
-    }
+    "name": { "str_sp": "cattail seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_dahlia",
     "copy-from": "seed_dahlia",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "dahlia seeds"
-    }
+    "name": { "str_sp": "dahlia seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_salsify_raw",
     "copy-from": "seed_salsify_raw",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "salsify seeds"
-    }
+    "name": { "str_sp": "salsify seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_chicory",
     "copy-from": "seed_chicory",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "chicory seeds"
-    }
+    "name": { "str_sp": "chicory seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_wildcarrot",
     "copy-from": "seed_wildcarrot",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "wild root seeds"
-    }
+    "name": { "str_sp": "wild root seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_flower",
     "copy-from": "seed_flower",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "decorative plant seeds"
-    }
+    "name": { "str_sp": "decorative plant seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_cactus",
     "copy-from": "seed_cactus",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "cactus seeds"
-    }
+    "name": { "str_sp": "cactus seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "garlic_clove",
     "copy-from": "garlic_clove",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str": "garlic clove"
-    }
+    "name": { "str": "garlic clove" },
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 5 ] ]
   },
   {
     "id": "seed_carrot",
     "copy-from": "seed_carrot",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "carrot seeds"
-    }
+    "name": { "str_sp": "carrot seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_corn",
     "copy-from": "seed_corn",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "corn seeds"
-    }
+    "name": { "str_sp": "corn seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_chili_pepper",
     "copy-from": "seed_chili_pepper",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "chili pepper seeds"
-    }
+    "name": { "str_sp": "chili pepper seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_cucumber",
     "copy-from": "seed_cucumber",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "cucumber seeds"
-    }
+    "name": { "str_sp": "cucumber seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_potato_raw",
     "copy-from": "seed_potato_raw",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str": "seed potato",
-      "str_pl": "seed potatoes"
-    }
+    "name": { "str": "seed potato", "str_pl": "seed potatoes" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_weed",
     "copy-from": "seed_weed",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "cannabis seeds"
-    }
+    "name": { "str_sp": "cannabis seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "marloss_seed",
     "copy-from": "marloss_seed",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str": "Marloss seed"
-    }
+    "name": { "str": "Marloss seed" },
+    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 5 ] ]
   },
   {
     "id": "seed_beans",
     "copy-from": "seed_beans",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "bean seeds"
-    }
+    "name": { "str_sp": "bean seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "soybean_seed",
     "copy-from": "soybean_seed",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "soybean seeds"
-    }
+    "name": { "str_sp": "soybean seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_lentils",
     "copy-from": "seed_lentils",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "seed lentils"
-    }
+    "name": { "str_sp": "seed lentils" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_thyme",
     "copy-from": "seed_thyme",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "thyme seeds"
-    }
+    "name": { "str_sp": "thyme seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_canola",
     "copy-from": "seed_canola",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "canola seeds"
-    }
+    "name": { "str_sp": "canola seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_pumpkin",
     "copy-from": "seed_pumpkin",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "pumpkin seeds"
-    }
+    "name": { "str_sp": "pumpkin seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_sunflower",
     "copy-from": "seed_sunflower",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "sunflower seeds"
-    }
+    "name": { "str_sp": "sunflower seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_dogbane",
     "copy-from": "seed_dogbane",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "dogbane seeds"
-    }
+    "name": { "str_sp": "dogbane seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_bee_balm",
     "copy-from": "seed_bee_balm",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "bee balm seeds"
-    }
+    "name": { "str_sp": "bee balm seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_mugwort",
     "copy-from": "seed_mugwort",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "mugwort seeds"
-    }
+    "name": { "str_sp": "mugwort seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_buckwheat",
     "copy-from": "seed_buckwheat",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "buckwheat seeds"
-    }
+    "name": { "str_sp": "buckwheat seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_wild_herbs",
     "copy-from": "seed_wild_herbs",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "wild herb seeds"
-    }
+    "name": { "str_sp": "wild herb seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_veggy_wild",
     "copy-from": "seed_veggy_wild",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "wild vegetable stems"
-    }
+    "name": { "str_sp": "wild vegetable stems" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_raw_dandelion",
     "copy-from": "seed_raw_dandelion",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "dandelion seeds"
-    }
+    "name": { "str_sp": "dandelion seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_raw_burdock",
     "copy-from": "seed_raw_burdock",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "burdock seeds"
-    }
+    "name": { "str_sp": "burdock seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_rhubarb",
     "copy-from": "seed_rhubarb",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "rhubarb stems"
-    }
+    "name": { "str_sp": "rhubarb stems" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "datura_seed",
     "copy-from": "datura_seed",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "datura seeds"
-    }
+    "name": { "str_sp": "datura seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_celery",
     "copy-from": "seed_celery",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "celery seeds"
-    }
+    "name": { "str_sp": "celery seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_oats",
     "copy-from": "seed_oats",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "oat seeds"
-    }
+    "name": { "str_sp": "oat seeds" },
+    "vitamins": [ [ "wheat_allergen", 1 ], [ "remnants", 5 ] ]
   },
   {
     "id": "seed_wheat",
     "copy-from": "seed_wheat",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "wheat seeds"
-    }
+    "name": { "str_sp": "wheat seeds" },
+    "vitamins": [ [ "wheat_allergen", 1 ], [ "remnants", 5 ] ]
   },
   {
     "id": "fried_seeds",
     "copy-from": "fried_seeds",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "fried seeds"
-    }
+    "name": { "str_sp": "fried seeds" },
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 5 ] ]
   },
   {
     "id": "coffee_pod",
     "copy-from": "coffee_pod",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str": "Kentucky coffee pod"
-    }
+    "name": { "str": "Kentucky coffee pod" },
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 5 ] ]
   },
   {
     "id": "coffee_bean",
     "copy-from": "coffee_bean",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "coffee beans"
-    }
+    "name": { "str_sp": "coffee beans" },
+    "vitamins": [ [ "calcium", 4 ], [ "iron", 8 ], [ "veggy_allergen", 1 ], [ "remnants", 5 ] ]
   },
   {
     "id": "roasted_coffee_bean",
     "copy-from": "roasted_coffee_bean",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "roasted coffee beans"
-    }
+    "name": { "str_sp": "roasted coffee beans" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_chamomile",
     "copy-from": "seed_chamomile",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "chamomile seeds"
-    }
+    "name": { "str_sp": "chamomile seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_popcorn",
     "copy-from": "seed_popcorn",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "popcorn seeds"
-    }
+    "name": { "str_sp": "popcorn seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_horseradish",
     "copy-from": "seed_horseradish",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "horseradish seeds"
-    }
+    "name": { "str_sp": "horseradish seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_mustard",
     "copy-from": "seed_mustard",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "mustard seeds"
-    }
+    "name": { "str_sp": "mustard seeds" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seed_rice",
     "copy-from": "seed_rice",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "raw wild rice"
-    }
+    "name": { "str_sp": "raw wild rice" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "mushroom_culture",
     "copy-from": "mushroom_culture",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "mushroom culture"
-    }
+    "name": { "str_sp": "mushroom culture" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "mushroom_morel_culture",
     "copy-from": "mushroom_morel_culture",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "morel mushroom culture"
-    }
+    "name": { "str_sp": "morel mushroom culture" },
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 5 ] ]
   },
   {
     "id": "seed_mycus_fruit",
     "copy-from": "seed_mycus_fruit",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "mycus fruit seedpod"
-    }
+    "name": { "str_sp": "mycus fruit seedpod" },
+    "vitamins": [ [ "remnants", 5 ] ]
   }
 ]

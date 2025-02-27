@@ -3,246 +3,131 @@
     "id": "milk_raw",
     "copy-from": "milk_raw",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "bladder",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "raw milk"
-    }
+    "name": { "str_sp": "raw milk" },
+    "vitamins": [ [ "remnants", 10 ], [ "bladder", 50 ] ]
   },
   {
     "id": "milk_UHT",
     "copy-from": "milk_UHT",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "bladder",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "shelf stable milk"
-    }
+    "name": { "str_sp": "shelf stable milk" },
+    "vitamins": [ [ "remnants", 10 ], [ "bladder", 50 ] ]
   },
   {
     "id": "milk_evap",
     "copy-from": "milk_evap",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "bladder",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "evaporated milk"
-    }
+    "name": { "str_sp": "evaporated milk" },
+    "vitamins": [
+      [ "vitA", 10 ],
+      [ "vitB", 6 ],
+      [ "vitC", 4 ],
+      [ "calcium", 25 ],
+      [ "milk_allergen", 1 ],
+      [ "remnants", 2 ],
+      [ "bladder", 50 ]
+    ]
   },
   {
     "id": "yoghurt",
     "copy-from": "yoghurt",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ]
-      ]
-    },
-    "name": "yogurt"
+    "name": "yogurt",
+    "vitamins": [
+      [ "vitA", 2 ],
+      [ "vitB", 3 ],
+      [ "vitC", 3 ],
+      [ "calcium", 33 ],
+      [ "iron", 1 ],
+      [ "milk_allergen", 1 ],
+      [ "remnants", 10 ]
+    ]
   },
   {
     "id": "butter",
     "copy-from": "butter",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fat_elements",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "butter"
-    }
+    "name": { "str_sp": "butter" },
+    "vitamins": [ [ "vitA", 7 ], [ "vitB", 3 ], [ "milk_allergen", 1 ], [ "remnants", 10 ], [ "fat_elements", 50 ] ]
   },
   {
     "id": "ghee",
     "copy-from": "ghee",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fat_elements",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "ghee"
-    }
+    "name": { "str_sp": "ghee" },
+    "vitamins": [ [ "remnants", 10 ], [ "fat_elements", 50 ] ]
   },
   {
     "id": "pudding",
     "copy-from": "pudding",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ]
-      ]
-    },
-    "name": "pudding"
+    "name": "pudding",
+    "vitamins": [ [ "calcium", 8 ], [ "iron", 1 ], [ "junk_allergen", 1 ], [ "milk_allergen", 1 ], [ "remnants", 10 ] ]
   },
   {
     "id": "cheese_fresh",
     "copy-from": "cheese_fresh",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "fresh cheese"
-    }
+    "name": { "str_sp": "fresh cheese" },
+    "vitamins": [ [ "vitA", 5 ], [ "calcium", 32 ], [ "iron", 2 ], [ "remnants", 10 ] ]
   },
   {
     "id": "cheese_hard",
     "copy-from": "cheese_hard",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "hard cheese"
-    }
+    "name": { "str_sp": "hard cheese" },
+    "vitamins": [ [ "vitA", 5 ], [ "calcium", 32 ], [ "iron", 2 ], [ "milk_allergen", 1 ], [ "remnants", 10 ] ]
   },
   {
     "id": "cheese",
     "copy-from": "cheese",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "cheese"
-    }
+    "name": { "str_sp": "cheese" },
+    "vitamins": [ [ "vitA", 8 ], [ "calcium", 16 ], [ "milk_allergen", 1 ], [ "remnants", 10 ] ]
   },
   {
     "id": "quesadilla_cheese",
     "copy-from": "quesadilla_cheese",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ]
-      ]
-    },
-    "name": "quesadilla"
+    "name": "quesadilla",
+    "vitamins": [ [ "vitA", 12 ], [ "calcium", 38 ], [ "iron", 10 ], [ "milk_allergen", 1 ], [ "remnants", 10 ] ]
   },
   {
     "id": "milk_powder",
     "copy-from": "milk_powder",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "powdered milk"
-    }
+    "name": { "str_sp": "powdered milk" },
+    "vitamins": [ [ "vitA", 3 ], [ "vitB", 2 ], [ "vitC", 1 ], [ "calcium", 7 ], [ "milk_allergen", 1 ], [ "remnants", 10 ] ]
   },
   {
     "id": "con_milk",
     "copy-from": "con_milk",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "bladder",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "condensed milk"
-    }
+    "name": { "str_sp": "condensed milk" },
+    "vitamins": [
+      [ "vitA", 2 ],
+      [ "vitB", 1 ],
+      [ "vitC", 1 ],
+      [ "calcium", 7 ],
+      [ "junk_allergen", 1 ],
+      [ "milk_allergen", 1 ],
+      [ "remnants", 2 ],
+      [ "bladder", 50 ]
+    ]
   },
   {
     "id": "buttermilk",
     "copy-from": "buttermilk",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "bladder",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "buttermilk"
-    }
+    "name": { "str_sp": "buttermilk" },
+    "vitamins": [
+      [ "vitA", 1 ],
+      [ "vitB", 1 ],
+      [ "vitC", 1 ],
+      [ "calcium", 1 ],
+      [ "milk_allergen", 1 ],
+      [ "remnants", 2 ],
+      [ "bladder", 50 ]
+    ]
   }
 ]

@@ -3,226 +3,98 @@
     "id": "chilly-p",
     "copy-from": "chilly-p",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "chili powder"
-    }
+    "name": { "str_sp": "chili powder" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "cinnamon",
     "copy-from": "cinnamon",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "cinnamon"
-    }
+    "name": { "str_sp": "cinnamon" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "curry_powder",
     "copy-from": "curry_powder",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "curry powder"
-    }
+    "name": { "str_sp": "curry powder" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "pepper",
     "copy-from": "pepper",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "black pepper"
-    }
+    "name": { "str_sp": "black pepper" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "salt",
     "copy-from": "salt",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "salt"
-    }
+    "name": { "str_sp": "salt" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seasoning_italian",
     "copy-from": "seasoning_italian",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "Italian seasoning"
-    }
+    "name": { "str_sp": "Italian seasoning" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "seasoning_salt",
     "copy-from": "seasoning_salt",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "seasoned salt"
-    }
+    "name": { "str_sp": "seasoned salt" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "sugar",
     "copy-from": "sugar",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "sugar"
-    }
+    "name": { "str_sp": "sugar" },
+    "vitamins": [ [ "junk_allergen", 1 ], [ "remnants", 5 ] ]
   },
   {
     "id": "sprinkles",
     "copy-from": "sprinkles",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "sprinkles"
-    }
+    "name": { "str_sp": "sprinkles" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "wild_herbs",
     "copy-from": "wild_herbs",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "wild herbs"
-    }
+    "name": { "str_sp": "wild herbs" },
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 5 ] ]
   },
   {
     "id": "soysauce",
     "copy-from": "soysauce",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "bladder",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "soy sauce"
-    }
+    "name": { "str_sp": "soy sauce" },
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "thyme",
     "copy-from": "thyme",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": "thyme"
+    "name": "thyme",
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 5 ] ]
   },
   {
     "id": "mustard_powder",
     "copy-from": "mustard_powder",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "mustard powder"
-    }
+    "name": { "str_sp": "mustard powder" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "gochujang",
     "copy-from": "gochujang",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "gochujang"
-    }
+    "name": { "str_sp": "gochujang" },
+    "vitamins": [ [ "remnants", 5 ] ]
   }
 ]

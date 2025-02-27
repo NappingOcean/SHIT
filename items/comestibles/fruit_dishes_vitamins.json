@@ -3,252 +3,105 @@
     "id": "strawberries_cooked",
     "copy-from": "strawberries_cooked",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "fiber_elements",
-          10
-        ],
-        [
-          "bladder",
-          20
-        ]
-      ]
-    },
-    "name": {
-      "str": "cooked strawberry",
-      "str_pl": "cooked strawberries"
-    }
+    "name": { "str": "cooked strawberry", "str_pl": "cooked strawberries" },
+    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 2 ], [ "fiber_elements", 10 ], [ "bladder", 20 ] ]
   },
   {
     "id": "fruit_leather",
     "copy-from": "fruit_leather",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fiber_elements",
-          10
-        ]
-      ]
-    },
-    "name": "fruit leather"
+    "name": "fruit leather",
+    "vitamins": [
+      [ "vitC", 21 ],
+      [ "calcium", 2 ],
+      [ "iron", 4 ],
+      [ "fruit_allergen", 1 ],
+      [ "remnants", 5 ],
+      [ "fiber_elements", 10 ]
+    ]
   },
   {
     "id": "blueberries_cooked",
     "copy-from": "blueberries_cooked",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "fiber_elements",
-          10
-        ],
-        [
-          "bladder",
-          20
-        ]
-      ]
-    },
-    "name": {
-      "str": "cooked blueberry",
-      "str_pl": "cooked blueberries"
-    }
+    "name": { "str": "cooked blueberry", "str_pl": "cooked blueberries" },
+    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 2 ], [ "fiber_elements", 10 ], [ "bladder", 20 ] ]
   },
   {
     "id": "can_peach",
     "copy-from": "can_peach",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fiber_elements",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "peaches in syrup"
-    }
+    "name": { "str_sp": "peaches in syrup" },
+    "vitamins": [ [ "vitA", 4 ], [ "vitC", 9 ], [ "iron", 4 ], [ "fruit_allergen", 1 ], [ "remnants", 5 ], [ "fiber_elements", 10 ] ]
   },
   {
     "id": "can_pineapple",
     "copy-from": "can_pineapple",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fiber_elements",
-          10
-        ]
-      ]
-    },
-    "name": "canned pineapple"
+    "name": "canned pineapple",
+    "vitamins": [
+      [ "vitC", 26 ],
+      [ "calcium", 4 ],
+      [ "iron", 6 ],
+      [ "fruit_allergen", 1 ],
+      [ "remnants", 5 ],
+      [ "fiber_elements", 10 ]
+    ]
   },
   {
     "id": "fruit_cooked",
     "copy-from": "fruit_cooked",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "fiber_elements",
-          10
-        ],
-        [
-          "bladder",
-          20
-        ]
-      ]
-    },
-    "name": "cooked fruit"
+    "name": "cooked fruit",
+    "vitamins": [ [ "vitC", 20 ], [ "fruit_allergen", 1 ], [ "remnants", 2 ], [ "fiber_elements", 10 ], [ "bladder", 20 ] ]
   },
   {
     "id": "jam_fruit",
     "copy-from": "jam_fruit",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "fiber_elements",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "jam"
-    }
+    "name": { "str_sp": "jam" },
+    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 2 ], [ "fiber_elements", 10 ] ]
   },
   {
     "id": "dry_fruit",
     "copy-from": "dry_fruit",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fiber_elements",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "dehydrated fruit"
-    }
+    "name": { "str_sp": "dehydrated fruit" },
+    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 5 ], [ "fiber_elements", 10 ] ]
   },
   {
     "id": "rehydrated_fruit",
     "copy-from": "rehydrated_fruit",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fiber_elements",
-          10
-        ],
-        [
-          "bladder",
-          20
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "rehydrated fruit"
-    }
+    "name": { "str_sp": "rehydrated fruit" },
+    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 5 ], [ "fiber_elements", 10 ], [ "bladder", 20 ] ]
   },
   {
     "id": "apple_sugar",
     "copy-from": "apple_sugar",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fiber_elements",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str": "fruit slice"
-    }
+    "name": { "str": "fruit slice" },
+    "vitamins": [ [ "iron", 2 ], [ "fruit_allergen", 1 ], [ "remnants", 5 ], [ "fiber_elements", 10 ] ]
   },
   {
     "id": "apple_canned",
     "copy-from": "apple_canned",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fiber_elements",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "canned fruit"
-    }
+    "name": { "str_sp": "canned fruit" },
+    "vitamins": [
+      [ "vitC", 3 ],
+      [ "calcium", 2 ],
+      [ "iron", 10 ],
+      [ "fruit_allergen", 1 ],
+      [ "remnants", 5 ],
+      [ "fiber_elements", 10 ]
+    ]
   },
   {
     "id": "cacao_nibs",
     "copy-from": "cacao_nibs",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fiber_elements",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "cacao nib"
-    }
+    "name": { "str_sp": "cacao nib" },
+    "vitamins": [ [ "calcium", 4 ], [ "iron", 8 ], [ "fruit_allergen", 1 ], [ "remnants", 5 ], [ "fiber_elements", 10 ] ]
   }
 ]

@@ -3,538 +3,244 @@
     "id": "mre_chilibeans",
     "copy-from": "mre_chilibeans",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "chili & beans entree"
+    "name": "chili & beans entree",
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 25 ] ]
   },
   {
     "id": "mre_bbqbeef",
     "copy-from": "mre_bbqbeef",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fat_elements",
-          50
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str": "BBQ beef entree"
-    }
+    "name": { "str": "BBQ beef entree" },
+    "vitamins": [ [ "meat_allergen", 1 ], [ "remnants", 15 ], [ "fat_elements", 50 ], [ "fiber_elements", 5 ] ]
   },
   {
     "id": "mre_chickennoodle",
     "copy-from": "mre_chickennoodle",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fat_elements",
-          50
-        ],
-        [
-          "fiber_elements",
-          10
-        ]
-      ]
-    },
-    "name": "chicken noodle entree"
+    "name": "chicken noodle entree",
+    "vitamins": [
+      [ "meat_allergen", 1 ],
+      [ "veggy_allergen", 1 ],
+      [ "wheat_allergen", 1 ],
+      [ "remnants", 15 ],
+      [ "fat_elements", 50 ],
+      [ "fiber_elements", 10 ]
+    ]
   },
   {
     "id": "mre_spaghetti",
     "copy-from": "mre_spaghetti",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fat_elements",
-          50
-        ],
-        [
-          "fiber_elements",
-          10
-        ]
-      ]
-    },
-    "name": "spaghetti entree"
+    "name": "spaghetti entree",
+    "vitamins": [
+      [ "meat_allergen", 1 ],
+      [ "wheat_allergen", 1 ],
+      [ "remnants", 15 ],
+      [ "fat_elements", 50 ],
+      [ "fiber_elements", 10 ]
+    ]
   },
   {
     "id": "mre_chicken",
     "copy-from": "mre_chicken",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fat_elements",
-          50
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": "chicken chunks entree"
+    "name": "chicken chunks entree",
+    "vitamins": [ [ "meat_allergen", 1 ], [ "remnants", 15 ], [ "fat_elements", 50 ], [ "fiber_elements", 5 ] ]
   },
   {
     "id": "mre_beeftaco",
     "copy-from": "mre_beeftaco",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fat_elements",
-          50
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str": "beef taco entree"
-    }
+    "name": { "str": "beef taco entree" },
+    "vitamins": [
+      [ "meat_allergen", 1 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fat_elements", 50 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "mre_beef",
     "copy-from": "mre_beef",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fat_elements",
-          50
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str": "beef brisket entree"
-    }
+    "name": { "str": "beef brisket entree" },
+    "vitamins": [ [ "meat_allergen", 1 ], [ "remnants", 15 ], [ "fat_elements", 50 ], [ "fiber_elements", 5 ] ]
   },
   {
     "id": "mre_meatball",
     "copy-from": "mre_meatball",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fat_elements",
-          50
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": "meatballs & marinara entree"
+    "name": "meatballs & marinara entree",
+    "vitamins": [ [ "meat_allergen", 1 ], [ "veggy_allergen", 1 ], [ "remnants", 15 ], [ "fat_elements", 50 ], [ "fiber_elements", 5 ] ]
   },
   {
     "id": "mre_beefstew",
     "copy-from": "mre_beefstew",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fat_elements",
-          50
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str": "beef stew entree"
-    }
+    "name": { "str": "beef stew entree" },
+    "vitamins": [
+      [ "meat_allergen", 1 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fat_elements", 50 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "mre_chilimac",
     "copy-from": "mre_chilimac",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fiber_elements",
-          30
-        ]
-      ]
-    },
-    "name": "chili & macaroni entree"
+    "name": "chili & macaroni entree",
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "wheat_allergen", 1 ], [ "remnants", 15 ], [ "fiber_elements", 30 ] ]
   },
   {
     "id": "mre_veggy",
     "copy-from": "mre_veggy",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "vegetarian taco entree"
+    "name": "vegetarian taco entree",
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 25 ] ]
   },
   {
     "id": "mre_macaronimarinara",
     "copy-from": "mre_macaronimarinara",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "macaroni & marinara entree"
+    "name": "macaroni & marinara entree",
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 25 ] ]
   },
   {
     "id": "mre_cheesetort",
     "copy-from": "mre_cheesetort",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "cheese tortellini entree"
+    "name": "cheese tortellini entree",
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "milk_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 25 ] ]
   },
   {
     "id": "mre_mushroomfettuccine",
     "copy-from": "mre_mushroomfettuccine",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          15
-        ]
-      ]
-    },
-    "name": "mushroom fettuccine entree"
+    "name": "mushroom fettuccine entree",
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "wheat_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 15 ] ]
   },
   {
     "id": "mre_mexicanchickenstew",
     "copy-from": "mre_mexicanchickenstew",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fat_elements",
-          50
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str": "Mexican chicken stew entree"
-    }
+    "name": { "str": "Mexican chicken stew entree" },
+    "vitamins": [
+      [ "meat_allergen", 1 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fat_elements", 50 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "mre_chickenburritobowl",
     "copy-from": "mre_chickenburritobowl",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fat_elements",
-          50
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "chicken burrito bowl entree"
+    "name": "chicken burrito bowl entree",
+    "vitamins": [
+      [ "meat_allergen", 1 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fat_elements", 50 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "mre_maplesausage",
     "copy-from": "mre_maplesausage",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fat_elements",
-          50
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": "maple sausage entree"
+    "name": "maple sausage entree",
+    "vitamins": [ [ "meat_allergen", 1 ], [ "junk_allergen", 1 ], [ "remnants", 15 ], [ "fat_elements", 50 ], [ "fiber_elements", 5 ] ]
   },
   {
     "id": "mre_ravioli",
     "copy-from": "mre_ravioli",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fat_elements",
-          50
-        ],
-        [
-          "fiber_elements",
-          10
-        ]
-      ]
-    },
-    "name": "ravioli entree"
+    "name": "ravioli entree",
+    "vitamins": [
+      [ "meat_allergen", 1 ],
+      [ "wheat_allergen", 1 ],
+      [ "remnants", 15 ],
+      [ "fat_elements", 50 ],
+      [ "fiber_elements", 10 ]
+    ]
   },
   {
     "id": "mre_pepperjackbeef",
     "copy-from": "mre_pepperjackbeef",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fat_elements",
-          50
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": "pepper jack beef entree"
+    "name": "pepper jack beef entree",
+    "vitamins": [ [ "meat_allergen", 1 ], [ "milk_allergen", 1 ], [ "remnants", 15 ], [ "fat_elements", 50 ], [ "fiber_elements", 5 ] ]
   },
   {
     "id": "mre_hashbrownbacon",
     "copy-from": "mre_hashbrownbacon",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fat_elements",
-          50
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "hash browns & bacon entree"
+    "name": "hash browns & bacon entree",
+    "vitamins": [
+      [ "meat_allergen", 1 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fat_elements", 50 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "mre_lemontuna",
     "copy-from": "mre_lemontuna",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fat_elements",
-          50
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": "lemon pepper tuna entree"
+    "name": "lemon pepper tuna entree",
+    "vitamins": [ [ "meat_allergen", 1 ], [ "remnants", 15 ], [ "fat_elements", 50 ], [ "fiber_elements", 5 ] ]
   },
   {
     "id": "mre_asianbeef",
     "copy-from": "mre_asianbeef",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fat_elements",
-          50
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str": "asian beef & vegetables entree"
-    }
+    "name": { "str": "asian beef & vegetables entree" },
+    "vitamins": [
+      [ "meat_allergen", 1 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fat_elements", 50 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "mre_chickenpesto",
     "copy-from": "mre_chickenpesto",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fat_elements",
-          50
-        ],
-        [
-          "fiber_elements",
-          10
-        ]
-      ]
-    },
-    "name": "chicken pesto & pasta entree"
+    "name": "chicken pesto & pasta entree",
+    "vitamins": [
+      [ "meat_allergen", 1 ],
+      [ "veggy_allergen", 1 ],
+      [ "wheat_allergen", 1 ],
+      [ "remnants", 15 ],
+      [ "fat_elements", 50 ],
+      [ "fiber_elements", 10 ]
+    ]
   },
   {
     "id": "mre_southwestbeef",
     "copy-from": "mre_southwestbeef",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fat_elements",
-          50
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": "southwest beef & beans entree"
+    "name": "southwest beef & beans entree",
+    "vitamins": [ [ "meat_allergen", 1 ], [ "veggy_allergen", 1 ], [ "remnants", 15 ], [ "fat_elements", 50 ], [ "fiber_elements", 5 ] ]
   },
   {
     "id": "mre_hotdog",
     "copy-from": "mre_hotdog",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fat_elements",
-          50
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": "frankfurters & beans entree"
+    "name": "frankfurters & beans entree",
+    "vitamins": [
+      [ "meat_allergen", 1 ],
+      [ "veggy_allergen", 1 ],
+      [ "junk_allergen", 1 ],
+      [ "remnants", 15 ],
+      [ "fat_elements", 50 ],
+      [ "fiber_elements", 5 ]
+    ]
   }
 ]

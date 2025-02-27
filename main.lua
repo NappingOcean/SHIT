@@ -136,22 +136,22 @@ mod.process_no_2 = function (who)
         mod.popup(locale.gettext("경고: 사색 중에는 움직일 수 없습니다."))
         if detect_fat < detect_r and detect_fiber < detect_r then
             --둘 다 부족하여 불완전 사색 발생
-            SpellSimple.prompt_cast(spell, whose_pos, spell:max_level()//4*3)
+            SpellSimple.prompt_cast(spell, whose_pos, 20//4*3)
             who:set_moves(-100*60*12)
             storage.paper_usage = 3
         elseif detect_fat < detect_r then
             --변비 발생
-            SpellSimple.prompt_cast(spell, whose_pos, spell:max_level()//3)
+            SpellSimple.prompt_cast(spell, whose_pos, 20//3)
             who:set_moves(-100*60*30)
             storage.paper_usage = 4
         elseif detect_fiber < detect_r then
             --설사 발생
-            SpellSimple.prompt_cast(spell, whose_pos, spell:max_level()//3*2)
+            SpellSimple.prompt_cast(spell, whose_pos, 20//3*2)
             who:set_moves(-100*60*15)
             storage.paper_usage = 6
         else
             --정상 배변
-            SpellSimple.prompt_cast(spell, whose_pos, spell:max_level())
+            SpellSimple.prompt_cast(spell, whose_pos, 20)
             who:set_moves(-100*60*10)
             storage.paper_usage = 4
         end

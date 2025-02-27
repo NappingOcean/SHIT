@@ -3,270 +3,118 @@
     "id": "cattlefodder",
     "copy-from": "cattlefodder",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fiber_elements",
-          40
-        ],
-        [
-          "fat_elements",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "cattle fodder"
-    }
+    "name": { "str_sp": "cattle fodder" },
+    "vitamins": [
+      [ "vitA", 20 ],
+      [ "vitC", 45 ],
+      [ "calcium", 5 ],
+      [ "iron", 5 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 15 ],
+      [ "fiber_elements", 40 ],
+      [ "fat_elements", 10 ]
+    ]
   },
   {
     "id": "birdfood",
     "copy-from": "birdfood",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fiber_elements",
-          40
-        ],
-        [
-          "fat_elements",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "bird food"
-    }
+    "name": { "str_sp": "bird food" },
+    "vitamins": [
+      [ "calcium", 1 ],
+      [ "iron", 7 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 15 ],
+      [ "fiber_elements", 40 ],
+      [ "fat_elements", 10 ]
+    ]
   },
   {
     "id": "dogfood",
     "copy-from": "dogfood",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fiber_elements",
-          40
-        ],
-        [
-          "fat_elements",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "dog food"
-    }
+    "name": { "str_sp": "dog food" },
+    "vitamins": [
+      [ "vitC", 4 ],
+      [ "iron", 17 ],
+      [ "vitB", 187 ],
+      [ "calcium", 0 ],
+      [ "meat_allergen", 1 ],
+      [ "remnants", 15 ],
+      [ "fiber_elements", 40 ],
+      [ "fat_elements", 10 ]
+    ]
   },
   {
     "id": "catfood",
     "copy-from": "catfood",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fiber_elements",
-          40
-        ],
-        [
-          "fat_elements",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "cat food"
-    }
+    "name": { "str_sp": "cat food" },
+    "vitamins": [
+      [ "vitC", 4 ],
+      [ "iron", 17 ],
+      [ "vitB", 187 ],
+      [ "calcium", 0 ],
+      [ "meat_allergen", 1 ],
+      [ "remnants", 15 ],
+      [ "fiber_elements", 40 ],
+      [ "fat_elements", 10 ]
+    ]
   },
   {
     "id": "grass",
     "copy-from": "grass",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          20
-        ],
-        [
-          "fiber_elements",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str": "grass",
-      "str_pl": "grasses"
-    }
+    "name": { "str": "grass", "str_pl": "grasses" },
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 20 ], [ "fiber_elements", 50 ] ]
   },
   {
     "id": "underbrush",
     "copy-from": "underbrush",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          20
-        ],
-        [
-          "fiber_elements",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str": "underbrush",
-      "str_pl": "underbrushes"
-    }
+    "name": { "str": "underbrush", "str_pl": "underbrushes" },
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 20 ], [ "fiber_elements", 50 ] ]
   },
   {
     "id": "marloss_berry",
     "copy-from": "marloss_berry",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          5
-        ],
-        [
-          "bladder",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str": "marloss berry",
-      "str_pl": "marloss berries"
-    }
+    "name": { "str": "marloss berry", "str_pl": "marloss berries" },
+    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 5 ], [ "bladder", 10 ] ]
   },
   {
     "id": "marloss_gel",
     "copy-from": "marloss_gel",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          5
-        ],
-        [
-          "bladder",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "marloss gelatin"
-    }
+    "name": { "str_sp": "marloss gelatin" },
+    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 5 ], [ "bladder", 10 ] ]
   },
   {
     "id": "mycus_fruit",
     "copy-from": "mycus_fruit",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          5
-        ],
-        [
-          "bladder",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str": "mycus fruit"
-    }
+    "name": { "str": "mycus fruit" },
+    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 5 ], [ "bladder", 10 ] ]
   },
   {
     "id": "honeycomb",
     "copy-from": "honeycomb",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "bladder",
-          5
-        ]
-      ]
-    },
-    "name": "honey comb"
+    "name": "honey comb",
+    "vitamins": [ [ "remnants", 5 ], [ "bladder", 5 ] ]
   },
   {
     "id": "royal_jelly",
     "copy-from": "royal_jelly",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "bladder",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str": "royal jelly",
-      "str_pl": "royal jellies"
-    }
+    "name": { "str": "royal jelly", "str_pl": "royal jellies" },
+    "vitamins": [ [ "mutant_toxin", 100 ], [ "remnants", 5 ], [ "bladder", 5 ] ]
   },
   {
     "id": "honey_glassed",
     "copy-from": "honey_glassed",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "bladder",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "candied honey"
-    }
+    "name": { "str_sp": "candied honey" },
+    "vitamins": [ [ "remnants", 5 ], [ "bladder", 5 ] ]
   }
 ]

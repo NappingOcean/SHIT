@@ -3,244 +3,91 @@
     "id": "irradiated_lettuce",
     "copy-from": "irradiated_lettuce",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fiber_elements",
-          10
-        ]
-      ]
-    },
-    "name": "irradiated lettuce"
+    "name": "irradiated lettuce",
+    "vitamins": [ [ "remnants", 5 ], [ "fiber_elements", 10 ] ]
   },
   {
     "id": "irradiated_cabbage",
     "copy-from": "irradiated_cabbage",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fiber_elements",
-          15
-        ]
-      ]
-    },
-    "name": "irradiated cabbage"
+    "name": "irradiated cabbage",
+    "vitamins": [ [ "remnants", 5 ], [ "fiber_elements", 15 ] ]
   },
   {
     "id": "irradiated_tomato",
     "copy-from": "irradiated_tomato",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str": "irradiated tomato",
-      "str_pl": "irradiated tomatoes"
-    }
+    "name": { "str": "irradiated tomato", "str_pl": "irradiated tomatoes" },
+    "vitamins": [ [ "remnants", 5 ], [ "fiber_elements", 5 ] ]
   },
   {
     "id": "irradiated_broccoli",
     "copy-from": "irradiated_broccoli",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fiber_elements",
-          20
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "irradiated broccoli"
-    }
+    "name": { "str_sp": "irradiated broccoli" },
+    "vitamins": [ [ "remnants", 5 ], [ "fiber_elements", 20 ] ]
   },
   {
     "id": "irradiated_zucchini",
     "copy-from": "irradiated_zucchini",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fiber_elements",
-          10
-        ]
-      ]
-    },
-    "name": "irradiated zucchini"
+    "name": "irradiated zucchini",
+    "vitamins": [ [ "remnants", 5 ], [ "fiber_elements", 10 ] ]
   },
   {
     "id": "irradiated_onion",
     "copy-from": "irradiated_onion",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": "irradiated onion"
+    "name": "irradiated onion",
+    "vitamins": [ [ "remnants", 5 ], [ "fiber_elements", 5 ] ]
   },
   {
     "id": "irradiated_carrot",
     "copy-from": "irradiated_carrot",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fiber_elements",
-          15
-        ]
-      ]
-    },
-    "name": "irradiated carrot"
+    "name": "irradiated carrot",
+    "vitamins": [ [ "remnants", 5 ], [ "fiber_elements", 15 ] ]
   },
   {
     "id": "irradiated_corn",
     "copy-from": "irradiated_corn",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fiber_elements",
-          20
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "irradiated corn"
-    }
+    "name": { "str_sp": "irradiated corn" },
+    "vitamins": [ [ "remnants", 5 ], [ "fiber_elements", 20 ] ]
   },
   {
     "id": "irradiated_pumpkin",
     "copy-from": "irradiated_pumpkin",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fiber_elements",
-          10
-        ]
-      ]
-    },
-    "name": "irradiated pumpkin"
+    "name": "irradiated pumpkin",
+    "vitamins": [ [ "remnants", 5 ], [ "fiber_elements", 10 ] ]
   },
   {
     "id": "irradiated_potato",
     "copy-from": "irradiated_potato",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fiber_elements",
-          15
-        ]
-      ]
-    },
-    "name": {
-      "str": "irradiated potato",
-      "str_pl": "irradiated potatoes"
-    }
+    "name": { "str": "irradiated potato", "str_pl": "irradiated potatoes" },
+    "vitamins": [ [ "remnants", 5 ], [ "fiber_elements", 15 ] ]
   },
   {
     "id": "irradiated_cucumber",
     "copy-from": "irradiated_cucumber",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fiber_elements",
-          10
-        ]
-      ]
-    },
-    "name": "irradiated cucumber"
+    "name": "irradiated cucumber",
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 5 ], [ "fiber_elements", 10 ] ]
   },
   {
     "id": "irradiated_celery",
     "copy-from": "irradiated_celery",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fiber_elements",
-          15
-        ]
-      ]
-    },
-    "name": "irradiated celery"
+    "name": "irradiated celery",
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 5 ], [ "fiber_elements", 15 ] ]
   },
   {
     "id": "irradiated_rhubarb",
     "copy-from": "irradiated_rhubarb",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fiber_elements",
-          20
-        ]
-      ]
-    },
-    "name": "irradiated rhubarb"
+    "name": "irradiated rhubarb",
+    "vitamins": [ [ "remnants", 5 ], [ "fiber_elements", 20 ] ]
   }
 ]

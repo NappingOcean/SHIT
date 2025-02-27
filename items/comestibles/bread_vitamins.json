@@ -3,252 +3,128 @@
     "id": "donut_holes",
     "copy-from": "donut_holes",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "donut holes"
-    }
+    "name": { "str_sp": "donut holes" },
+    "vitamins": [ [ "remnants", 10 ] ]
   },
   {
     "id": "sourdough_young_uncovered",
     "copy-from": "sourdough_young_uncovered",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fiber_elements",
-          30
-        ]
-      ]
-    },
-    "name": {
-      "str": "juvenile sourdough starter"
-    }
+    "name": { "str": "juvenile sourdough starter" },
+    "vitamins": [ [ "wheat_allergen", 1 ], [ "remnants", 15 ], [ "fiber_elements", 30 ] ]
   },
   {
     "id": "sourdough_split_uncovered",
     "copy-from": "sourdough_split_uncovered",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fiber_elements",
-          30
-        ]
-      ]
-    },
-    "name": {
-      "str": "freshly fed sourdough starter"
-    }
+    "name": { "str": "freshly fed sourdough starter" },
+    "vitamins": [ [ "wheat_allergen", 1 ], [ "remnants", 15 ], [ "fiber_elements", 30 ] ]
   },
   {
     "id": "sourdough_starter_uncovered",
     "copy-from": "sourdough_starter_uncovered",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fiber_elements",
-          30
-        ]
-      ]
-    },
-    "name": {
-      "str": "sourdough starter"
-    }
+    "name": { "str": "sourdough starter" },
+    "vitamins": [ [ "wheat_allergen", 1 ], [ "remnants", 15 ], [ "fiber_elements", 30 ] ]
   },
   {
     "id": "sourdough_bread",
     "copy-from": "sourdough_bread",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fiber_elements",
-          30
-        ]
-      ]
-    },
-    "name": "sourdough bread"
+    "name": "sourdough bread",
+    "vitamins": [ [ "wheat_allergen", 1 ], [ "remnants", 15 ], [ "fiber_elements", 30 ] ]
   },
   {
     "id": "flatbread",
     "copy-from": "flatbread",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fiber_elements",
-          30
-        ]
-      ]
-    },
-    "name": "flatbread"
+    "name": "flatbread",
+    "vitamins": [ [ "calcium", 5 ], [ "iron", 12 ], [ "wheat_allergen", 1 ], [ "remnants", 15 ], [ "fiber_elements", 30 ] ]
   },
   {
     "id": "bread",
     "copy-from": "bread",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fiber_elements",
-          30
-        ]
-      ]
-    },
-    "name": "bread"
+    "name": "bread",
+    "vitamins": [
+      [ "vitC", 1 ],
+      [ "calcium", 10 ],
+      [ "iron", 4 ],
+      [ "wheat_allergen", 1 ],
+      [ "remnants", 15 ],
+      [ "fiber_elements", 30 ]
+    ]
   },
   {
     "id": "bread_garlic",
     "copy-from": "bread_garlic",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fiber_elements",
-          30
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "garlic bread"
-    }
+    "name": { "str_sp": "garlic bread" },
+    "vitamins": [
+      [ "vitA", 1 ],
+      [ "vitB", 3 ],
+      [ "calcium", 2 ],
+      [ "iron", 14 ],
+      [ "wheat_allergen", 1 ],
+      [ "remnants", 15 ],
+      [ "fiber_elements", 30 ]
+    ]
   },
   {
     "id": "cornbread",
     "copy-from": "cornbread",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ]
-      ]
-    },
-    "name": "cornbread"
+    "name": "cornbread",
+    "vitamins": [ [ "vitA", 2 ], [ "calcium", 8 ], [ "iron", 6 ], [ "veggy_allergen", 1 ], [ "remnants", 10 ] ]
   },
   {
     "id": "johnnycake",
     "copy-from": "johnnycake",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fiber_elements",
-          30
-        ]
-      ]
-    },
-    "name": "johnnycake"
+    "name": "johnnycake",
+    "vitamins": [
+      [ "vitA", 1 ],
+      [ "calcium", 4 ],
+      [ "iron", 7 ],
+      [ "wheat_allergen", 1 ],
+      [ "junk_allergen", 1 ],
+      [ "remnants", 15 ],
+      [ "fiber_elements", 30 ]
+    ]
   },
   {
     "id": "tortilla_corn",
     "copy-from": "tortilla_corn",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ]
-      ]
-    },
-    "name": "corn tortilla"
+    "name": "corn tortilla",
+    "vitamins": [ [ "calcium", 1 ], [ "iron", 1 ], [ "veggy_allergen", 1 ], [ "remnants", 10 ] ]
   },
   {
     "id": "hardtack",
     "copy-from": "hardtack",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fiber_elements",
-          30
-        ]
-      ]
-    },
-    "name": "hardtack"
+    "name": "hardtack",
+    "vitamins": [ [ "calcium", 2 ], [ "iron", 15 ], [ "wheat_allergen", 1 ], [ "remnants", 15 ], [ "fiber_elements", 30 ] ]
   },
   {
     "id": "biscuit",
     "copy-from": "biscuit",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fiber_elements",
-          30
-        ]
-      ]
-    },
-    "name": {
-      "str": "biscuit"
-    }
+    "name": { "str": "biscuit" },
+    "vitamins": [
+      [ "vitA", 1 ],
+      [ "calcium", 11 ],
+      [ "iron", 9 ],
+      [ "wheat_allergen", 1 ],
+      [ "remnants", 15 ],
+      [ "fiber_elements", 30 ]
+    ]
   },
   {
     "id": "wastebread",
     "copy-from": "wastebread",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          15
-        ],
-        [
-          "fiber_elements",
-          30
-        ]
-      ]
-    },
-    "name": "wastebread"
+    "name": "wastebread",
+    "vitamins": [ [ "calcium", 12 ], [ "wheat_allergen", 1 ], [ "junk_allergen", 1 ], [ "remnants", 15 ], [ "fiber_elements", 30 ] ]
   }
 ]

@@ -3,882 +3,502 @@
     "id": "barley",
     "copy-from": "barley",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str": "barley"
-    }
+    "name": { "str": "barley" },
+    "vitamins": [ [ "calcium", 6 ], [ "iron", 29 ], [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 25 ] ]
   },
   {
     "id": "bee_balm",
     "copy-from": "bee_balm",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str": "bee balm"
-    }
+    "name": { "str": "bee balm" },
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 25 ] ]
   },
   {
     "id": "broccoli",
     "copy-from": "broccoli",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "broccoli"
-    }
+    "name": { "str_sp": "broccoli" },
+    "vitamins": [
+      [ "vitA", 3 ],
+      [ "vitC", 95 ],
+      [ "calcium", 5 ],
+      [ "iron", 4 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "buckwheat",
     "copy-from": "buckwheat",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "buckwheat"
-    }
+    "name": { "str_sp": "buckwheat" },
+    "vitamins": [ [ "calcium", 3 ], [ "iron", 22 ], [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 25 ] ]
   },
   {
     "id": "cabbage",
     "copy-from": "cabbage",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "cabbage"
+    "name": "cabbage",
+    "vitamins": [
+      [ "vitC", 56 ],
+      [ "calcium", 5 ],
+      [ "iron", 5 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "grape_leaves",
     "copy-from": "grape_leaves",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "grape leaves"
-    }
+    "name": { "str_sp": "grape leaves" },
+    "vitamins": [
+      [ "vitA", 21 ],
+      [ "vitC", 2 ],
+      [ "calcium", 4 ],
+      [ "iron", 2 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "spinach",
     "copy-from": "spinach",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "spinach"
-    }
+    "name": { "str_sp": "spinach" },
+    "vitamins": [ [ "calcium", 8 ], [ "iron", 18 ], [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 25 ] ]
   },
   {
     "id": "carrot",
     "copy-from": "carrot",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str": "carrot"
-    }
+    "name": { "str": "carrot" },
+    "vitamins": [
+      [ "vitA", 63 ],
+      [ "vitC", 5 ],
+      [ "calcium", 3 ],
+      [ "iron", 1 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "cattail_rhizome",
     "copy-from": "cattail_rhizome",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str": "cattail rhizome"
-    }
+    "name": { "str": "cattail rhizome" },
+    "vitamins": [ [ "iron", 8 ], [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 25 ] ]
   },
   {
     "id": "cattail_stalk",
     "copy-from": "cattail_stalk",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str": "cattail stalk"
-    }
+    "name": { "str": "cattail stalk" },
+    "vitamins": [ [ "calcium", 5 ], [ "iron", 5 ], [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 25 ] ]
   },
   {
     "id": "celery",
     "copy-from": "celery",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "celery"
+    "name": "celery",
+    "vitamins": [
+      [ "vitA", 3 ],
+      [ "vitC", 4 ],
+      [ "calcium", 4 ],
+      [ "iron", 1 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "corn",
     "copy-from": "corn",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "corn"
-    }
+    "name": { "str_sp": "corn" },
+    "vitamins": [ [ "vitA", 2 ], [ "vitC", 12 ], [ "iron", 4 ], [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 25 ] ]
   },
   {
     "id": "cotton_boll",
     "copy-from": "cotton_boll",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str": "cotton boll"
-    }
+    "name": { "str": "cotton boll" },
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 25 ] ]
   },
   {
     "id": "chili_pepper",
     "copy-from": "chili_pepper",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "chili pepper"
+    "name": "chili pepper",
+    "vitamins": [
+      [ "vitA", 3 ],
+      [ "vitC", 88 ],
+      [ "calcium", 1 ],
+      [ "iron", 3 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "cucumber",
     "copy-from": "cucumber",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "cucumber"
+    "name": "cucumber",
+    "vitamins": [
+      [ "vitC", 9 ],
+      [ "calcium", 6 ],
+      [ "iron", 6 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "dahlia_root",
     "copy-from": "dahlia_root",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "dahlia root"
+    "name": "dahlia root",
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 25 ] ]
   },
   {
     "id": "salsify_raw",
     "copy-from": "salsify_raw",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "salsify"
-    }
+    "name": { "str_sp": "salsify" },
+    "vitamins": [
+      [ "vitC", 18 ],
+      [ "iron", 5 ],
+      [ "calcium", 8 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "chicory_raw",
     "copy-from": "chicory_raw",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "chicory"
-    }
+    "name": { "str_sp": "chicory" },
+    "vitamins": [
+      [ "vitC", 5 ],
+      [ "iron", 3 ],
+      [ "calcium", 2 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "carrot_wild",
     "copy-from": "carrot_wild",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str": "wild root"
-    }
+    "name": { "str": "wild root" },
+    "vitamins": [ [ "remnants", 10 ], [ "fiber_elements", 25 ] ]
   },
   {
     "id": "dogbane",
     "copy-from": "dogbane",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "dogbane"
+    "name": "dogbane",
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 25 ] ]
   },
   {
     "id": "garlic",
     "copy-from": "garlic",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ]
-      ]
-    },
-    "name": "garlic bulb"
+    "name": "garlic bulb",
+    "vitamins": [ [ "vitC", 5 ], [ "calcium", 3 ], [ "iron", 1 ], [ "veggy_allergen", 1 ], [ "remnants", 10 ] ]
   },
   {
     "id": "hops",
     "copy-from": "hops",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str": "hops flower"
-    }
+    "name": { "str": "hops flower" },
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 25 ] ]
   },
   {
     "id": "horseradish_root",
     "copy-from": "horseradish_root",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str": "horseradish root"
-    }
+    "name": { "str": "horseradish root" },
+    "vitamins": [
+      [ "vitC", 41 ],
+      [ "calcium", 6 ],
+      [ "iron", 5 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "lettuce",
     "copy-from": "lettuce",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "lettuce"
+    "name": "lettuce",
+    "vitamins": [
+      [ "vitA", 16 ],
+      [ "vitC", 4 ],
+      [ "calcium", 1 ],
+      [ "iron", 2 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "mugwort",
     "copy-from": "mugwort",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "mugwort"
+    "name": "mugwort",
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 25 ] ]
   },
   {
     "id": "onion",
     "copy-from": "onion",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "onion"
+    "name": "onion",
+    "vitamins": [
+      [ "vitC", 12 ],
+      [ "calcium", 4 ],
+      [ "iron", 2 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "plant_sac",
     "copy-from": "plant_sac",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "fungal fluid sac"
+    "name": "fungal fluid sac",
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 25 ] ]
   },
   {
     "id": "popcorn_raw",
     "copy-from": "popcorn_raw",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "raw popcorn"
-    }
+    "name": { "str_sp": "raw popcorn" },
+    "vitamins": [ [ "vitA", 2 ], [ "vitC", 12 ], [ "iron", 4 ], [ "veggy_allergen", 1 ], [ "remnants", 10 ] ]
   },
   {
     "id": "potato",
     "copy-from": "potato",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str": "raw potato",
-      "str_pl": "raw potatoes"
-    }
+    "name": { "str": "raw potato", "str_pl": "raw potatoes" },
+    "vitamins": [ [ "vitC", 47 ], [ "calcium", 3 ], [ "iron", 9 ], [ "veggy_allergen", 1 ], [ "remnants", 10 ] ]
   },
   {
     "id": "pumpkin",
     "copy-from": "pumpkin",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "pumpkin"
+    "name": "pumpkin",
+    "vitamins": [
+      [ "vitA", 58 ],
+      [ "vitC", 12 ],
+      [ "calcium", 3 ],
+      [ "iron", 5 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "horseradish_greens",
     "copy-from": "horseradish_greens",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "horseradish greens"
-    }
+    "name": { "str_sp": "horseradish greens" },
+    "vitamins": [
+      [ "vitA", 7 ],
+      [ "vitC", 30 ],
+      [ "calcium", 2 ],
+      [ "iron", 3 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "raw_dandelion",
     "copy-from": "raw_dandelion",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "dandelions"
-    }
+    "name": { "str_sp": "dandelions" },
+    "vitamins": [
+      [ "vitA", 33 ],
+      [ "vitC", 23 ],
+      [ "calcium", 11 ],
+      [ "iron", 10 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "raw_burdock",
     "copy-from": "raw_burdock",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "burdocks"
-    }
+    "name": { "str_sp": "burdocks" },
+    "vitamins": [
+      [ "vitC", 1 ],
+      [ "calcium", 23 ],
+      [ "iron", 10 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "rhubarb",
     "copy-from": "rhubarb",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "rhubarb"
+    "name": "rhubarb",
+    "vitamins": [
+      [ "vitA", 1 ],
+      [ "vitC", 11 ],
+      [ "calcium", 11 ],
+      [ "iron", 2 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "sugar_beet",
     "copy-from": "sugar_beet",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "sugar beet"
+    "name": "sugar beet",
+    "vitamins": [
+      [ "vitC", 8 ],
+      [ "calcium", 2 ],
+      [ "iron", 6 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "tea_raw",
     "copy-from": "tea_raw",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str": "tea leaf",
-      "str_pl": "tea leaves"
-    }
+    "name": { "str": "tea leaf", "str_pl": "tea leaves" },
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 25 ] ]
   },
   {
     "id": "coca_leaf",
     "copy-from": "coca_leaf",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          15
-        ]
-      ]
-    },
-    "name": {
-      "str": "coca leaf",
-      "str_pl": "coca leaves"
-    }
+    "name": { "str": "coca leaf", "str_pl": "coca leaves" },
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 15 ] ]
   },
   {
     "id": "tomato",
     "copy-from": "tomato",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str": "tomato",
-      "str_pl": "tomatoes"
-    }
+    "name": { "str": "tomato", "str_pl": "tomatoes" },
+    "vitamins": [ [ "vitC", 22 ], [ "calcium", 3 ], [ "iron", 6 ], [ "veggy_allergen", 1 ], [ "remnants", 10 ] ]
   },
   {
     "id": "veggy",
     "copy-from": "veggy",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "plant marrow"
+    "name": "plant marrow",
+    "vitamins": [
+      [ "vitA", 16 ],
+      [ "vitC", 36 ],
+      [ "calcium", 4 ],
+      [ "iron", 4 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "veggy_tainted",
     "copy-from": "veggy_tainted",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str": "alien fungus chunk"
-    }
+    "name": { "str": "alien fungus chunk" },
+    "vitamins": [ [ "remnants", 10 ] ]
   },
   {
     "id": "veggy_wild",
     "copy-from": "veggy_wild",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "wild vegetables"
-    }
+    "name": { "str_sp": "wild vegetables" },
+    "vitamins": [ [ "remnants", 10 ] ]
   },
   {
     "id": "zucchini",
     "copy-from": "zucchini",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "zucchini"
+    "name": "zucchini",
+    "vitamins": [
+      [ "vitC", 39 ],
+      [ "calcium", 3 ],
+      [ "iron", 4 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "canola",
     "copy-from": "canola",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": "canola"
+    "name": "canola",
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 25 ] ]
   },
   {
     "id": "raw_beans",
     "copy-from": "raw_beans",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "raw beans"
-    }
+    "name": { "str_sp": "raw beans" },
+    "vitamins": [ [ "iron", 2 ], [ "vitC", 20 ], [ "veggy_allergen", 1 ], [ "remnants", 10 ] ]
   },
   {
     "id": "raw_lentils",
     "copy-from": "raw_lentils",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "raw lentils"
-    }
+    "name": { "str_sp": "raw lentils" },
+    "vitamins": [
+      [ "calcium", 2 ],
+      [ "iron", 3 ],
+      [ "vitC", 1 ],
+      [ "vitB", 1 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "fiddlehead_raw",
     "copy-from": "fiddlehead_raw",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "fiddleheads"
-    }
+    "name": { "str_sp": "fiddleheads" },
+    "vitamins": [
+      [ "vitC", 6 ],
+      [ "vitA", 10 ],
+      [ "calcium", 4 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   },
   {
     "id": "rice_bran",
     "copy-from": "rice_bran",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          25
-        ]
-      ]
-    },
-    "name": {
-      "str": "rice bran"
-    }
+    "name": { "str": "rice bran" },
+    "vitamins": [
+      [ "vitC", 5 ],
+      [ "calcium", 3 ],
+      [ "iron", 9 ],
+      [ "veggy_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 25 ]
+    ]
   }
 ]

@@ -3,588 +3,316 @@
     "id": "cereal2",
     "copy-from": "cereal2",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": "wheat cereal"
+    "name": "wheat cereal",
+    "vitamins": [ [ "vitC", 7 ], [ "calcium", 2 ], [ "iron", 9 ], [ "wheat_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 5 ] ]
   },
   {
     "id": "wheat",
     "copy-from": "wheat",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "wheat"
-    }
+    "name": { "str_sp": "wheat" },
+    "vitamins": [ [ "calcium", 4 ], [ "iron", 40 ], [ "wheat_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 10 ] ]
   },
   {
     "id": "porridge_cooked",
     "copy-from": "porridge_cooked",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "boiled grain"
-    }
+    "name": { "str_sp": "boiled grain" },
+    "vitamins": [ [ "calcium", 5 ], [ "iron", 34 ], [ "wheat_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 5 ] ]
   },
   {
     "id": "spaghetti_raw",
     "copy-from": "spaghetti_raw",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "raw spaghetti pasta"
-    }
+    "name": { "str_sp": "raw spaghetti pasta" },
+    "vitamins": [ [ "calcium", 1 ], [ "iron", 10 ], [ "wheat_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 5 ] ]
   },
   {
     "id": "lasagne_raw",
     "copy-from": "lasagne_raw",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "raw lasagne pasta"
-    }
+    "name": { "str_sp": "raw lasagne pasta" },
+    "vitamins": [ [ "calcium", 1 ], [ "iron", 10 ], [ "wheat_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 5 ] ]
   },
   {
     "id": "spaghetti_cooked",
     "copy-from": "spaghetti_cooked",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "boiled noodles"
-    }
+    "name": { "str_sp": "boiled noodles" },
+    "vitamins": [ [ "calcium", 1 ], [ "iron", 10 ], [ "wheat_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 5 ] ]
   },
   {
     "id": "macaroni_raw",
     "copy-from": "macaroni_raw",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "raw macaroni"
-    }
+    "name": { "str_sp": "raw macaroni" },
+    "vitamins": [ [ "calcium", 1 ], [ "iron", 10 ], [ "wheat_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 5 ] ]
   },
   {
     "id": "macaroni_cooked",
     "copy-from": "macaroni_cooked",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "mac & cheese"
-    }
+    "name": { "str_sp": "mac & cheese" },
+    "vitamins": [
+      [ "calcium", 10 ],
+      [ "iron", 11 ],
+      [ "wheat_allergen", 1 ],
+      [ "milk_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 5 ]
+    ]
   },
   {
     "id": "flour",
     "copy-from": "flour",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          2
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "flour"
-    }
+    "name": { "str_sp": "flour" },
+    "vitamins": [ [ "iron", 3 ], [ "wheat_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 2 ] ]
   },
   {
     "id": "oatmeal",
     "copy-from": "oatmeal",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "oatmeal"
-    }
+    "name": { "str_sp": "oatmeal" },
+    "vitamins": [ [ "iron", 2 ], [ "wheat_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 10 ] ]
   },
   {
     "id": "oats",
     "copy-from": "oats",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "oats"
-    }
+    "name": { "str_sp": "oats" },
+    "vitamins": [ [ "calcium", 3 ], [ "iron", 20 ], [ "wheat_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 10 ] ]
   },
   {
     "id": "oatmeal_cooked",
     "copy-from": "oatmeal_cooked",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "cooked oatmeal"
-    }
+    "name": { "str_sp": "cooked oatmeal" },
+    "vitamins": [ [ "calcium", 1 ], [ "iron", 12 ], [ "wheat_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 5 ] ]
   },
   {
     "id": "oatmeal_deluxe",
     "copy-from": "oatmeal_deluxe",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          10
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "deluxe cooked oatmeal"
-    }
+    "name": { "str_sp": "deluxe cooked oatmeal" },
+    "vitamins": [
+      [ "vitA", 1 ],
+      [ "vitC", 30 ],
+      [ "calcium", 1 ],
+      [ "iron", 1 ],
+      [ "wheat_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 10 ]
+    ]
   },
   {
     "id": "pancakes",
     "copy-from": "pancakes",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          2
-        ]
-      ]
-    },
-    "name": {
-      "str": "pancake"
-    }
+    "name": { "str": "pancake" },
+    "vitamins": [
+      [ "vitA", 1 ],
+      [ "calcium", 6 ],
+      [ "iron", 4 ],
+      [ "wheat_allergen", 1 ],
+      [ "milk_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 2 ]
+    ]
   },
   {
     "id": "fruit_pancakes",
     "copy-from": "fruit_pancakes",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str": "fruit pancake"
-    }
+    "name": { "str": "fruit pancake" },
+    "vitamins": [ [ "vitA", 2 ], [ "vitC", 30 ], [ "calcium", 4 ], [ "iron", 3 ], [ "remnants", 10 ], [ "fiber_elements", 5 ] ]
   },
   {
     "id": "frenchtoast",
     "copy-from": "frenchtoast",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str": "French toast"
-    }
+    "name": { "str": "French toast" },
+    "vitamins": [
+      [ "vitA", 4 ],
+      [ "calcium", 3 ],
+      [ "iron", 5 ],
+      [ "wheat_allergen", 1 ],
+      [ "egg_allergen", 1 ],
+      [ "milk_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 5 ]
+    ]
   },
   {
     "id": "waffles",
     "copy-from": "waffles",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          2
-        ]
-      ]
-    },
-    "name": "waffle"
+    "name": "waffle",
+    "vitamins": [
+      [ "vitA", 3 ],
+      [ "calcium", 15 ],
+      [ "iron", 9 ],
+      [ "wheat_allergen", 1 ],
+      [ "milk_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 2 ]
+    ]
   },
   {
     "id": "fruit_waffles",
     "copy-from": "fruit_waffles",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": "fruit waffle"
+    "name": "fruit waffle",
+    "vitamins": [
+      [ "vitA", 6 ],
+      [ "vitC", 120 ],
+      [ "calcium", 2 ],
+      [ "iron", 2 ],
+      [ "wheat_allergen", 1 ],
+      [ "fruit_allergen", 1 ],
+      [ "milk_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 5 ]
+    ]
   },
   {
     "id": "crackers",
     "copy-from": "crackers",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          2
-        ]
-      ]
-    },
-    "name": "cracker"
+    "name": "cracker",
+    "vitamins": [ [ "calcium", 5 ], [ "iron", 12 ], [ "wheat_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 2 ] ]
   },
   {
     "id": "pizza_cheese",
     "copy-from": "pizza_cheese",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": "cheese pizza"
+    "name": "cheese pizza",
+    "vitamins": [
+      [ "vitA", 12 ],
+      [ "vitC", 4 ],
+      [ "calcium", 25 ],
+      [ "iron", 23 ],
+      [ "wheat_allergen", 1 ],
+      [ "milk_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 5 ]
+    ]
   },
   {
     "id": "pie",
     "copy-from": "pie",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": "fruit pie"
+    "name": "fruit pie",
+    "vitamins": [
+      [ "vitA", 3 ],
+      [ "vitC", 6 ],
+      [ "calcium", 1 ],
+      [ "iron", 3 ],
+      [ "wheat_allergen", 1 ],
+      [ "fruit_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 5 ]
+    ]
   },
   {
     "id": "granola",
     "copy-from": "granola",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "granola"
-    }
+    "name": { "str_sp": "granola" },
+    "vitamins": [
+      [ "calcium", 2 ],
+      [ "iron", 7 ],
+      [ "wheat_allergen", 1 ],
+      [ "fruit_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 5 ]
+    ]
   },
   {
     "id": "pie_maple",
     "copy-from": "pie_maple",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": "maple pie"
+    "name": "maple pie",
+    "vitamins": [
+      [ "vitA", 2 ],
+      [ "calcium", 4 ],
+      [ "iron", 8 ],
+      [ "wheat_allergen", 1 ],
+      [ "milk_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 5 ]
+    ]
   },
   {
     "id": "noodles_fast",
     "copy-from": "noodles_fast",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          2
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "fast noodles"
-    }
+    "name": { "str_sp": "fast noodles" },
+    "vitamins": [ [ "calcium", 1 ], [ "iron", 18 ], [ "wheat_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 2 ] ]
   },
   {
     "id": "cloutie_dumpling",
     "copy-from": "cloutie_dumpling",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          10
-        ]
-      ]
-    },
-    "name": "cloutie dumpling"
+    "name": "cloutie dumpling",
+    "vitamins": [
+      [ "vitC", 2 ],
+      [ "calcium", 6 ],
+      [ "iron", 8 ],
+      [ "wheat_allergen", 1 ],
+      [ "fruit_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 10 ]
+    ]
   },
   {
     "id": "brioche",
     "copy-from": "brioche",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          2
-        ]
-      ]
-    },
-    "name": "brioche"
+    "name": "brioche",
+    "vitamins": [
+      [ "vitA", 8 ],
+      [ "calcium", 2 ],
+      [ "iron", 4 ],
+      [ "wheat_allergen", 1 ],
+      [ "milk_allergen", 1 ],
+      [ "remnants", 10 ],
+      [ "fiber_elements", 2 ]
+    ]
   },
   {
     "id": "sponge_cake",
     "copy-from": "sponge_cake",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": "sponge cake"
+    "name": "sponge cake",
+    "vitamins": [ [ "vitA", 8 ], [ "calcium", 2 ], [ "iron", 5 ], [ "wheat_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 5 ] ]
   },
   {
     "id": "space_cake",
     "copy-from": "space_cake",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          5
-        ]
-      ]
-    },
-    "name": "space cake"
+    "name": "space cake",
+    "vitamins": [ [ "remnants", 10 ], [ "fiber_elements", 5 ] ]
   },
   {
     "id": "brownie",
     "copy-from": "brownie",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": "brownie"
+    "name": "brownie",
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "brownie_weed",
     "copy-from": "brownie_weed",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str": "'special' brownie"
-    }
+    "name": { "str": "'special' brownie" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "noodles_kimchi",
     "copy-from": "noodles_kimchi",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          15
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "kimchimari guksu"
-    }
+    "name": { "str_sp": "kimchimari guksu" },
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "wheat_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 15 ] ]
   }
 ]

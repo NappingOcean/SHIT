@@ -13,7 +13,7 @@
     "base_casting_time": 150000,
     "min_damage": 1,
     "max_damage": 3,
-    "flags": [ "SILENT", "NO_EXPLOSION_VFX", "NO_FAIL", "NO_HANDS", "NO_LEGS", "RANDOM_DAMAGE" ]
+    "flags": [ "SILENT", "NO_EXPLOSION_VFX", "NO_FAIL", "NO_HANDS", "NO_LEGS", "RANDOM_DAMAGE", "PERMANENT" ]
   },
   {
     "type": "SPELL",
@@ -28,7 +28,7 @@
     "min_damage": 1,
     "max_damage": 3,
     "base_casting_time": 6000,
-    "flags": [ "SILENT", "NO_EXPLOSION_VFX", "NO_FAIL", "NO_HANDS", "NO_LEGS", "RANDOM_DAMAGE" ]
+    "flags": [ "SILENT", "NO_EXPLOSION_VFX", "NO_FAIL", "NO_HANDS", "NO_LEGS", "RANDOM_DAMAGE", "PERMANENT" ]
   },
   {
     "type": "SPELL",

@@ -3,227 +3,104 @@
     "id": "milkshake",
     "copy-from": "milkshake",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "bladder",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str": "milkshake"
-    }
+    "name": { "str": "milkshake" },
+    "vitamins": [ [ "vitA", 1 ], [ "calcium", 12 ], [ "milk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
   },
   {
     "id": "milkshake_fastfood",
     "copy-from": "milkshake_fastfood",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "bladder",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str": "fast food milkshake"
-    }
+    "name": { "str": "fast food milkshake" },
+    "vitamins": [ [ "junk_allergen", 1 ], [ "milk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
   },
   {
     "id": "milkshake_deluxe",
     "copy-from": "milkshake_deluxe",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "bladder",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str": "deluxe milkshake"
-    }
+    "name": { "str": "deluxe milkshake" },
+    "vitamins": [ [ "junk_allergen", 1 ], [ "milk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
   },
   {
     "id": "icecream",
     "copy-from": "icecream",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "bladder",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str": "ice cream",
-      "str_pl": "ice cream scoops"
-    }
+    "name": { "str": "ice cream", "str_pl": "ice cream scoops" },
+    "vitamins": [ [ "vitA", 9 ], [ "calcium", 9 ], [ "vitB", 11 ], [ "milk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
   },
   {
     "id": "icecream_artificial",
     "copy-from": "icecream_artificial",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "bladder",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str": "dairy dessert",
-      "str_pl": "dairy dessert scoops"
-    }
+    "name": { "str": "dairy dessert", "str_pl": "dairy dessert scoops" },
+    "vitamins": [ [ "junk_allergen", 1 ], [ "milk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
   },
   {
     "id": "icecream_candy",
     "copy-from": "icecream_candy",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "bladder",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str": "candy ice cream",
-      "str_pl": "candy ice cream scoops"
-    }
+    "name": { "str": "candy ice cream", "str_pl": "candy ice cream scoops" },
+    "vitamins": [
+      [ "vitA", 9 ],
+      [ "calcium", 8 ],
+      [ "iron", 4 ],
+      [ "vitB", 8 ],
+      [ "junk_allergen", 1 ],
+      [ "milk_allergen", 1 ],
+      [ "remnants", 2 ],
+      [ "bladder", 50 ]
+    ]
   },
   {
     "id": "icecream_fruit",
     "copy-from": "icecream_fruit",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "bladder",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str": "fruity ice cream",
-      "str_pl": "fruity ice cream scoops"
-    }
+    "name": { "str": "fruity ice cream", "str_pl": "fruity ice cream scoops" },
+    "vitamins": [
+      [ "vitA", 8 ],
+      [ "vitC", 6 ],
+      [ "calcium", 8 ],
+      [ "iron", 1 ],
+      [ "vitB", 9 ],
+      [ "fruit_allergen", 1 ],
+      [ "milk_allergen", 1 ],
+      [ "remnants", 2 ],
+      [ "bladder", 50 ]
+    ]
   },
   {
     "id": "icecream_custard",
     "copy-from": "icecream_custard",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "bladder",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str": "frozen custard",
-      "str_pl": "frozen custard scoops"
-    }
+    "name": { "str": "frozen custard", "str_pl": "frozen custard scoops" },
+    "vitamins": [
+      [ "vitA", 1 ],
+      [ "calcium", 8 ],
+      [ "vitB", 10 ],
+      [ "egg_allergen", 1 ],
+      [ "milk_allergen", 1 ],
+      [ "remnants", 2 ],
+      [ "bladder", 50 ]
+    ]
   },
   {
     "id": "icecream_yogurt",
     "copy-from": "icecream_yogurt",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "bladder",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "frozen yogurt"
-    }
+    "name": { "str_sp": "frozen yogurt" },
+    "vitamins": [ [ "vitC", 4 ], [ "calcium", 10 ], [ "milk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
   },
   {
     "id": "icecream_sorbet",
     "copy-from": "icecream_sorbet",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "bladder",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str": "sorbet",
-      "str_pl": "sorbet scoops"
-    }
+    "name": { "str": "sorbet", "str_pl": "sorbet scoops" },
+    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 5 ], [ "bladder", 50 ] ]
   },
   {
     "id": "icecream_gelato",
     "copy-from": "icecream_gelato",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "bladder",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str": "gelato",
-      "str_pl": "gelato scoops"
-    }
+    "name": { "str": "gelato", "str_pl": "gelato scoops" },
+    "vitamins": [ [ "calcium", 2 ], [ "iron", 2 ], [ "milk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
   }
 ]

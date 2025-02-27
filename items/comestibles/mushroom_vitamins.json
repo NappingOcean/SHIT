@@ -3,112 +3,42 @@
     "id": "mushroom_cooked",
     "copy-from": "mushroom_cooked",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          15
-        ]
-      ]
-    },
-    "name": "cooked mushroom"
+    "name": "cooked mushroom",
+    "vitamins": [ [ "vitC", 4 ], [ "iron", 7 ], [ "remnants", 10 ], [ "fiber_elements", 15 ] ]
   },
   {
     "id": "mushroom_morel",
     "copy-from": "mushroom_morel",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          15
-        ]
-      ]
-    },
-    "name": "morel mushroom"
+    "name": "morel mushroom",
+    "vitamins": [ [ "calcium", 2 ], [ "iron", 52 ], [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 15 ] ]
   },
   {
     "id": "morel_cooked",
     "copy-from": "morel_cooked",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          15
-        ]
-      ]
-    },
-    "name": "cooked morel mushroom"
+    "name": "cooked morel mushroom",
+    "vitamins": [ [ "calcium", 2 ], [ "iron", 52 ], [ "remnants", 10 ], [ "fiber_elements", 15 ] ]
   },
   {
     "id": "morel_fried",
     "copy-from": "morel_fried",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          15
-        ],
-        [
-          "fat_elements",
-          10
-        ]
-      ]
-    },
-    "name": "fried morel mushroom"
+    "name": "fried morel mushroom",
+    "vitamins": [ [ "remnants", 10 ], [ "fiber_elements", 15 ], [ "fat_elements", 10 ] ]
   },
   {
     "id": "dry_mushroom",
     "copy-from": "dry_mushroom",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          15
-        ]
-      ]
-    },
-    "name": "dried mushroom"
+    "name": "dried mushroom",
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 15 ] ]
   },
   {
     "id": "mushroom",
     "copy-from": "mushroom",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          10
-        ],
-        [
-          "fiber_elements",
-          15
-        ]
-      ]
-    },
-    "name": "mushroom"
+    "name": "mushroom",
+    "vitamins": [ [ "vitC", 2 ], [ "iron", 2 ], [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 15 ] ]
   }
 ]

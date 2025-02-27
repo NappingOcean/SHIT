@@ -8,8 +8,7 @@
     "max": 500,
     "rate": "7 d",
     "excess": "over_thought",
-    "disease_excess": [ [ 126, 250 ], [ 251, 375 ], [ 376, 500 ] ],
-    "flags": [ "NO_DISPLAY" ]
+    "disease_excess": [ [ 126, 250 ], [ 251, 375 ], [ 376, 500 ] ]
   },
   {
     "type": "vitamin",
@@ -48,7 +47,6 @@
     "max": 500,
     "rate": "7 d",
     "excess": "bladder_boom",
-    "disease_excess": [ [ 126, 250 ], [ 251, 375 ], [ 376, 500 ] ],
-    "flags": [ "NO_DISPLAY" ]
+    "disease_excess": [ [ 126, 250 ], [ 251, 375 ], [ 376, 500 ] ]
   }
 ]

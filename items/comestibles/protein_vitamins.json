@@ -3,102 +3,59 @@
     "id": "protein_drink",
     "copy-from": "protein_drink",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "fat_elements",
-          50
-        ],
-        [
-          "fiber_elements",
-          10
-        ],
-        [
-          "bladder",
-          50
-        ]
-      ]
-    },
-    "name": "protein drink"
+    "name": "protein drink",
+    "vitamins": [
+      [ "calcium", 7 ],
+      [ "meat_allergen", 1 ],
+      [ "remnants", 2 ],
+      [ "fat_elements", 50 ],
+      [ "fiber_elements", 10 ],
+      [ "bladder", 50 ]
+    ]
   },
   {
     "id": "protein_powder",
     "copy-from": "protein_powder",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "protein powder"
-    }
+    "name": { "str_sp": "protein powder" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "protein_bar_evac",
     "copy-from": "protein_bar_evac",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str": "protein ration"
-    }
+    "name": { "str": "protein ration" },
+    "vitamins": [
+      [ "calcium", 30 ],
+      [ "iron", 30 ],
+      [ "vitA", 30 ],
+      [ "vitB", 30 ],
+      [ "vitC", 30 ],
+      [ "bad_food", 5 ],
+      [ "veggy_allergen", 1 ],
+      [ "fruit_allergen", 1 ],
+      [ "remnants", 5 ]
+    ]
   },
   {
     "id": "protein_shake",
     "copy-from": "protein_shake",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "fat_elements",
-          50
-        ],
-        [
-          "fiber_elements",
-          10
-        ],
-        [
-          "bladder",
-          50
-        ]
-      ]
-    },
-    "name": "protein shake"
+    "name": "protein shake",
+    "vitamins": [
+      [ "meat_allergen", 1 ],
+      [ "fruit_allergen", 1 ],
+      [ "remnants", 5 ],
+      [ "fat_elements", 50 ],
+      [ "fiber_elements", 10 ],
+      [ "bladder", 50 ]
+    ]
   },
   {
     "id": "protein_shake_fortified",
     "copy-from": "protein_shake_fortified",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ],
-        [
-          "bladder",
-          50
-        ]
-      ]
-    },
-    "name": "fortified protein shake"
+    "name": "fortified protein shake",
+    "vitamins": [ [ "remnants", 5 ], [ "bladder", 50 ] ]
   }
 ]

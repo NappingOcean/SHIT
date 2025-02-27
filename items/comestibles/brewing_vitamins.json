@@ -3,289 +3,133 @@
     "id": "brew_mycus_wine",
     "copy-from": "brew_mycus_wine",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": "mycus wine must"
+    "name": "mycus wine must",
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "brew_whiskey",
     "copy-from": "brew_whiskey",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": "whiskey wort"
+    "name": "whiskey wort",
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "wash_whiskey",
     "copy-from": "wash_whiskey",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str": "whiskey wash",
-      "str_pl": "whiskey washes"
-    }
+    "name": { "str": "whiskey wash", "str_pl": "whiskey washes" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "brew_gin",
     "copy-from": "brew_gin",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str": "fermenting gin mash",
-      "str_pl": "fermenting gin mashes"
-    }
+    "name": { "str": "fermenting gin mash", "str_pl": "fermenting gin mashes" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "gin_mash",
     "copy-from": "gin_mash",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str": "gin mash",
-      "str_pl": "gin mashes"
-    }
+    "name": { "str": "gin mash", "str_pl": "gin mashes" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "brew_vodka",
     "copy-from": "brew_vodka",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": "vodka wort"
+    "name": "vodka wort",
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "wash_vodka",
     "copy-from": "wash_vodka",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str": "vodka wash",
-      "str_pl": "vodka washes"
-    }
+    "name": { "str": "vodka wash", "str_pl": "vodka washes" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "brew_rum",
     "copy-from": "brew_rum",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": "rum wort"
+    "name": "rum wort",
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "wash_rum",
     "copy-from": "wash_rum",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str": "rum wash",
-      "str_pl": "rum washes"
-    }
+    "name": { "str": "rum wash", "str_pl": "rum washes" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "brew_fruit_wine",
     "copy-from": "brew_fruit_wine",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": "fruit wine must"
+    "name": "fruit wine must",
+    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 5 ] ]
   },
   {
     "id": "brew_dandelion_wine",
     "copy-from": "brew_dandelion_wine",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": "dandelion wine must"
+    "name": "dandelion wine must",
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "brew_burdock_wine",
     "copy-from": "brew_burdock_wine",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": "burdock wine must"
+    "name": "burdock wine must",
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "brew_pine_wine",
     "copy-from": "brew_pine_wine",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": "pine wine must"
+    "name": "pine wine must",
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "brew_mead",
     "copy-from": "brew_mead",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": "spiced mead must"
+    "name": "spiced mead must",
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "brew_hb_beer",
     "copy-from": "brew_hb_beer",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str": "beer wort"
-    }
+    "name": { "str": "beer wort" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "brew_moonshine",
     "copy-from": "brew_moonshine",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str": "moonshine mash",
-      "str_pl": "moonshine mashes"
-    }
+    "name": { "str": "moonshine mash", "str_pl": "moonshine mashes" },
+    "vitamins": [ [ "junk_allergen", 1 ], [ "remnants", 5 ] ]
   },
   {
     "id": "wash_moonshine",
     "copy-from": "wash_moonshine",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str": "moonshine wash",
-      "str_pl": "moonshine washes"
-    }
+    "name": { "str": "moonshine wash", "str_pl": "moonshine washes" },
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "brew_vinegar",
     "copy-from": "brew_vinegar",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": "unfermented vinegar"
+    "name": "unfermented vinegar",
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "brew_sake",
     "copy-from": "brew_sake",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": "sake must"
+    "name": "sake must",
+    "vitamins": [ [ "remnants", 5 ] ]
   }
 ]

@@ -3,236 +3,98 @@
     "id": "sauce_red",
     "copy-from": "sauce_red",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": "red sauce"
+    "name": "red sauce",
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 5 ] ]
   },
   {
     "id": "maple_sap",
     "copy-from": "maple_sap",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "bladder",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "maple sap"
-    }
+    "name": { "str_sp": "maple sap" },
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
   },
   {
     "id": "mayonnaise",
     "copy-from": "mayonnaise",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "mayonnaise"
-    }
+    "name": { "str_sp": "mayonnaise" },
+    "vitamins": [ [ "egg_allergen", 1 ], [ "junk_allergen", 1 ], [ "remnants", 2 ] ]
   },
   {
     "id": "ketchup",
     "copy-from": "ketchup",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ]
-      ]
-    },
-    "name": "ketchup"
+    "name": "ketchup",
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "junk_allergen", 1 ], [ "remnants", 2 ] ]
   },
   {
     "id": "mustard",
     "copy-from": "mustard",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "mustard"
-    }
+    "name": { "str_sp": "mustard" },
+    "vitamins": [ [ "iron", 2 ], [ "junk_allergen", 1 ], [ "remnants", 2 ] ]
   },
   {
     "id": "honey_bottled",
     "copy-from": "honey_bottled",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "forest honey"
-    }
+    "name": { "str_sp": "forest honey" },
+    "vitamins": [ [ "remnants", 2 ] ]
   },
   {
     "id": "peanutbutter",
     "copy-from": "peanutbutter",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ]
-      ]
-    },
-    "name": "peanut butter"
+    "name": "peanut butter",
+    "vitamins": [ [ "iron", 6 ], [ "remnants", 2 ] ]
   },
   {
     "id": "peanutbutter_imitation",
     "copy-from": "peanutbutter_imitation",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": "imitation peanutbutter"
+    "name": "imitation peanutbutter",
+    "vitamins": [ [ "remnants", 5 ] ]
   },
   {
     "id": "vinegar",
     "copy-from": "vinegar",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "bladder",
-          30
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "vinegar"
-    }
+    "name": { "str_sp": "vinegar" },
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 30 ] ]
   },
   {
     "id": "cooking_oil",
     "copy-from": "cooking_oil",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "fat_elements",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "vegetable cooking oil"
-    }
+    "name": { "str_sp": "vegetable cooking oil" },
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 2 ], [ "fat_elements", 50 ] ]
   },
   {
     "id": "cooking_oil2",
     "copy-from": "cooking_oil2",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "fat_elements",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "animal cooking oil"
-    }
+    "name": { "str_sp": "animal cooking oil" },
+    "vitamins": [ [ "meat_allergen", 1 ], [ "remnants", 2 ], [ "fat_elements", 50 ] ]
   },
   {
     "id": "molasses",
     "copy-from": "molasses",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "molasses"
-    }
+    "name": { "str_sp": "molasses" },
+    "vitamins": [ [ "calcium", 18 ], [ "iron", 23 ], [ "junk_allergen", 1 ], [ "remnants", 2 ] ]
   },
   {
     "id": "horseradish",
     "copy-from": "horseradish",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          5
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "horseradish"
-    }
+    "name": { "str_sp": "horseradish" },
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 5 ] ]
   },
   {
     "id": "coffee_syrup",
     "copy-from": "coffee_syrup",
     "type": "COMESTIBLE",
-    "extend": {
-      "vitamins": [
-        [
-          "remnants",
-          2
-        ],
-        [
-          "bladder",
-          50
-        ]
-      ]
-    },
-    "name": {
-      "str_sp": "coffee syrup"
-    }
+    "name": { "str_sp": "coffee syrup" },
+    "vitamins": [ [ "junk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
   }
 ]
