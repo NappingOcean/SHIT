@@ -4,7 +4,7 @@
     "compatibility": [ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE", "MSX++DEAD_PEOPLE" ],
     "tiles-new": [
       {
-        "file": "SHIT tileset.png",
+        "file": "SHIT_tileset.png",
         "tiles": [
           { "id": "SHIT_t_paper_rough", "fg": 1, "rotates": false },
           { "id": "SHIT_t_paper_soft", "fg": 2, "rotates": false },

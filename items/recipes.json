@@ -50,5 +50,16 @@
     "time": "2 h",
     "using": [ [ "glazing", 4 ], [ "earthenware_firing", 220 ] ],
     "components": [ [ [ "water", 4 ], [ "water_clean", 4 ] ], [ [ "clay_lump", 10 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "SHIT_toiletry",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": "2 m",
+    "autolearn": true,
+    "components": [ [ [ "bowl_plastic", 1 ] ], [ [ "towel", 1 ] ], [ [ "soap", 10 ] ] ]
   }
 ]
