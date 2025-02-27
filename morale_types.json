@@ -2,12 +2,14 @@
   {
     "id": "SHIT_no1",
     "type": "morale_type",
-    "text": "마려워"
+    "text": "마려워",
+    "permanent": true
   },
   {
     "id": "SHIT_no2",
     "type": "morale_type",
-    "text": "더부룩함"
+    "text": "더부룩함",
+    "permanent": true
   },
   {
     "id": "SHIT_delight",

@@ -104,7 +104,7 @@ mod.process_no_1 = function(who)
         return 0
     else
         --WARNING: Pondering freezes you. If you want to move again, you should wait for a while and press \'e\' key.
-        gapi.popup(locale.gettext("경고: 사색 중에는 움직일 수 없습니다."))
+        mod.popup(locale.gettext("경고: 사색 중에는 움직일 수 없습니다."))
         who:set_mutation(mut)
         who:set_moves(-100*60)
         SpellSimple.prompt_cast(spell, who:get_pos_ms())
@@ -133,7 +133,7 @@ mod.process_no_2 = function (who)
         who:set_mutation(mut)
         -- You are concentrating for pondering...
         gapi.add_msg(locale.gettext("사색에 집중하기 시작합니다..."))
-        gapi.popup(locale.gettext("경고: 사색 중에는 움직일 수 없습니다."))
+        mod.popup(locale.gettext("경고: 사색 중에는 움직일 수 없습니다."))
         if detect_fat < detect_r and detect_fiber < detect_r then
             --둘 다 부족하여 불완전 사색 발생
             SpellSimple.prompt_cast(spell, whose_pos, spell:max_level()//4*3)
