@@ -34,7 +34,7 @@ mod.disease_20 = function (chance)
     for _, dis in ipairs(disease) do
         local dis_die = math.random(20)
         local dis_dur = math.random(24, 72)
-        if chance >= dis_die then
+        if chance <= dis_die then
             user:add_effect(dis, mod.hours(dis_dur))
         end
     end
