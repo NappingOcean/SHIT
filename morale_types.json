@@ -29,11 +29,13 @@
   {
     "id": "SHIT_I_am_clean",
     "type": "morale_type",
-    "text": "청결함"
+    "text": "청결함",
+    "permanent": true
   },
   {
     "id": "SHIT_too_dirty",
     "type": "morale_type",
-    "text": "참을 수 없이 불결함!"
+    "text": "참을 수 없이 불결함!",
+    "permanent": true
   }
 ]
