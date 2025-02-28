@@ -31,7 +31,7 @@ mod.disease_20 = function (chance)
     for _, dis in ipairs(disease) do
         local dis_die = math.random(20)
         local dis_dur = math.random(24, 72)
-        if chance > dis_die then
+        if chance > dis_die + 5 then
             user:add_effect(dis, mod.hours(dis_dur))
         end
     end
@@ -55,25 +55,28 @@ mod.check_hygiene = function ()
     local dirty = storage.dirty
     local user = gapi.get_avatar()
     local eff_clean = EffectTypeId.new("SHIT_clean")
+    local eff_dirty = EffectTypeId.new("SHIT_eff_dirty")
     local SQUEAM_bool = user:has_trait(MutationBranchId.new("SQUEAMISH"))
-    local feel_dirty = MoraleTypeDataId.new("SHIT_too_dirty")
+    --local feel_dirty = MoraleTypeDataId.new("SHIT_too_dirty")
 
     if dirty > 20 then
         -- 더러움 20 이상. 이런 세상이라 쳐도 정말 더러움. 질병 확률 높음.
         mod.disease_20(20)
         if SQUEAM_bool then
-            -- add_morale(Character, MoraleTypeDataId, int(for bonus), int(for limiting previous one), TimeDuration, TimeDuration(for starting to decay))
-            -- You can ignore bool or ItypeRaw. It's optional.
-            user:add_morale(feel_dirty, -10, -30, mod.hours(12), mod.hours(4))
+            --user:add_morale(feel_dirty, -10, -30, mod.hours(12), mod.hours(4))
+            user:add_effect(eff_dirty, mod.hours(6), nil, 4)
         else
-            user:add_morale(feel_dirty, -5, -20, mod.hours(6), mod.hours(2))
+            --user:add_morale(feel_dirty, -5, -20, mod.hours(6), mod.hours(2))
+            user:add_effect(eff_dirty, mod.hours(6), nil, 3)
         end
     elseif dirty > 0 then
         -- 더러움 0 ~ 20. 꼬질꼬질함. 이런 세상에서 이 정도면 양반이다. 질병 확률 낮음.
         mod.disease_20(dirty)
         if SQUEAM_bool then
-            user:add_morale(feel_dirty, -8, -25, mod.hours(12), mod.hours(4))
+            --user:add_morale(feel_dirty, -8, -25, mod.hours(12), mod.hours(4))
+            user:add_effect(eff_dirty, mod.hours(6), nil, 2)
         else
+            user:add_effect(eff_dirty, mod.hours(6), nil, 1)
         end
     else
         -- 더러움 0 ~ -20 이하. 깨끗함. 좀비 세상에선 비인간적일 정도의 청결 수준.
@@ -232,7 +235,7 @@ mod.finish_pondering = function (who, item, pos)
         local ui_afterwork = UiList.new()
         ui_afterwork:title(locale.gettext("Do what?"))
         ui_afterwork:add(1, locale.gettext("사색을 마무리하기"))
-        local aw_select = ui_afterwork.query()
+        local aw_select = ui_afterwork:query()
         if aw_select < 1 then
             gapi.add_msg(locale.gettext("Nevermind."))
             return 0

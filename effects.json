@@ -13,7 +13,8 @@
     "morale": "SHIT_no2",
     "rating": "bad",
     "remove_message": "휴우! 답답한 마음이 풀리는 기분입니다. 교양인이라면 볼일을 본 뒤에 휴지를 사용해야 합니다.",
-    "scaling_mods": { "str_mod": [ -0.5 ], "dex_mod": [ -0.67 ], "int_mod": [ -0.67 ], "per_mod": [ -0.5 ], "morale": [ -5 ] }
+    "base_mods": { "morale": [ -10 ] },
+    "scaling_mods": { "str_mod": [ -0.5 ], "dex_mod": [ -0.67 ], "int_mod": [ -0.67 ], "per_mod": [ -0.5 ] }
   },
   {
     "type": "effect_type",
@@ -57,14 +58,14 @@
     "morale": "SHIT_no1",
     "rating": "bad",
     "remove_message": "휴우! 답답한 마음이 풀리는 기분입니다. 교양인이라면 볼일을 본 뒤에 휴지를 사용해야 합니다.",
-    "base_mods": { "pain_amount": [ -5 ] },
-    "scaling_mods": { "morale": [ -5 ], "pain_amount": [ 10 ] }
+    "base_mods": { "pain_amount": [ -5 ], "morale": [ -10 ] },
+    "scaling_mods": { "pain_amount": [ 10 ] }
   },
   {
     "type": "effect_type",
     "id": "skin_infected",
     "name": [ "피부 감염" ],
-    "desc": [ "피부가 가끔 따갑습니다." ],
+    "desc": [ "피부가 가끔 따갑습니다. 사흘 정도는 이럴 것 같습니다." ],
     "rating": "bad",
     "max_intensity": 1,
     "apply_message": "몸이 가려워지는 것 같습니다...",
@@ -82,7 +83,7 @@
     "type": "effect_type",
     "id": "typhoid_fever",
     "name": [ "장티푸스" ],
-    "desc": [ "염병. 존나 아픕니다." ],
+    "desc": [ "염병. 존나 아픕니다. 사흘 정도는 앓아눕겠어요." ],
     "rating": "bad",
     "max_intensity": 1,
     "apply_message": "몸에서 열이 나면서 힘이 잘 안 납니다...",
@@ -109,8 +110,26 @@
     "desc": [ "대재앙 이전과 같은 품위를 회복했습니다." ],
     "rating": "good",
     "max_intensity": 2,
+    "int_dur_factor": "3 h",
     "morale": "SHIT_I_am_clean",
     "base_mods": { "health_amount": [ 2 ], "morale": [ 6 ] },
     "scaling_mods": { "morale": [ 4 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "SHIT_eff_dirty",
+    "name": [ "약간 냄새남", "꼬질꼬질함", "좀 지저분한 듯", "끔찍하게 불결함" ],
+    "desc": [
+      "살짝 고약하지만 이 정도 쯤은 다들 그렇습니다.",
+      "평균을 조금 밑돌기는 해도 아주 나쁜 건 아니죠. 그렇지요?",
+      "아무리 이런 세상이라지만 좀 씻어야 할 것 같습니다. 세면 도구를 어디다 뒀더라?",
+      "세상에 존재해서는 안되는 냄새입니다! 세면 도구가 필요해요!"
+    ],
+    "rating": "bad",
+    "max_intensity": 4,
+    "int_dur_factor": "3 h",
+    "morale": "SHIT_too_dirty",
+    "base_mods": { "morale": [ -3 ] },
+    "scaling_mods": { "morale": [ -5 ] }
   }
 ]
