@@ -3,11 +3,8 @@ gdebug.log_info("SHIT mod: Main Online.")
 local mod = game.mod_runtime[game.current_mod]
 local storage = game.mod_storage[game.current_mod]
 
-mod.mut_ponder1 = "QUICK_THOUGHT"
-mod.mut_ponder2 = "DEEP_THOUGHT"
-
 storage.dirty = 0
-
+storage.did_u_ponder = false
 storage.paper_usage = 0
 
 --메시지를 띄우는 함수.
@@ -94,10 +91,9 @@ end
 
 -- 이 이후부터는 아이템 사용 훅에 들어가는 함수 내용임. --
 
---빠른 사색
+--가벼운 사색
 mod.process_no_1 = function(who)
     local spell = SpellTypeId.new("toilet_spell_no1")
-    local mut = MutationBranchId.new(mod.mut_ponder1)
     local detect_bladder = who:get_effect_int(EffectTypeId.new("bladder_boom"))
     if detect_bladder == 0 then
         mod.popup(locale.gettext("아직은 사색할 필요가 없을 것 같군요."))
@@ -105,9 +101,11 @@ mod.process_no_1 = function(who)
     else
         --WARNING: Pondering freezes you. If you want to move again, you should wait for a while and press \'e\' key.
         mod.popup(locale.gettext("경고: 사색 중에는 움직일 수 없습니다."))
-        who:set_mutation(mut)
-        who:set_moves(-100*60)
         SpellSimple.prompt_cast(spell, who:get_pos_ms())
+        who:set_moves(-100*90)
+        storage.paper_usage = 1
+        mod.update_dirty(storage.paper_usage)
+        storage.did_u_ponder = true
     end
     return 0
 end
@@ -115,7 +113,6 @@ end
 --깊은 사색
 mod.process_no_2 = function (who)
     local spell = SpellTypeId.new("toilet_spell_no2")
-    local mut = MutationBranchId.new(mod.mut_ponder2)
     local whose_pos = who:get_pos_ms()
     -- 변의 총량
     local detect_r = who:get_effect_int(EffectTypeId.new("over_thought"))
@@ -130,32 +127,36 @@ mod.process_no_2 = function (who)
         mod.popup(locale.gettext("아직은 깊게 사색할 필요가 없을 것 같군요."))
         return 0
     else
-        who:set_mutation(mut)
+        SpellSimple.prompt_cast(spell, whose_pos)
         -- You are concentrating for pondering...
         gapi.add_msg(locale.gettext("사색에 집중하기 시작합니다..."))
         mod.popup(locale.gettext("경고: 사색 중에는 움직일 수 없습니다."))
+        --용변을 보는 주문을 이렇게 한 이유는, 용변 보는 변이를 지우는 주문이 늦게 나오도록 조절하기 위함이었다. 
+        --레벨이 높을수록 용변 보는 변이는 더 빠르게 지워진다.
+        --근데 그러지 말고 용변 보는 변이는 모두 똑같은 속도로 지워지게 하고, 앉아있는 시간을 다르게 해야 할 것 같다.
         if detect_fat < detect_r and detect_fiber < detect_r then
-            --둘 다 부족하여 불완전 사색 발생
-            SpellSimple.prompt_cast(spell, whose_pos, 20//4*3)
+            --둘 다 부족하여 불완전 사색 발생 
             who:set_moves(-100*60*12)
             storage.paper_usage = 3
+            mod.update_dirty(storage.paper_usage)
         elseif detect_fat < detect_r then
             --변비 발생
-            SpellSimple.prompt_cast(spell, whose_pos, 20//3)
             who:set_moves(-100*60*30)
             storage.paper_usage = 4
+            mod.update_dirty(storage.paper_usage)
         elseif detect_fiber < detect_r then
             --설사 발생
-            SpellSimple.prompt_cast(spell, whose_pos, 20//3*2)
             who:set_moves(-100*60*15)
             storage.paper_usage = 6
+            mod.update_dirty(storage.paper_usage)
         else
             --정상 배변
-            SpellSimple.prompt_cast(spell, whose_pos, 20)
             who:set_moves(-100*60*10)
             storage.paper_usage = 4
+            mod.update_dirty(storage.paper_usage)
         end
     end
+    storage.did_u_ponder = true
     return 0
 end
 
@@ -222,9 +223,7 @@ end
 -- use toilet paper!
 -- 화장지를 사용하는 함수
 mod.finish_pondering = function (who, item, pos)
-    local sophi = MutationBranchId.new("SOPHISTICATE")
-    
-    if not who:has_trait(sophi) then
+    if not storage.did_u_ponder then
         -- 사색을 하지 않은 상태에서 호출
         gapi.add_msg(locale.gettext("굳이 지금 사용하지 않아도 될 것 같군요."))
         return 0
@@ -239,7 +238,7 @@ mod.finish_pondering = function (who, item, pos)
             return 0
         else
             gapi.add_msg(locale.gettext("교양인으로서 사색을 마무리하는 과정을 가졌습니다."))
-            who:unset_mutation(sophi)
+            storage.did_u_ponder = false
             local usage_cur = 0
             usage_cur = usage_cur + storage.paper_usage
             storage.paper_usage = 0
@@ -262,6 +261,7 @@ mod.finish_pondering = function (who, item, pos)
                 }
                 gapi.add_msg(after_text[text_die])
             end
+            mod.update_dirty(0 - usage_cur)
             return usage_cur
         end
     end

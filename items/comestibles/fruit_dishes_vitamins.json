@@ -4,7 +4,7 @@
     "copy-from": "strawberries_cooked",
     "type": "COMESTIBLE",
     "name": { "str": "cooked strawberry", "str_pl": "cooked strawberries" },
-    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 2 ], [ "fiber_elements", 10 ], [ "bladder", 20 ] ]
+    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 2 ], [ "fiber_elements", 10 ], [ "bladder", 4 ] ]
   },
   {
     "id": "fruit_leather",
@@ -25,7 +25,7 @@
     "copy-from": "blueberries_cooked",
     "type": "COMESTIBLE",
     "name": { "str": "cooked blueberry", "str_pl": "cooked blueberries" },
-    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 2 ], [ "fiber_elements", 10 ], [ "bladder", 20 ] ]
+    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 2 ], [ "fiber_elements", 10 ], [ "bladder", 4 ] ]
   },
   {
     "id": "can_peach",
@@ -53,7 +53,7 @@
     "copy-from": "fruit_cooked",
     "type": "COMESTIBLE",
     "name": "cooked fruit",
-    "vitamins": [ [ "vitC", 20 ], [ "fruit_allergen", 1 ], [ "remnants", 2 ], [ "fiber_elements", 10 ], [ "bladder", 20 ] ]
+    "vitamins": [ [ "vitC", 20 ], [ "fruit_allergen", 1 ], [ "remnants", 2 ], [ "fiber_elements", 10 ], [ "bladder", 4 ] ]
   },
   {
     "id": "jam_fruit",
@@ -74,7 +74,7 @@
     "copy-from": "rehydrated_fruit",
     "type": "COMESTIBLE",
     "name": { "str_sp": "rehydrated fruit" },
-    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 5 ], [ "fiber_elements", 10 ], [ "bladder", 20 ] ]
+    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 5 ], [ "fiber_elements", 10 ], [ "bladder", 4 ] ]
   },
   {
     "id": "apple_sugar",

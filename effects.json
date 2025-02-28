@@ -12,7 +12,7 @@
     "permanent": true,
     "morale": "SHIT_no2",
     "rating": "bad",
-    "remove_message": "휴우! 답답한 마음이 풀리는 기분입니다. 교양인이라면 볼일을 본 뒤에 e를 눌러야 합니다.",
+    "remove_message": "휴우! 답답한 마음이 풀리는 기분입니다. 교양인이라면 볼일을 본 뒤에 휴지를 사용해야 합니다.",
     "scaling_mods": { "str_mod": [ -0.5 ], "dex_mod": [ -0.67 ], "int_mod": [ -0.67 ], "per_mod": [ -0.5 ], "morale": [ -5 ] }
   },
   {
@@ -56,7 +56,7 @@
     "permanent": true,
     "morale": "SHIT_no1",
     "rating": "bad",
-    "remove_message": "휴우! 답답한 마음이 풀리는 기분입니다. 교양인이라면 볼일을 본 뒤에 e를 눌러야 합니다.",
+    "remove_message": "휴우! 답답한 마음이 풀리는 기분입니다. 교양인이라면 볼일을 본 뒤에 휴지를 사용해야 합니다.",
     "base_mods": { "pain_amount": [ -5 ] },
     "scaling_mods": { "morale": [ -5 ], "pain_amount": [ 10 ] }
   },
@@ -85,6 +85,7 @@
     "desc": [ "염병. 존나 아픕니다." ],
     "rating": "bad",
     "max_intensity": 1,
+    "apply_message": "몸에서 열이 나면서 힘이 잘 안 납니다...",
     "base_mods": {
       "thirst_min": [ -6 ],
       "thirst_max": [ -2 ],

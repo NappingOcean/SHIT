@@ -11,7 +11,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 2 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 50 ]
+      [ "bladder", 10 ]
     ]
   },
   {
@@ -19,7 +19,7 @@
     "copy-from": "almond_milk",
     "type": "COMESTIBLE",
     "name": { "str": "almond milk" },
-    "vitamins": [ [ "vitA", 2 ], [ "calcium", 11 ], [ "nut_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "vitA", 2 ], [ "calcium", 11 ], [ "nut_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "soy_milk",
@@ -33,7 +33,7 @@
       [ "veggy_allergen", 1 ],
       [ "remnants", 10 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 50 ]
+      [ "bladder", 10 ]
     ]
   },
   {
@@ -41,21 +41,21 @@
     "copy-from": "coffee",
     "type": "COMESTIBLE",
     "name": { "str_sp": "coffee" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "atomic_coffee",
     "copy-from": "atomic_coffee",
     "type": "COMESTIBLE",
     "name": { "str_sp": "atomic coffee" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "bee_balm_tea",
     "copy-from": "bee_balm_tea",
     "type": "COMESTIBLE",
     "name": { "str_sp": "bee balm tea" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "can_coconut",
@@ -69,7 +69,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 50 ]
+      [ "bladder", 10 ]
     ]
   },
   {
@@ -77,14 +77,14 @@
     "copy-from": "chai_tea",
     "type": "COMESTIBLE",
     "name": { "str_sp": "chai tea" },
-    "vitamins": [ [ "milk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "milk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "chamomile_tea",
     "copy-from": "chamomile_tea",
     "type": "COMESTIBLE",
     "name": { "str_sp": "chamomile tea" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "choc_drink",
@@ -99,7 +99,7 @@
       [ "junk_allergen", 1 ],
       [ "milk_allergen", 1 ],
       [ "remnants", 2 ],
-      [ "bladder", 50 ]
+      [ "bladder", 10 ]
     ]
   },
   {
@@ -107,35 +107,35 @@
     "copy-from": "coffee_substitute",
     "type": "COMESTIBLE",
     "name": { "str_sp": "coffee substitute" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "chicory_coffee",
     "copy-from": "chicory_coffee",
     "type": "COMESTIBLE",
     "name": { "str_sp": "chicory brew" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "cola",
     "copy-from": "cola",
     "type": "COMESTIBLE",
     "name": "dark cola",
-    "vitamins": [ [ "junk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "junk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "colamdew",
     "copy-from": "colamdew",
     "type": "COMESTIBLE",
     "name": "energy cola",
-    "vitamins": [ [ "junk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "junk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "creamsoda",
     "copy-from": "creamsoda",
     "type": "COMESTIBLE",
     "name": "cream soda",
-    "vitamins": [ [ "junk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "junk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "cranberry_juice",
@@ -150,7 +150,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 2 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 50 ]
+      [ "bladder", 10 ]
     ]
   },
   {
@@ -164,7 +164,7 @@
       [ "junk_allergen", 1 ],
       [ "remnants", 2 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 50 ]
+      [ "bladder", 10 ]
     ]
   },
   {
@@ -172,14 +172,14 @@
     "copy-from": "dandelion_tea",
     "type": "COMESTIBLE",
     "name": { "str_sp": "dandelion tea" },
-    "vitamins": [ [ "calcium", 11 ], [ "vitC", 10 ], [ "vitA", 33 ], [ "iron", 10 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "calcium", 11 ], [ "vitC", 10 ], [ "vitA", 33 ], [ "iron", 10 ], [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "dandelionburdock_tea",
     "copy-from": "dandelionburdock_tea",
     "type": "COMESTIBLE",
     "name": { "str_sp": "dandelion and burdock tea" },
-    "vitamins": [ [ "calcium", 34 ], [ "vitC", 10 ], [ "vitA", 34 ], [ "iron", 20 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "calcium", 34 ], [ "vitC", 10 ], [ "vitA", 34 ], [ "iron", 20 ], [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "eggnog",
@@ -194,7 +194,7 @@
       [ "egg_allergen", 1 ],
       [ "milk_allergen", 1 ],
       [ "remnants", 2 ],
-      [ "bladder", 50 ]
+      [ "bladder", 10 ]
     ]
   },
   {
@@ -202,21 +202,21 @@
     "copy-from": "energy_drink",
     "type": "COMESTIBLE",
     "name": "energy drink",
-    "vitamins": [ [ "vitC", 105 ], [ "junk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "vitC", 105 ], [ "junk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "energy_drink_atomic",
     "copy-from": "energy_drink_atomic",
     "type": "COMESTIBLE",
     "name": { "str": "atomic energy drink" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "herbal_tea",
     "copy-from": "herbal_tea",
     "type": "COMESTIBLE",
     "name": { "str_sp": "herbal tea" },
-    "vitamins": [ [ "iron", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "iron", 1 ], [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "hot_chocolate",
@@ -229,7 +229,7 @@
       [ "junk_allergen", 1 ],
       [ "milk_allergen", 1 ],
       [ "remnants", 2 ],
-      [ "bladder", 50 ]
+      [ "bladder", 10 ]
     ]
   },
   {
@@ -243,7 +243,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 2 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 50 ]
+      [ "bladder", 10 ]
     ]
   },
   {
@@ -251,7 +251,7 @@
     "copy-from": "kompot",
     "type": "COMESTIBLE",
     "name": "kompot",
-    "vitamins": [ [ "vitC", 25 ], [ "fruit_allergen", 1 ], [ "remnants", 2 ], [ "fiber_elements", 10 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "vitC", 25 ], [ "fruit_allergen", 1 ], [ "remnants", 2 ], [ "fiber_elements", 10 ], [ "bladder", 10 ] ]
   },
   {
     "id": "lemonade",
@@ -264,7 +264,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 2 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 50 ]
+      [ "bladder", 10 ]
     ]
   },
   {
@@ -272,21 +272,21 @@
     "copy-from": "lemonlime",
     "type": "COMESTIBLE",
     "name": "lemon-lime soda",
-    "vitamins": [ [ "junk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "junk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "lotus_tea",
     "copy-from": "lotus_tea",
     "type": "COMESTIBLE",
     "name": { "str_sp": "lotus tea" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "mex_chocolate",
     "copy-from": "mex_chocolate",
     "type": "COMESTIBLE",
     "name": { "str_sp": "Mexican hot chocolate" },
-    "vitamins": [ [ "junk_allergen", 1 ], [ "milk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "junk_allergen", 1 ], [ "milk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "milk",
@@ -300,7 +300,7 @@
       [ "calcium", 25 ],
       [ "milk_allergen", 1 ],
       [ "remnants", 2 ],
-      [ "bladder", 50 ]
+      [ "bladder", 10 ]
     ]
   },
   {
@@ -308,7 +308,7 @@
     "copy-from": "milk_reconstituted",
     "type": "COMESTIBLE",
     "name": { "str_sp": "reconstituted milk" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "milk_coffee",
@@ -322,7 +322,7 @@
       [ "calcium", 12 ],
       [ "milk_allergen", 1 ],
       [ "remnants", 2 ],
-      [ "bladder", 50 ]
+      [ "bladder", 10 ]
     ]
   },
   {
@@ -330,7 +330,7 @@
     "copy-from": "milk_atomic_coffee",
     "type": "COMESTIBLE",
     "name": { "str_sp": "sweet atomic coffee" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "milk_tea",
@@ -344,7 +344,7 @@
       [ "calcium", 12 ],
       [ "milk_allergen", 1 ],
       [ "remnants", 2 ],
-      [ "bladder", 50 ]
+      [ "bladder", 10 ]
     ]
   },
   {
@@ -360,7 +360,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 2 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 50 ]
+      [ "bladder", 10 ]
     ]
   },
   {
@@ -368,84 +368,84 @@
     "copy-from": "orangesoda",
     "type": "COMESTIBLE",
     "name": "orange soda",
-    "vitamins": [ [ "junk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "junk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "pine_tea",
     "copy-from": "pine_tea",
     "type": "COMESTIBLE",
     "name": { "str_sp": "pine needle tea" },
-    "vitamins": [ [ "vitC", 10 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "vitC", 10 ], [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "purple_drink",
     "copy-from": "purple_drink",
     "type": "COMESTIBLE",
     "name": "grape drink",
-    "vitamins": [ [ "vitC", 50 ], [ "calcium", 3 ], [ "junk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "vitC", 50 ], [ "calcium", 3 ], [ "junk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "rootbeer",
     "copy-from": "rootbeer",
     "type": "COMESTIBLE",
     "name": { "str_sp": "root beer" },
-    "vitamins": [ [ "junk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "junk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "spezi",
     "copy-from": "spezi",
     "type": "COMESTIBLE",
     "name": "spezi",
-    "vitamins": [ [ "junk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "junk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "sports_drink",
     "copy-from": "sports_drink",
     "type": "COMESTIBLE",
     "name": "sports drink",
-    "vitamins": [ [ "vitC", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "vitC", 1 ], [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "spurge_tea",
     "copy-from": "spurge_tea",
     "type": "COMESTIBLE",
     "name": { "str_sp": "spurge tea" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "rehydration_drink",
     "copy-from": "rehydration_drink",
     "type": "COMESTIBLE",
     "name": "rehydration drink",
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "sweet_water",
     "copy-from": "sweet_water",
     "type": "COMESTIBLE",
     "name": { "str_sp": "sweet water" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "tea",
     "copy-from": "tea",
     "type": "COMESTIBLE",
     "name": "tea",
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "coca_tea",
     "copy-from": "coca_tea",
     "type": "COMESTIBLE",
     "name": "coca tea",
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "tea_bark",
     "copy-from": "tea_bark",
     "type": "COMESTIBLE",
     "name": { "str": "bark tea" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "V8",
@@ -460,7 +460,7 @@
       [ "veggy_allergen", 1 ],
       [ "remnants", 10 ],
       [ "fiber_elements", 25 ],
-      [ "bladder", 50 ]
+      [ "bladder", 10 ]
     ]
   },
   {
@@ -468,76 +468,76 @@
     "copy-from": "water",
     "type": "COMESTIBLE",
     "name": { "str_sp": "water" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "water_clean",
     "copy-from": "water_clean",
     "type": "COMESTIBLE",
     "name": { "str_sp": "clean water" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "water_mineral",
     "copy-from": "water_mineral",
     "type": "COMESTIBLE",
     "name": { "str_sp": "mineral water" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "coffee_sweetened",
     "copy-from": "coffee_sweetened",
     "type": "COMESTIBLE",
     "name": { "str": "sweet coffee" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "tea_sweetened",
     "copy-from": "tea_sweetened",
     "type": "COMESTIBLE",
     "name": { "str": "sweet tea" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "milk_tea_sweetened",
     "copy-from": "milk_tea_sweetened",
     "type": "COMESTIBLE",
     "name": { "str": "sweet milk tea" },
-    "vitamins": [ [ "vitA", 5 ], [ "vitB", 3 ], [ "vitC", 2 ], [ "calcium", 12 ], [ "remnants", 5 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "vitA", 5 ], [ "vitB", 3 ], [ "vitC", 2 ], [ "calcium", 12 ], [ "remnants", 5 ], [ "bladder", 10 ] ]
   },
   {
     "id": "coffee_substitute_sweetened",
     "copy-from": "coffee_substitute_sweetened",
     "type": "COMESTIBLE",
     "name": { "str": "sweet coffee substitute" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "milk_coffee_sweetened",
     "copy-from": "milk_coffee_sweetened",
     "type": "COMESTIBLE",
     "name": { "str": "sweet coffee milk" },
-    "vitamins": [ [ "remnants", 5 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 5 ], [ "bladder", 10 ] ]
   },
   {
     "id": "milk_atomic_coffee_sweetened",
     "copy-from": "milk_atomic_coffee_sweetened",
     "type": "COMESTIBLE",
     "name": { "str": "sweet atomic coffee milk" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "atomic_coffee_sweetened",
     "copy-from": "atomic_coffee_sweetened",
     "type": "COMESTIBLE",
     "name": { "str_sp": "sweet atomic coffee" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "sikhye",
     "copy-from": "sikhye",
     "type": "COMESTIBLE",
     "name": { "str_sp": "sikhye" },
-    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 5 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 5 ], [ "bladder", 10 ] ]
   }
 ]

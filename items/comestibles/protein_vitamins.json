@@ -10,7 +10,7 @@
       [ "remnants", 2 ],
       [ "fat_elements", 50 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 50 ]
+      [ "bladder", 10 ]
     ]
   },
   {
@@ -48,7 +48,7 @@
       [ "remnants", 5 ],
       [ "fat_elements", 50 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 50 ]
+      [ "bladder", 10 ]
     ]
   },
   {
@@ -56,6 +56,6 @@
     "copy-from": "protein_shake_fortified",
     "type": "COMESTIBLE",
     "name": "fortified protein shake",
-    "vitamins": [ [ "remnants", 5 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 5 ], [ "bladder", 10 ] ]
   }
 ]

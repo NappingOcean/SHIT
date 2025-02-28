@@ -11,7 +11,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -26,7 +26,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -41,7 +41,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -57,7 +57,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -72,7 +72,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -88,7 +88,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -103,7 +103,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -118,7 +118,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -133,7 +133,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -149,7 +149,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -164,7 +164,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -180,7 +180,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -196,7 +196,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -204,7 +204,7 @@
     "copy-from": "juice_pulp",
     "type": "COMESTIBLE",
     "name": "juice pulp",
-    "vitamins": [ [ "vitC", 8 ], [ "fruit_allergen", 1 ], [ "remnants", 2 ], [ "fiber_elements", 10 ], [ "bladder", 10 ] ]
+    "vitamins": [ [ "vitC", 8 ], [ "fruit_allergen", 1 ], [ "remnants", 2 ], [ "fiber_elements", 10 ], [ "bladder", 2 ] ]
   },
   {
     "id": "pear",
@@ -218,7 +218,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -234,7 +234,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -249,7 +249,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -257,7 +257,7 @@
     "copy-from": "plums",
     "type": "COMESTIBLE",
     "name": "plum",
-    "vitamins": [ [ "vitC", 8 ], [ "fruit_allergen", 1 ], [ "remnants", 5 ], [ "fiber_elements", 10 ], [ "bladder", 20 ] ]
+    "vitamins": [ [ "vitC", 8 ], [ "fruit_allergen", 1 ], [ "remnants", 5 ], [ "fiber_elements", 10 ], [ "bladder", 4 ] ]
   },
   {
     "id": "grapes",
@@ -271,7 +271,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -286,7 +286,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -301,7 +301,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -317,7 +317,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -333,7 +333,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -349,7 +349,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -364,7 +364,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -380,7 +380,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -395,7 +395,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -411,7 +411,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -427,7 +427,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -443,7 +443,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -458,7 +458,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   },
   {
@@ -474,7 +474,7 @@
       [ "fruit_allergen", 1 ],
       [ "remnants", 5 ],
       [ "fiber_elements", 10 ],
-      [ "bladder", 20 ]
+      [ "bladder", 4 ]
     ]
   }
 ]

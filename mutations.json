@@ -20,18 +20,20 @@
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "vitamin_rates": [ [ "remnants", -60 ], [ "fat_elements", -60 ], [ "fiber_elements", -60 ] ]
+    "vitamin_rates": [ [ "remnants", 2 ], [ "fat_elements", 2 ], [ "fiber_elements", 2 ] ],
+    "//": "2초마다 1단위씩 감소하게 된다. 10분이면 300단위."
   },
   {
     "type": "mutation",
     "id": "QUICK_THOUGHT",
-    "name": { "str": "빠른 사색" },
+    "name": { "str": "가벼운 사색" },
     "description": "이게 보이면 버그입니다.",
     "cancels": [ "SOPHISTICATE" ],
     "points": 0,
     "valid": false,
     "purifiable": false,
     "player_display": false,
-    "vitamin_rates": [ [ "bladder", -500 ] ]
+    "vitamin_rates": [ [ "bladder", 1 ] ],
+    "//": "vitamin_rates 는 비타민이 1단위 감소하는 시간(초)에 대한 영향을 의미하는 것이었다!"
   }
 ]

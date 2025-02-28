@@ -101,5 +101,19 @@
     "weight": "500 g",
     "volume": "1 L",
     "material": [ "plastic" ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "SHIT_item_no1",
+    "name": { "str_sp": "가벼운 사색자" },
+    "copy-from": "fake_item",
+    "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "mutations": [ "QUICK_THOUGHT" ] } ] }
+  },
+  {
+    "type": "GENERIC",
+    "id": "SHIT_item_no2",
+    "name": { "str_sp": "깊은 사색자" },
+    "copy-from": "fake_item",
+    "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "mutations": [ "DEEP_THOUGHT" ] } ] }
   }
 ]

@@ -6,7 +6,7 @@
     "name": "사색 성분",
     "min": 0,
     "max": 500,
-    "rate": "7 d",
+    "rate": "0 s",
     "excess": "over_thought",
     "disease_excess": [ [ 126, 250 ], [ 251, 375 ], [ 376, 500 ] ]
   },
@@ -17,7 +17,7 @@
     "name": "통찰 성분",
     "min": -500,
     "max": 500,
-    "rate": "7 d",
+    "rate": "0 s",
     "excess": "fat_alert",
     "disease_excess": [ [ 126, 250 ], [ 251, 375 ], [ 376, 500 ] ],
     "deficiency": "fat_alert_lack",
@@ -31,7 +31,7 @@
     "name": "논리 성분",
     "min": -500,
     "max": 500,
-    "rate": "7 d",
+    "rate": "0 s",
     "excess": "fiber_alert",
     "disease_excess": [ [ 126, 250 ], [ 251, 375 ], [ 376, 500 ] ],
     "deficiency": "fiber_alert_lack",
@@ -44,9 +44,9 @@
     "vit_type": "counter",
     "name": "방광",
     "min": 0,
-    "max": 500,
-    "rate": "7 d",
+    "max": 90,
+    "rate": "0 s",
     "excess": "bladder_boom",
-    "disease_excess": [ [ 126, 250 ], [ 251, 375 ], [ 376, 500 ] ]
+    "disease_excess": [ [ 11, 30 ], [ 31, 60 ], [ 61, 90 ] ]
   }
 ]

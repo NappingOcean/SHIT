@@ -11,7 +11,7 @@
     "copy-from": "maple_sap",
     "type": "COMESTIBLE",
     "name": { "str_sp": "maple sap" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
   },
   {
     "id": "mayonnaise",
@@ -60,7 +60,7 @@
     "copy-from": "vinegar",
     "type": "COMESTIBLE",
     "name": { "str_sp": "vinegar" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 30 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 6 ] ]
   },
   {
     "id": "cooking_oil",
@@ -95,6 +95,6 @@
     "copy-from": "coffee_syrup",
     "type": "COMESTIBLE",
     "name": { "str_sp": "coffee syrup" },
-    "vitamins": [ [ "junk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "junk_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 10 ] ]
   }
 ]

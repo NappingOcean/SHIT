@@ -74,7 +74,7 @@
     "copy-from": "soysauce",
     "type": "COMESTIBLE",
     "name": { "str_sp": "soy sauce" },
-    "vitamins": [ [ "remnants", 2 ], [ "bladder", 10 ] ]
+    "vitamins": [ [ "remnants", 2 ], [ "bladder", 2 ] ]
   },
   {
     "id": "thyme",

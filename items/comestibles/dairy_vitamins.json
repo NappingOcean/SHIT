@@ -4,14 +4,14 @@
     "copy-from": "milk_raw",
     "type": "COMESTIBLE",
     "name": { "str_sp": "raw milk" },
-    "vitamins": [ [ "remnants", 10 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 10 ], [ "bladder", 10 ] ]
   },
   {
     "id": "milk_UHT",
     "copy-from": "milk_UHT",
     "type": "COMESTIBLE",
     "name": { "str_sp": "shelf stable milk" },
-    "vitamins": [ [ "remnants", 10 ], [ "bladder", 50 ] ]
+    "vitamins": [ [ "remnants", 10 ], [ "bladder", 10 ] ]
   },
   {
     "id": "milk_evap",
@@ -25,7 +25,7 @@
       [ "calcium", 25 ],
       [ "milk_allergen", 1 ],
       [ "remnants", 2 ],
-      [ "bladder", 50 ]
+      [ "bladder", 10 ]
     ]
   },
   {
@@ -112,7 +112,7 @@
       [ "junk_allergen", 1 ],
       [ "milk_allergen", 1 ],
       [ "remnants", 2 ],
-      [ "bladder", 50 ]
+      [ "bladder", 10 ]
     ]
   },
   {
@@ -127,7 +127,7 @@
       [ "calcium", 1 ],
       [ "milk_allergen", 1 ],
       [ "remnants", 2 ],
-      [ "bladder", 50 ]
+      [ "bladder", 10 ]
     ]
   }
 ]

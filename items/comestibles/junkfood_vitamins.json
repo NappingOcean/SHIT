@@ -325,8 +325,7 @@
       [ "milk_allergen", 1 ],
       [ "remnants", 2 ],
       [ "fat_elements", 10 ],
-      [ "fiber_elements", 10 ],
-      [ "bladder", 80 ]
+      [ "fiber_elements", 10 ]
     ]
   },
   {

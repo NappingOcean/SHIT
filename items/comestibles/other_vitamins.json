@@ -80,41 +80,41 @@
     "copy-from": "marloss_berry",
     "type": "COMESTIBLE",
     "name": { "str": "marloss berry", "str_pl": "marloss berries" },
-    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 5 ], [ "bladder", 10 ] ]
+    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 5 ], [ "bladder", 2 ] ]
   },
   {
     "id": "marloss_gel",
     "copy-from": "marloss_gel",
     "type": "COMESTIBLE",
     "name": { "str_sp": "marloss gelatin" },
-    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 5 ], [ "bladder", 10 ] ]
+    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 5 ], [ "bladder", 2 ] ]
   },
   {
     "id": "mycus_fruit",
     "copy-from": "mycus_fruit",
     "type": "COMESTIBLE",
     "name": { "str": "mycus fruit" },
-    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 5 ], [ "bladder", 10 ] ]
+    "vitamins": [ [ "fruit_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 5 ], [ "bladder", 2 ] ]
   },
   {
     "id": "honeycomb",
     "copy-from": "honeycomb",
     "type": "COMESTIBLE",
     "name": "honey comb",
-    "vitamins": [ [ "remnants", 5 ], [ "bladder", 5 ] ]
+    "vitamins": [ [ "remnants", 5 ], [ "bladder", 1 ] ]
   },
   {
     "id": "royal_jelly",
     "copy-from": "royal_jelly",
     "type": "COMESTIBLE",
     "name": { "str": "royal jelly", "str_pl": "royal jellies" },
-    "vitamins": [ [ "mutant_toxin", 100 ], [ "remnants", 5 ], [ "bladder", 5 ] ]
+    "vitamins": [ [ "mutant_toxin", 100 ], [ "remnants", 5 ], [ "bladder", 1 ] ]
   },
   {
     "id": "honey_glassed",
     "copy-from": "honey_glassed",
     "type": "COMESTIBLE",
     "name": { "str_sp": "candied honey" },
-    "vitamins": [ [ "remnants", 5 ], [ "bladder", 5 ] ]
+    "vitamins": [ [ "remnants", 5 ], [ "bladder", 1 ] ]
   }
 ]

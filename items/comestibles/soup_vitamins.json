@@ -4,14 +4,14 @@
     "copy-from": "broth",
     "type": "COMESTIBLE",
     "name": "broth",
-    "vitamins": [ [ "iron", 3 ], [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 25 ], [ "bladder", 40 ] ]
+    "vitamins": [ [ "iron", 3 ], [ "veggy_allergen", 1 ], [ "remnants", 10 ], [ "fiber_elements", 25 ], [ "bladder", 8 ] ]
   },
   {
     "id": "broth_bone",
     "copy-from": "broth_bone",
     "type": "COMESTIBLE",
     "name": "bone broth",
-    "vitamins": [ [ "calcium", 1 ], [ "iron", 1 ], [ "meat_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 40 ] ]
+    "vitamins": [ [ "calcium", 1 ], [ "iron", 1 ], [ "meat_allergen", 1 ], [ "remnants", 2 ], [ "bladder", 8 ] ]
   },
   {
     "id": "soup_veggy",
@@ -26,7 +26,7 @@
       [ "veggy_allergen", 1 ],
       [ "remnants", 10 ],
       [ "fiber_elements", 20 ],
-      [ "bladder", 40 ]
+      [ "bladder", 8 ]
     ]
   },
   {
@@ -44,7 +44,7 @@
       [ "remnants", 2 ],
       [ "fat_elements", 50 ],
       [ "fiber_elements", 5 ],
-      [ "bladder", 40 ]
+      [ "bladder", 8 ]
     ]
   },
   {
@@ -52,7 +52,7 @@
     "copy-from": "soup_blood",
     "type": "COMESTIBLE",
     "name": "blood soup",
-    "vitamins": [ [ "remnants", 10 ], [ "bladder", 40 ] ]
+    "vitamins": [ [ "remnants", 10 ], [ "bladder", 8 ] ]
   },
   {
     "id": "soup_fish",
@@ -69,7 +69,7 @@
       [ "remnants", 2 ],
       [ "fat_elements", 50 ],
       [ "fiber_elements", 5 ],
-      [ "bladder", 40 ]
+      [ "bladder", 8 ]
     ]
   },
   {
@@ -85,7 +85,7 @@
       [ "veggy_allergen", 1 ],
       [ "remnants", 10 ],
       [ "fiber_elements", 25 ],
-      [ "bladder", 40 ]
+      [ "bladder", 8 ]
     ]
   },
   {
@@ -104,7 +104,7 @@
       [ "remnants", 10 ],
       [ "fat_elements", 50 ],
       [ "fiber_elements", 25 ],
-      [ "bladder", 40 ]
+      [ "bladder", 8 ]
     ]
   },
   {
@@ -122,7 +122,7 @@
       [ "remnants", 10 ],
       [ "fat_elements", 50 ],
       [ "fiber_elements", 20 ],
-      [ "bladder", 40 ]
+      [ "bladder", 8 ]
     ]
   },
   {
@@ -140,7 +140,7 @@
       [ "remnants", 2 ],
       [ "fat_elements", 50 ],
       [ "fiber_elements", 5 ],
-      [ "bladder", 40 ]
+      [ "bladder", 8 ]
     ]
   },
   {
@@ -154,7 +154,7 @@
       [ "veggy_allergen", 1 ],
       [ "remnants", 2 ],
       [ "fiber_elements", 15 ],
-      [ "bladder", 40 ]
+      [ "bladder", 8 ]
     ]
   },
   {
@@ -169,7 +169,7 @@
       [ "iron", 4 ],
       [ "veggy_allergen", 1 ],
       [ "remnants", 2 ],
-      [ "bladder", 40 ]
+      [ "bladder", 8 ]
     ]
   },
   {
@@ -188,7 +188,7 @@
       [ "remnants", 2 ],
       [ "fat_elements", 50 ],
       [ "fiber_elements", 5 ],
-      [ "bladder", 40 ]
+      [ "bladder", 8 ]
     ]
   },
   {
@@ -207,7 +207,7 @@
       [ "remnants", 2 ],
       [ "fat_elements", 50 ],
       [ "fiber_elements", 5 ],
-      [ "bladder", 40 ]
+      [ "bladder", 8 ]
     ]
   }
 ]
